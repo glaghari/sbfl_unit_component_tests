@@ -1,0 +1,3 @@
+60
+public boolean org.apache.commons.lang.text.StrBuilder.contains(char)
+public int org.apache.commons.lang.text.StrBuilder.indexOf(char;int)

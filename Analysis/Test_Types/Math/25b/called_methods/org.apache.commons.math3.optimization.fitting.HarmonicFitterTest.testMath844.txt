@@ -1,0 +1,8 @@
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.<init>
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getY
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getX
+org.apache.commons.math3.optimization.fitting.ParameterGuesser.<init>
+org.apache.commons.math3.optimization.fitting.ParameterGuesser.guessAOmega
+org.apache.commons.math3.optimization.fitting.ParameterGuesser.guess
+org.apache.commons.math3.optimization.fitting.ParameterGuesser.guessPhi
+org.apache.commons.math3.optimization.fitting.ParameterGuesser.sortObservations

@@ -1,0 +1,3 @@
+13
+public int org.joda.time.format.PeriodFormatterBuilder$FieldFormatter.calculatePrintedLength(org.joda.time.ReadablePeriod;java.util.Locale)
+public void org.joda.time.format.PeriodFormatterBuilder$FieldFormatter.printTo(java.lang.StringBuffer;org.joda.time.ReadablePeriod;java.util.Locale)

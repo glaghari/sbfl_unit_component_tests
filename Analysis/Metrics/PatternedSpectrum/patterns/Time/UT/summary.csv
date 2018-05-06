@@ -1,0 +1,9 @@
+fault_locator,acc@1,acc@3,acc@5,mean_average_precision,mean_wasted_effort,rank
+DStar, 0, 0, 1, 0.25, 2.0,1
+Naish2, 0, 0, 1, 0.25, 2.0,1
+GP13, 0, 0, 1, 0.25, 2.0,1
+Barinel, 0, 0, 1, 0.25, 2.0,1
+Ochiai, 0, 0, 1, 0.25, 2.0,1
+GP19, 0, 0, 1, 0.25, 2.0,1
+Tarantula, 0, 0, 1, 0.25, 2.0,1
+TarantulaStar, 0, 0, 1, 0.25, 2.0,1

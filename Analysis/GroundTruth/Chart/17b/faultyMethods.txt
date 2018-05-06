@@ -1,0 +1,2 @@
+17
+public java.lang.Object org.jfree.data.time.TimeSeries.clone() throws java.lang.CloneNotSupportedException

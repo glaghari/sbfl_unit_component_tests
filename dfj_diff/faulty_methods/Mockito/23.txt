@@ -1,0 +1,3 @@
+public java.lang.Object org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs.answer(org.mockito.invocation.InvocationOnMock)
+private org.mockito.MockSettings org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs.withSettingsUsing(org.mockito.internal.util.reflection.GenericMetadataSupport)
+private java.lang.Object org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs.recordDeepStubMock(java.lang.Object,org.mockito.internal.stubbing.InvocationContainerImpl)

@@ -1,0 +1,2 @@
+87
+private java.lang.Integer org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)

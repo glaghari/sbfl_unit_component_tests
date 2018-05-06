@@ -1,0 +1,2 @@
+56
+public java.lang.String com.google.javascript.jscomp.SourceFile.getLine(int)

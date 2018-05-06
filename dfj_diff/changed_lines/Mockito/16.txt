@@ -1,0 +1,2 @@
+src/org/mockito/Mockito.java,827,899
+src/org/mockito/internal/MockitoCore.java,32,33,35,36

@@ -1,0 +1,2 @@
+32
+private com.google.javascript.jscomp.parsing.JsDocInfoParser$ExtractionInfo com.google.javascript.jscomp.parsing.JsDocInfoParser.extractMultilineTextualBlock(com.google.javascript.jscomp.parsing.JsDocToken;com.google.javascript.jscomp.parsing.JsDocInfoParser$WhitespaceOption)

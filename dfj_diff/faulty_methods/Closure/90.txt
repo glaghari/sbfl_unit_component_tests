@@ -1,0 +1,2 @@
+com.google.javascript.rhino.jstype.JSType com.google.javascript.rhino.jstype.FunctionType.resolveInternal(com.google.javascript.rhino.ErrorReporter,com.google.javascript.rhino.jstype.StaticScope)
+public boolean com.google.javascript.jscomp.FunctionTypeBuilder$ThisTypeValidator.apply(com.google.javascript.rhino.jstype.JSType)

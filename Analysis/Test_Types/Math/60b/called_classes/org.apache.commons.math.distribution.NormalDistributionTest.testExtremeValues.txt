@@ -1,0 +1,11 @@
+Classes Under Test:
+[p:1.00 c:0.67 e:0.00 m:0.00 tm:0.00][1.67] org.apache.commons.math.distribution.NormalDistributionImpl extends org.apache.commons.math.distribution.AbstractContinuousDistribution
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.special.Gamma extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.special.Erf extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.special. extends org.apache.commons.math.util.ContinuedFraction
+[p:1.00 c:0.20 e:0.00 m:0.17 tm:0.00][1.37] org.apache.commons.math.distribution.ContinuousDistributionAbstractTest extends junit.framework.TestCase
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.random.RandomDataImpl extends java.lang.Object

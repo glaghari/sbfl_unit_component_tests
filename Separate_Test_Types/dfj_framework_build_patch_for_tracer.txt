@@ -1,0 +1,57 @@
+<!--
+    Patch this in defects4j/framework/projects/defects4j.build.xml file
+-->
+
+<!--
+    Run developer-written tests
+-->
+	<property name="aspectj-path" value="/Users/gulsherlaghari/aspectj1.7/lib"/>
+	<property name="source" value="1.7"/>
+	<property name="tracerDir" value="/Users/gulsherlaghari/datasets"/>
+	<property name="tracer" value="Separate_Test_Types"/>
+	
+	<path id="cp">
+		<pathelement location="${aspectj-path}/aspectjrt.jar"/>
+		<pathelement location="${aspectj-path}/aspectjtools.jar"/>
+		<pathelement location="${build}"/>
+		<pathelement location="."/>
+		<pathelement location="${tracerDir}/${tracer}/aspects/tracer.jar" />
+		<fileset dir="${tracerDir}/${tracer}/lib">
+			<include name="**.jar" />
+		</fileset>
+	</path>
+	
+    <target name="run.dev.tests" depends="compile.tests,update.all.tests" description="Run unit tests">
+        <junit printsummary="yes" haltonfailure="no" haltonerror="no" fork="yes" showOutput="true">
+        	<jvmarg value="-javaagent:${aspectj-path}/aspectjweaver.jar" />
+			<jvmarg value="-Xmx8192m" />
+
+            <classpath>
+                <!-- Make sure that instrumented classes appear at the beginning of the
+                     classpath -->
+                <pathelement location="${d4j.dir.classes.instrumented}" />
+                <pathelement path="${formatter.jar}" />
+                <pathelement path="${cobertura.jar}" />
+                <path refid="d4j.test.classpath"/>
+            	<path refid="cp"/>
+            </classpath>
+
+            <sysproperty key="OUTFILE" value="${OUTFILE}"/>
+            <formatter classname="edu.washington.cs.mut.testrunner.Formatter" usefile="false" />
+        	
+        	<test name="${test.entry.class}" methods="${test.entry.method}" if="test.entry.class" />
+        	<!-- 
+        	<batchtest unless="test.entry.class">
+                <fileset refid="all.manual.tests" />
+            </batchtest>
+        	-->
+        	<batchtest unless="test.entry.class" fork="yes">
+        		<fileset dir="${test.home}" includesfile="${d4j.home}/../testincludes/${d4j.project.id}/${d4j.bug.id}/testincludes.properties" />
+        	</batchtest>
+        </junit>
+        <!-- fail build in case we are running all classes, but there are none in the fileset -->
+        <if> <not> <isset property="test.entry.class" /> </not> <then>
+            <pathconvert refid="all.manual.tests" property="fileset.notempty" setonempty="false" />
+            <fail unless="fileset.notempty" message="Test is running with empty fileset" />
+        </then> </if>
+    </target>

@@ -1,0 +1,14 @@
+com.google.javascript.jscomp.LightweightMessageFormatter.<init>
+com.google.javascript.jscomp.LightweightMessageFormatter.getLevelName
+com.google.javascript.jscomp.LightweightMessageFormatter.format
+com.google.javascript.jscomp.LightweightMessageFormatter.getSource
+com.google.javascript.jscomp.LightweightMessageFormatter.formatError
+com.google.javascript.jscomp.LightweightMessageFormatter.maybeColorizecom.google.javascript.jscomp.JSError.getCharno
+com.google.javascript.jscomp.JSError.<init>
+com.google.javascript.jscomp.JSError.make
+com.google.javascript.jscomp..<init>
+com.google.javascript.jscomp..get
+com.google.javascript.jscomp..equals
+com.google.javascript.jscomp..getSourceLine
+com.google.javascript.jscomp.LineNumberingFormatter.<init>
+com.google.javascript.jscomp.LineNumberingFormatter.formatLine

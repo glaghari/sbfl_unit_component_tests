@@ -1,0 +1,4 @@
+public java.lang.Object org.mockito.internal.MockitoCore.mock(java.lang.Class,org.mockito.MockSettings,boolean)
+public java.lang.Object org.mockito.internal.MockitoCore.mock(java.lang.Class,org.mockito.MockSettings)
+public static java.lang.Object org.mockito.Mockito.mock(java.lang.Class,org.mockito.MockSettings)
+public static java.lang.Object org.mockito.Mockito.spy(java.lang.Object)

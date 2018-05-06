@@ -1,0 +1,21 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:1.00 tm:0.00][2.80] org.jfree.chart.plot.CategoryPlot extends org.jfree.chart.plot.Plot
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.text.TextAnchor extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.ChartColor extends java.awt.Color
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.plot.ValueMarker extends org.jfree.chart.plot.Marker
+[p:0.50 c:0.33 e:0.00 m:0.00 tm:0.00][0.83] org.jfree.chart.axis.CategoryAnchor extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.ChartChangeEvent extends java.util.EventObject
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.MarkerChangeEvent extends org.jfree.chart.event.ChartChangeEvent
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.ChartChangeEventType extends java.lang.Object
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.plot.Marker extends java.lang.Object
+[p:0.80 c:0.33 e:0.00 m:0.00 tm:0.00][1.13] org.jfree.chart.plot.CategoryMarker extends org.jfree.chart.plot.Marker
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.axis.AxisLocation extends java.lang.Object
+[p:0.50 c:0.25 e:0.00 m:0.00 tm:0.00][0.75] org.jfree.chart.event.PlotChangeEvent extends org.jfree.chart.event.ChartChangeEvent
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.general.DatasetChangeEvent extends java.util.EventObject
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.plot.DatasetRenderingOrder extends java.lang.Object
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.plot.DefaultDrawingSupplier extends java.lang.Object
+[p:0.80 c:0.33 e:0.00 m:0.00 tm:0.00][1.13] org.jfree.chart.plot.PlotOrientation extends java.lang.Object

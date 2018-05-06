@@ -1,0 +1,7 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:1.00 tm:0.00][2.80] org.jfree.chart.renderer.GrayPaintScale extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+

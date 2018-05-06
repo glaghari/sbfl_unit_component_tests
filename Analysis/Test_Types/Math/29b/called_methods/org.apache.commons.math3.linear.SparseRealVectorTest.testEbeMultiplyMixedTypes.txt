@@ -1,0 +1,14 @@
+org.apache.commons.math3.linear.SparseRealVector.<init>org.apache.commons.math3.linear.SparseRealVectorTestImpl.getEntry
+org.apache.commons.math3.linear.SparseRealVectorTestImpl.<init>
+org.apache.commons.math3.linear.SparseRealVectorTestImpl.getDimension
+org.apache.commons.math3.linear.OpenMapRealVector.getEntry
+org.apache.commons.math3.linear.OpenMapRealVector.<init>
+org.apache.commons.math3.linear.OpenMapRealVector.ebeMultiply
+org.apache.commons.math3.linear.OpenMapRealVector.checkIndex
+org.apache.commons.math3.linear.OpenMapRealVector.setEntry
+org.apache.commons.math3.linear.OpenMapRealVector.getEntries
+org.apache.commons.math3.linear.OpenMapRealVector.getDimension
+org.apache.commons.math3.linear.OpenMapRealVector.isDefaultValue
+org.apache.commons.math3.linear.OpenMapRealVector.checkVectorDimensions
+org.apache.commons.math3.linear.RealVectorAbstractTest.getPreferredEntryValue
+org.apache.commons.math3.linear.RealVectorAbstractTest.doTestEbeBinaryOperation

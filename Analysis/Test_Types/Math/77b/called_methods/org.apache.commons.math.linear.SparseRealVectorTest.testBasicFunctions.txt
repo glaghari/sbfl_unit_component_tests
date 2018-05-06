@@ -1,0 +1,13 @@
+org.apache.commons.math.linear.SparseRealVectorTestImpl.<init>org.apache.commons.math.linear.OpenMapSparseIterator.<init>
+org.apache.commons.math.linear.OpenMapSparseIterator.hasNext
+org.apache.commons.math.linear.OpenMapSparseIterator.next
+org.apache.commons.math.linear.Entry.<init>
+org.apache.commons.math.linear.OpenMapRealVector.<init>
+org.apache.commons.math.linear.OpenMapRealVector.access$000
+org.apache.commons.math.linear.OpenMapRealVector.getL1Norm
+org.apache.commons.math.linear.OpenMapRealVector.sparseIterator
+org.apache.commons.math.linear.OpenMapRealVector.getLInfNorm
+org.apache.commons.math.linear.OpenMapRealVector.isDefaultValue
+org.apache.commons.math.linear.OpenMapRealVector.getNorm
+org.apache.commons.math.linear.OpenMapEntry.getValue
+org.apache.commons.math.linear.OpenMapEntry.<init>

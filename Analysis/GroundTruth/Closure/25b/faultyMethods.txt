@@ -1,0 +1,2 @@
+25
+private com.google.javascript.jscomp.type.FlowScope com.google.javascript.jscomp.TypeInference.traverseNew(com.google.javascript.rhino.Node;com.google.javascript.jscomp.type.FlowScope)

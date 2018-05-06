@@ -1,0 +1,2 @@
+public org.apache.commons.lang3.text.translate.LookupTranslator(java.lang.CharSequence[])
+public int org.apache.commons.lang3.text.translate.LookupTranslator.translate(java.lang.CharSequence,int,java.io.Writer)

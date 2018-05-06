@@ -1,0 +1,28 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math3.fitting.PolynomialFitter extends org.apache.commons.math3.fitting.CurveFitter
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.linear.AbstractRealMatrix extends org.apache.commons.math3.linear.RealLinearOperator
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.fitting.WeightedObservedPoint extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.linear.RealMatrixFormat extends java.lang.Object
+[p:0.63 c:0.33 e:0.00 m:0.00 tm:0.00][0.96] org.apache.commons.math3.analysis.polynomials.PolynomialFunction extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.optim.MaxIterCallback extends java.lang.Object
+[p:0.63 c:0.00 e:0.00 m:0.00 tm:0.00][0.63] org.apache.commons.math3.analysis.polynomials.Parametric extends java.lang.Object
+[p:0.56 c:0.00 e:0.00 m:0.00 tm:0.00][0.56] org.apache.commons.math3.optim.nonlinear.vector.Weight extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer extends org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer
+[p:0.56 c:0.00 e:0.00 m:0.00 tm:0.00][0.56] org.apache.commons.math3.optim.nonlinear.vector.Target extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.fitting. extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.linear.BlockRealMatrix extends org.apache.commons.math3.linear.AbstractRealMatrix
+[p:0.56 c:0.00 e:0.00 m:0.00 tm:0.00][0.56] org.apache.commons.math3.optim.nonlinear.vector.ModelFunction extends java.lang.Object
+[p:0.56 c:0.00 e:0.00 m:0.00 tm:0.00][0.56] org.apache.commons.math3.optim.nonlinear.vector.JacobianMultivariateVectorOptimizer extends org.apache.commons.math3.optim.nonlinear.vector.MultivariateVectorOptimizer
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.fitting.TheoreticalValuesFunction extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer extends org.apache.commons.math3.optim.nonlinear.vector.JacobianMultivariateVectorOptimizer
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.optim.MaxEval extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.optim.BaseOptimizer extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.optim.BaseMultivariateOptimizer extends org.apache.commons.math3.optim.BaseOptimizer
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.optim.MaxEvalCallback extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math3.linear.RealLinearOperator extends java.lang.Object
+[p:0.56 c:0.00 e:0.00 m:0.00 tm:0.00][0.56] org.apache.commons.math3.optim.nonlinear.vector.ModelFunctionJacobian extends java.lang.Object
+[p:0.56 c:0.00 e:0.00 m:0.00 tm:0.00][0.56] org.apache.commons.math3.optim.nonlinear.vector.MultivariateVectorOptimizer extends org.apache.commons.math3.optim.BaseMultivariateOptimizer

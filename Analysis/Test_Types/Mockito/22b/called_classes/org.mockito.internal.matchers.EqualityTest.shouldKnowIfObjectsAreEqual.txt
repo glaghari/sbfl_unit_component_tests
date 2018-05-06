@@ -1,0 +1,35 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.33][2.33] org.mockito.internal.matchers.Equality extends java.lang.Object
+
+Mock Classes:
+org.mockito.internal.configuration.MockitoAnnotationsMockAnnotationProcessor extends java.lang.Object
+org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter extends java.lang.Object
+org.mockito.internal.configuration.MockAnnotationProcessor extends java.lang.Object
+org.mockito.configuration.MockitoConfiguration extends org.mockito.configuration.DefaultMockitoConfiguration
+org.mockito.internal.configuration.injection.scanner.MockScanner extends java.lang.Object
+org.mockito.internal.configuration.injection.OngoingMockInjection extends java.lang.Object
+org.mockito.internal.configuration.injection.MockInjection extends java.lang.Object
+org.mockito.configuration.DefaultMockitoConfiguration extends java.lang.Object
+org.mockito.internal.creation.CglibMockMaker extends java.lang.Object
+org.mockito.internal.util.MockUtil extends java.lang.Object
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner extends java.lang.Object
+org.mockito.internal.configuration.injection.MockInjectionStrategy extends java.lang.Object
+org.mockito.MockitoAnnotations extends java.lang.Object
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00][0.43] org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00][0.60] org.mockito.internal.configuration.GlobalConfiguration extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.injection.PropertyAndSetterInjection extends org.mockito.internal.configuration.injection.MockInjectionStrategy
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler extends org.mockito.internal.configuration.injection.MockInjectionStrategy
+[p:0.60 c:0.00 e:0.00 m:0.00][0.60] org.mockito.internal.configuration.SpyAnnotationEngine extends java.lang.Object
+[p:0.40 c:0.00 e:0.00 m:0.00][0.40] org.mockito.configuration. extends org.mockito.internal.configuration.InjectingAnnotationEngine
+[p:0.60 c:0.00 e:0.00 m:0.00][0.60] org.mockito.internal.configuration.CaptorAnnotationProcessor extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.injection.FieldTypeAndNameComparator extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00][0.43] org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00][0.60] org.mockito.internal.configuration.ClassPathLoader extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00][0.60] org.mockito.internal.configuration.InjectingAnnotationEngine extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00][0.60] org.mockito.internal.configuration.DefaultAnnotationEngine extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.injection. extends org.mockito.internal.configuration.injection.MockInjectionStrategy
+[p:0.60 c:0.00 e:0.00 m:0.00][0.60] org.mockito.internal.configuration.DefaultInjectionEngine extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00][1.00] org.mockito.internal.matchers.BadEquals extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.injection.ConstructorInjection extends org.mockito.internal.configuration.injection.MockInjectionStrategy

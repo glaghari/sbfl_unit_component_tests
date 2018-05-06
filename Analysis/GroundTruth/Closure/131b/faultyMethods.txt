@@ -1,0 +1,2 @@
+131
+public static boolean com.google.javascript.rhino.TokenStream.isJSIdentifier(java.lang.String)

@@ -1,0 +1,11 @@
+com.google.javascript.jscomp.CommandLineRunner.<init>
+com.google.javascript.jscomp.CommandLineRunner.shouldRunCompiler
+com.google.javascript.jscomp.CommandLineRunner.initConfigFromFlagscom.google.javascript.jscomp..<init>
+com.google.javascript.jscomp.DefaultCodingConvention.<init>
+com.google.javascript.jscomp.RunTimeStats.<init>
+com.google.javascript.jscomp.Flags.<init>
+com.google.javascript.jscomp.Flags.access$100
+com.google.javascript.jscomp.BooleanOptionHandler.<init>
+com.google.javascript.jscomp.BooleanOptionHandler.getDefaultMetaVariable
+com.google.javascript.jscomp.BooleanOptionHandler.parseArguments
+com.google.javascript.jscomp.CommandLineConfig.<init>

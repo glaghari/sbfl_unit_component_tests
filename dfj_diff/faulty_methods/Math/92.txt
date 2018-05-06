@@ -1,0 +1,3 @@
+public static long org.apache.commons.math.util.MathUtils.binomialCoefficient(int,int)
+public static double org.apache.commons.math.util.MathUtils.binomialCoefficientDouble(int,int)
+public static double org.apache.commons.math.util.MathUtils.binomialCoefficientLog(int,int)

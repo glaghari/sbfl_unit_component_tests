@@ -1,0 +1,4 @@
+org.mockitoutil.LocalExcludingURLClassLoader.<init>
+org.mockitoutil.LocalExcludingURLClassLoader.getResources
+org.mockitoutil.LocalExcludingURLClassLoader.classShouldBePrivate
+org.mockitoutil.LocalExcludingURLClassLoader.findClass

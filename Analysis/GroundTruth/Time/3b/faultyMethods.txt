@@ -1,0 +1,11 @@
+3
+public void org.joda.time.MutableDateTime.add(org.joda.time.DurationFieldType;int)
+public void org.joda.time.MutableDateTime.addYears(int)
+public void org.joda.time.MutableDateTime.addWeekyears(int)
+public void org.joda.time.MutableDateTime.addMonths(int)
+public void org.joda.time.MutableDateTime.addWeeks(int)
+public void org.joda.time.MutableDateTime.addDays(int)
+public void org.joda.time.MutableDateTime.addHours(int)
+public void org.joda.time.MutableDateTime.addMinutes(int)
+public void org.joda.time.MutableDateTime.addSeconds(int)
+public void org.joda.time.MutableDateTime.addMillis(int)

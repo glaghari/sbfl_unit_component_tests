@@ -1,0 +1,4 @@
+30
+public void com.google.javascript.jscomp.FlowSensitiveInlineVariables.process(com.google.javascript.rhino.Node;com.google.javascript.rhino.Node)
+private void com.google.javascript.jscomp.MustBeReachingVariableDef.computeDependence(com.google.javascript.jscomp.MustBeReachingVariableDef$Definition;com.google.javascript.rhino.Node)
+boolean com.google.javascript.jscomp.MustBeReachingVariableDef.dependsOnOuterScopeVars(java.lang.String;com.google.javascript.rhino.Node)

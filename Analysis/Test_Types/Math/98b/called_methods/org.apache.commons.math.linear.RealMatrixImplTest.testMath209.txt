@@ -1,0 +1,4 @@
+org.apache.commons.math.linear.RealMatrixImpl.<init>
+org.apache.commons.math.linear.RealMatrixImpl.getColumnDimension
+org.apache.commons.math.linear.RealMatrixImpl.operate
+org.apache.commons.math.linear.RealMatrixImpl.getRowDimension

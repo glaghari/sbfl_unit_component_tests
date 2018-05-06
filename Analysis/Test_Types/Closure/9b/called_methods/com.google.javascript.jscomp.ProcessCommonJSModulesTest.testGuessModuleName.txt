@@ -1,0 +1,4 @@
+com.google.javascript.jscomp.ProcessCommonJSModules.<init>
+com.google.javascript.jscomp.ProcessCommonJSModules.toModuleName
+com.google.javascript.jscomp.ProcessCommonJSModules.guessCJSModuleName
+com.google.javascript.jscomp.ProcessCommonJSModules.normalizeSourceName

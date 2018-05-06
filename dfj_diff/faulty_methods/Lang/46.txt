@@ -1,0 +1,6 @@
+public static java.lang.String org.apache.commons.lang.StringEscapeUtils.escapeJava(java.lang.String)
+public static void org.apache.commons.lang.StringEscapeUtils.escapeJava(java.io.Writer,java.lang.String)
+public static java.lang.String org.apache.commons.lang.StringEscapeUtils.escapeJavaScript(java.lang.String)
+public static void org.apache.commons.lang.StringEscapeUtils.escapeJavaScript(java.io.Writer,java.lang.String)
+private static java.lang.String org.apache.commons.lang.StringEscapeUtils.escapeJavaStyleString(java.lang.String,boolean)
+private static void org.apache.commons.lang.StringEscapeUtils.escapeJavaStyleString(java.io.Writer,java.lang.String,boolean)

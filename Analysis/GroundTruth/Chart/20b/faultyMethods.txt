@@ -1,0 +1,2 @@
+20
+public org.jfree.chart.plot.ValueMarker(double;java.awt.Paint;java.awt.Stroke;java.awt.Paint;java.awt.Stroke;float)

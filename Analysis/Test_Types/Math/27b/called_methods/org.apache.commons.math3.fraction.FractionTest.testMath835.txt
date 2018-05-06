@@ -1,0 +1,4 @@
+org.apache.commons.math3.fraction.Fraction.<init>
+org.apache.commons.math3.fraction.Fraction.doubleValue
+org.apache.commons.math3.fraction.Fraction.multiply
+org.apache.commons.math3.fraction.Fraction.percentageValue

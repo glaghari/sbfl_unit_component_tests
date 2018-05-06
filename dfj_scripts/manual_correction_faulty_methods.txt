@@ -1,0 +1,66 @@
+Math
+
+46
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.divide(org.apache.commons.math.complex.Complex) throws org.apache.commons.math3.exception.NullArgumentException
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.divide(double)
+
+
+
+47
+public org.apache.commons.math.complex.Complex(double;double)
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.divide(org.apache.commons.math.complex.Complex) throws org.apache.commons.math.exception.NullArgumentException
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.divide(double)
+
+
+53
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.add(org.apache.commons.math.complex.Complex) throws org.apache.commons.math.exception.NullArgumentException
+
+
+
+
+
+
+62
+public org.apache.commons.math.optimization.univariate.UnivariateRealPointValuePair org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer.optimize(org.apache.commons.math.analysis.UnivariateRealFunction;org.apache.commons.math.optimization.GoalType;double;double;double) throws org.apache.commons.math.FunctionEvaluationException
+public org.apache.commons.math.optimization.univariate.UnivariateRealPointValuePair org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer.optimize(org.apache.commons.math.analysis.UnivariateRealFunction;org.apache.commons.math.optimization.GoalType;double;double) throws org.apache.commons.math.FunctionEvaluationException
+
+
+64
+protected org.apache.commons.math.optimization.VectorialPointValuePair org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize() throws org.apache.commons.math.FunctionEvaluationException;org.apache.commons.math.optimization.OptimizationException;java.lang.IllegalArgumentException
+
+
+
+67
+public double org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer.getResult()
+
+
+
+
+
+
+68
+public org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer()
+protected org.apache.commons.math.optimization.VectorialPointValuePair org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize() throws org.apache.commons.math.FunctionEvaluationException;org.apache.commons.math.optimization.OptimizationException;java.lang.IllegalArgumentException
+
+
+
+78
+public boolean org.apache.commons.math.ode.events.EventState.evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator) throws org.apache.commons.math.ode.DerivativeException;org.apache.commons.math.ode.events.EventException;org.apache.commons.math.ConvergenceException
+
+
+
+
+85
+public static double[] org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction;double;double;double;int) throws org.apache.commons.math.ConvergenceException;org.apache.commons.math.FunctionEvaluationException
+
+
+
+
+97
+public double org.apache.commons.math.analysis.BrentSolver.solve(double;double) throws org.apache.commons.math.MaxIterationsExceededException;org.apache.commons.math.FunctionEvaluationException
+
+
+
+
+
+

@@ -1,0 +1,196 @@
+#!/bin/bash
+
+################################################################################
+#		Run project tests and collect the traces
+################################################################################
+
+
+buildfile=~/datasets/tracer2/build.xml
+# In case recompile is needed enable this
+ant -buildfile $buildfile
+
+TRACES_DIR="Analysis/Traces_PAT"
+GROUND_TRUTH="Analysis/GroundTruth"
+
+# Defects4j runtime
+defects4j=defects4j/framework/bin/defects4j
+
+line="-----------------------------------------------------------------------------"
+
+
+isskip() {
+ # Returns true if there are no passing test cases in test classes returned by tests.trigger
+ # OR there are no faulty methods (the fault lies outside any method)
+
+ project_id="$1"
+ ver_id="$2"
+
+ if [[ $project_id == "Time"  &&  $ver_id -eq 11 ]]; then
+		return 0 # true
+ fi
+ 
+ if [[ $project_id == "Chart" &&  $ver_id -eq 23 ]]; then
+		return 0 # true
+ fi
+
+ if [[ $project_id == "Lang"  && ( $ver_id -eq 23 || $ver_id -eq 25 || $ver_id -eq 56 || $ver_id -eq 57 ) ]]; then
+		return 0 # true
+ fi
+
+ if [[ $project_id == "Math"  && ( $ver_id -eq 12 || $ver_id -eq 104 ) ]]; then
+		return 0 # true
+ fi
+
+ if [[ $project_id == "Closure"  && $ver_id -eq 28 ]]; then
+		return 0 # true
+ fi
+ 
+ if [[ $project_id == "Mockito" \
+ 		&& ( $ver_id -eq 6 || $ver_id -eq 13 || $ver_id -eq 14 || $ver_id -eq 15 \
+ 		|| $ver_id -eq 20 || $ver_id -eq 28 || $ver_id -eq 29 || $ver_id -eq 33 \
+ 		|| $ver_id -eq 34 || $ver_id -eq 35) ]]; then
+		return 0 # true
+ fi
+
+ return 1 # false
+}
+
+#_____________________________________________________________________________________________________
+
+
+
+total_duration=0
+
+# project_id=Time
+# project_id=Math
+# project_id=Lang
+# project_id=Chart
+# project_id=Closure
+project_id=Mockito
+
+# type="raw"
+type="pattern"
+
+
+timing_dir="_timing/testing/$type"
+mkdir -p $timing_dir
+command_output_file="$timing_dir/log_$project_id.txt"
+time_file="$timing_dir/time_$project_id.csv"
+
+rm -f $command_output_file
+rm -f $time_file
+
+# Total bugs in current project
+total_bugs=$(grep -c "$" "defects4j/framework/projects/$project_id/commit-db")
+start_bug_id=10
+total_bugs=10
+
+for i in $(seq $start_bug_id $total_bugs)
+do
+
+	if isskip ${project_id} $i; then
+		continue
+	fi
+	
+	version_id="${i}b"
+	projectDir="$project_id/$version_id"
+	work_dir="_Projects/$projectDir"
+
+	traces="$TRACES_DIR/$project_id/$version_id"
+	ground_truth="$GROUND_TRUTH/$project_id/$version_id"
+	
+	if [[ -d $traces ]]; then
+		rm -rf $traces
+	fi
+	
+	# Create project dir
+	mkdir -p "$work_dir/"
+
+	start_msg="Checking out project $projectDir"
+
+	# print on screen
+	echo $start_msg
+	
+	# print on file
+	echo $start_msg >> $command_output_file
+	
+	# Checkout project
+	$defects4j checkout -p$project_id -v${version_id} -w$work_dir >> $command_output_file 2>&1
+	
+	if [[ "$project_id" == "Mockito" ]]; then
+		cp -r compileLib $work_dir
+	fi
+	
+	SECONDS=0
+	start_msg="Running project $projectDir - [$(date)]"
+
+	# print on screen
+	echo $start_msg
+	
+	# print on file
+	echo $start_msg >> $command_output_file
+	
+	#set environment variable for current path
+	#This  environment variable is used by tracer to store the traces
+ 	export traces_dir=$(pwd)/$traces
+	
+	#This  environment variable is used by tracer to store the traces
+ 	export ground_truth_dir=$(pwd)/$ground_truth
+		
+# 	run project tests (only relevant)
+#  	$defects4j test -w $work_dir >> $command_output_file 2>&1
+ 	
+ 	
+
+ 	
+ 	
+ 	
+ 	failing_tests="$ground_truth_dir/failing_tests.txt"
+ 	cat $failing_tests | while read -r failing_test; do
+ 		echo
+ 		echo "$projectDir -> $failing_test"
+ 		$defects4j test -w $work_dir -t "$failing_test"
+ 	done
+ 	
+ 	
+ 	
+
+	duration=$SECONDS
+	total_duration=$(($total_duration + $duration))
+	minutes=$(($duration / 60))
+	hours=$(($minutes / 60))
+	minutes=$(($minutes % 60))
+	seconds=$(($duration % 60))
+	time_elapsed="$hours:$minutes:$seconds {hh:mm:ss}"
+	end_msg="Ending project $projectDir - [$(date)] [$time_elapsed]"
+	
+	echo "$project_id,$i,$hours,$minutes,$seconds" >> $time_file
+	
+	# print on screen
+	echo $end_msg
+	echo $line
+
+	# print on file	
+	echo $end_msg >> $command_output_file
+	echo $line >> $command_output_file
+
+	# Clean project dir
+# 	rm -rf $work_dir
+
+done
+
+minutes=$(($total_duration / 60))
+hours=$(($minutes / 60))
+minutes=$(($minutes % 60))
+seconds=$(($total_duration % 60))
+
+time_elapsed="$hours:$minutes:$seconds {hh:mm:ss}"
+end_msg="Total time taken = $time_elapsed"
+
+echo "$project_id,Total,$hours,$minutes,$seconds" >> $time_file
+
+echo $end_msg
+echo $line
+# print on file	
+echo $end_msg >> $command_output_file
+echo $line >> $command_output_file

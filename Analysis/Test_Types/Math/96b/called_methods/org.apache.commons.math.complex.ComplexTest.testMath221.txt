@@ -1,0 +1,7 @@
+org.apache.commons.math.complex.Complex.<init>
+org.apache.commons.math.complex.Complex.createComplex
+org.apache.commons.math.complex.Complex.getReal
+org.apache.commons.math.complex.Complex.equals
+org.apache.commons.math.complex.Complex.hashCode
+org.apache.commons.math.complex.Complex.isNaN
+org.apache.commons.math.complex.Complex.multiply

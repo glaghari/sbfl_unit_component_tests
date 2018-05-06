@@ -1,0 +1,12 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] com.google.javascript.jscomp.CommandLineRunner extends com.google.javascript.jscomp.AbstractCommandLineRunner
+
+Mock Classes:
+
+Other Called Classes:
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp. extends com.google.javascript.jscomp.SourceMap$DetailLevel
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.DefaultCodingConvention extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.RunTimeStats extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.Flags extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.BooleanOptionHandler extends org.kohsuke.args4j.spi.OptionHandler
+[p:1.00 c:0.50 e:0.00 m:0.00 tm:0.00][1.50] com.google.javascript.jscomp.CommandLineConfig extends java.lang.Object

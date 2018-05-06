@@ -1,0 +1,5 @@
+org.apache.commons.math.complex.Complex.getImaginary
+org.apache.commons.math.complex.Complex.<init>
+org.apache.commons.math.complex.Complex.createComplex
+org.apache.commons.math.complex.Complex.getReal
+org.apache.commons.math.complex.Complex.tan

@@ -1,0 +1,2 @@
+public java.lang.String org.apache.commons.lang.Entities.unescape(java.lang.String)
+public void org.apache.commons.lang.Entities.unescape(java.io.Writer,java.lang.String)

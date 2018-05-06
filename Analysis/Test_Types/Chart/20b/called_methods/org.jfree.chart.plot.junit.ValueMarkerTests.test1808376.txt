@@ -1,0 +1,5 @@
+org.jfree.chart.plot.ValueMarker.getValue
+org.jfree.chart.plot.ValueMarker.<init>
+org.jfree.chart.plot.ValueMarker.getStroke
+org.jfree.chart.plot.ValueMarker.getPaint
+org.jfree.chart.plot.ValueMarker.getOutlinePaintorg.jfree.chart.text.TextAnchor.<init>

@@ -1,0 +1,22 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:0.00 tm:0.00][1.80] org.jfree.data.general.DatasetUtilities extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.25 e:0.00 m:0.00 tm:0.00][0.75] org.jfree.data.event.DatasetChangeEvent extends java.util.EventObject
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.data.ComparableObjectItem extends java.lang.Object
+[p:0.80 c:0.25 e:0.00 m:0.00 tm:0.00][1.05] org.jfree.data.general.AbstractSeriesDataset extends org.jfree.data.general.AbstractDataset
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.data.xy.XYIntervalSeriesCollection extends org.jfree.data.xy.AbstractIntervalXYDataset
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.data.general.Series extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.data.Range extends java.lang.Object
+[p:0.80 c:0.33 e:0.00 m:0.00 tm:0.00][1.13] org.jfree.data.general.AbstractDataset extends java.lang.Object
+[p:0.50 c:0.25 e:0.00 m:0.00 tm:0.00][0.75] org.jfree.data.xy.AbstractXYDataset extends org.jfree.data.general.AbstractSeriesDataset
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.data.event.SeriesChangeEvent extends java.util.EventObject
+[p:0.50 c:0.20 e:0.00 m:0.00 tm:0.00][0.70] org.jfree.data.xy.AbstractIntervalXYDataset extends org.jfree.data.xy.AbstractXYDataset
+[p:0.80 c:0.33 e:0.00 m:0.00 tm:0.00][1.13] org.jfree.data.general.DatasetGroup extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.data.xy.XYIntervalSeries extends org.jfree.data.ComparableObjectSeries
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.data.xy.XYInterval extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.data.ComparableObjectSeries extends org.jfree.data.general.Series
+[p:0.29 c:0.25 e:0.00 m:0.00 tm:0.00][0.54] org.jfree.chart.event.DatasetChangeInfo extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.data.xy.XYIntervalDataItem extends org.jfree.data.ComparableObjectItem

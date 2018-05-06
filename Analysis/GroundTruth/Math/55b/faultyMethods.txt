@@ -1,0 +1,2 @@
+55
+public static org.apache.commons.math.geometry.Vector3D org.apache.commons.math.geometry.Vector3D.crossProduct(org.apache.commons.math.geometry.Vector3D;org.apache.commons.math.geometry.Vector3D)

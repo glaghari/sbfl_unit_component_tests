@@ -1,0 +1,11 @@
+org.apache.commons.math.linear.AbstractRealVector.<init>
+org.apache.commons.math.linear.AbstractRealVector.checkIndex
+org.apache.commons.math.linear.AbstractRealVector.checkVectorDimensionsorg.apache.commons.math.linear.OpenMapRealVector.getEntry
+org.apache.commons.math.linear.OpenMapRealVector.<init>
+org.apache.commons.math.linear.OpenMapRealVector.ebeMultiply
+org.apache.commons.math.linear.OpenMapRealVector.checkIndex
+org.apache.commons.math.linear.OpenMapRealVector.setEntry
+org.apache.commons.math.linear.OpenMapRealVector.getEntries
+org.apache.commons.math.linear.OpenMapRealVector.isDefaultValue
+org.apache.commons.math.linear.OpenMapRealVector.getDimension
+org.apache.commons.math.linear.OpenMapRealVector.checkVectorDimensions

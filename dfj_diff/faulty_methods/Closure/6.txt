@@ -1,0 +1,2 @@
+boolean com.google.javascript.jscomp.TypeValidator.expectCanAssignToPropertyOf(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.jstype.JSType,com.google.javascript.rhino.jstype.JSType,com.google.javascript.rhino.Node,java.lang.String)
+boolean com.google.javascript.jscomp.TypeValidator.expectCanAssignTo(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.jstype.JSType,com.google.javascript.rhino.jstype.JSType,java.lang.String)

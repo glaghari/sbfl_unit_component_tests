@@ -1,0 +1,3 @@
+89
+private void com.google.javascript.jscomp.CollapseProperties.updateSimpleDeclaration(java.lang.String;com.google.javascript.jscomp.GlobalNamespace$Name;com.google.javascript.jscomp.GlobalNamespace$Ref)
+boolean com.google.javascript.jscomp.GlobalNamespace$Name.canCollapseUnannotatedChildNames()

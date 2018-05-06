@@ -1,0 +1,2 @@
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.divide(org.apache.commons.math.complex.Complex)
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.divide(double)

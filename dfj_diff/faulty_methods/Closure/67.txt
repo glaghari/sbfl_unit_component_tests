@@ -1,0 +1,1 @@
+private boolean com.google.javascript.jscomp.AnalyzePrototypeProperties$ProcessProperties.isPrototypePropertyAssign(com.google.javascript.rhino.Node)

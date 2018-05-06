@@ -1,0 +1,9 @@
+Classes Under Test:
+[p:1.00 c:0.67 e:0.00 m:0.00 tm:0.00][1.67] org.apache.commons.math.distribution.PoissonDistributionImpl extends org.apache.commons.math.distribution.AbstractIntegerDistribution
+
+Mock Classes:
+
+Other Called Classes:
+[p:1.00 c:0.25 e:0.00 m:0.00 tm:0.00][1.25] org.apache.commons.math.distribution.AbstractContinuousDistribution extends org.apache.commons.math.distribution.AbstractDistribution
+[p:1.00 c:0.25 e:0.00 m:0.33 tm:0.00][1.58] org.apache.commons.math.distribution.NormalDistributionImpl extends org.apache.commons.math.distribution.AbstractContinuousDistribution
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.random.RandomDataImpl extends java.lang.Object

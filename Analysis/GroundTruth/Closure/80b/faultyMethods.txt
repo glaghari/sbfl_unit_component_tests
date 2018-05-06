@@ -1,0 +1,3 @@
+80
+static boolean com.google.javascript.jscomp.NodeUtil.isBooleanResultHelper(com.google.javascript.rhino.Node)
+static boolean com.google.javascript.jscomp.NodeUtil.evaluatesToLocalValue(com.google.javascript.rhino.Node;com.google.common.base.Predicate)

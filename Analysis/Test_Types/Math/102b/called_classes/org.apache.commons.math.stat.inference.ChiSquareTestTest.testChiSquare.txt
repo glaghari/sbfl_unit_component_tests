@@ -1,0 +1,9 @@
+Classes Under Test:
+[p:1.00 c:0.75 e:0.00 m:1.00 tm:0.00][2.75] org.apache.commons.math.stat.inference.ChiSquareTestImpl extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.special.Gamma extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.distribution.GammaDistributionImpl extends org.apache.commons.math.distribution.AbstractContinuousDistribution
+[p:0.57 c:0.17 e:0.00 m:0.00 tm:0.00][0.74] org.apache.commons.math.distribution.ChiSquaredDistributionImpl extends org.apache.commons.math.distribution.AbstractContinuousDistribution

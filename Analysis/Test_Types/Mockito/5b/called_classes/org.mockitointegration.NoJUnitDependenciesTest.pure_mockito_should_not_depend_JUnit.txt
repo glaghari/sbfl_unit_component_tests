@@ -1,0 +1,7 @@
+Classes Under Test:
+[p:0.33 c:0.00 e:0.00 m:0.09][0.42] org.mockitoutil.LocalExcludingURLClassLoader extends java.net.URLClassLoader
+
+Mock Classes:
+
+Other Called Classes:
+

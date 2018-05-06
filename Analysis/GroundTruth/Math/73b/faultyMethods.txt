@@ -1,0 +1,2 @@
+73
+public double org.apache.commons.math.analysis.solvers.BrentSolver.solve(org.apache.commons.math.analysis.UnivariateRealFunction;double;double;double) throws org.apache.commons.math.MaxIterationsExceededException;org.apache.commons.math.FunctionEvaluationException

@@ -1,0 +1,6 @@
+org.apache.commons.math.linear.ArrayRealVector.<init>
+org.apache.commons.math.linear.ArrayRealVector.getL1Norm
+org.apache.commons.math.linear.ArrayRealVector.getLInfNorm
+org.apache.commons.math.linear.ArrayRealVector.getNormorg.apache.commons.math.linear.RealVectorFormat.<init>
+org.apache.commons.math.linear.RealVectorFormat.getInstance
+org.apache.commons.math.linear.RealVectorTestImpl.<init>

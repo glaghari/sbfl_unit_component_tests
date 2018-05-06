@@ -1,0 +1,2 @@
+130
+private void com.google.javascript.jscomp.CollapseProperties.inlineAliases(com.google.javascript.jscomp.GlobalNamespace)

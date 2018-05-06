@@ -1,0 +1,2 @@
+100
+public double[][] org.apache.commons.math.estimation.AbstractEstimator.getCovariances(org.apache.commons.math.estimation.EstimationProblem) throws org.apache.commons.math.estimation.EstimationException

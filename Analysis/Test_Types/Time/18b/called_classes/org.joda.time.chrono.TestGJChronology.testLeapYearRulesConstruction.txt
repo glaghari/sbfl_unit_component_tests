@@ -1,0 +1,66 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.17 tm:0.00][2.17] org.joda.time.chrono.GJChronology extends org.joda.time.chrono.AssembledChronology
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.ImpreciseDateTimeField extends org.joda.time.field.BaseDateTimeField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.DateTimeZone extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.base.BaseDateTime extends org.joda.time.base.AbstractDateTime
+[p:0.75 c:0.00 e:0.00 m:0.25 tm:0.00][1.00] org.joda.time.DateTimeFieldType extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.LinkedDurationField extends org.joda.time.field.BaseDurationField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.DurationField extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.tz.Recurrence extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.ImpreciseCutoverField extends org.joda.time.chrono.GJChronology$CutoverField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.tz.PrecalculatedZone extends org.joda.time.DateTimeZone
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.DecoratedDurationField extends org.joda.time.field.BaseDurationField
+[p:1.00 c:0.13 e:0.00 m:0.00 tm:0.00][1.13] org.joda.time.chrono.GJYearOfEraDateTimeField extends org.joda.time.field.DecoratedDateTimeField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.StandardDateTimeFieldType extends org.joda.time.DateTimeFieldType
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField extends org.joda.time.field.PreciseDurationDateTimeField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.Fields extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.HalfdayField extends org.joda.time.field.PreciseDateTimeField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.DividedDateTimeField extends org.joda.time.field.DecoratedDateTimeField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.BaseDurationField extends org.joda.time.DurationField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.SkipDateTimeField extends org.joda.time.field.DelegatedDateTimeField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.BasicDayOfMonthDateTimeField extends org.joda.time.field.PreciseDurationDateTimeField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.CutoverField extends org.joda.time.field.BaseDateTimeField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.StandardDurationFieldType extends org.joda.time.DurationFieldType
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.DurationFieldType extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.tz.DSTZone extends org.joda.time.DateTimeZone
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.PreciseDateTimeField extends org.joda.time.field.PreciseDurationDateTimeField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.BaseDateTimeField extends org.joda.time.DateTimeField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.RemainderDateTimeField extends org.joda.time.field.DecoratedDateTimeField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.BasicMonthOfYearDateTimeField extends org.joda.time.field.ImpreciseDateTimeField
+[p:1.00 c:0.33 e:0.00 m:0.20 tm:0.00][1.53] org.joda.time.chrono.BasicChronology extends org.joda.time.chrono.AssembledChronology
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.tz.OfYear extends java.lang.Object
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.Instant extends org.joda.time.base.AbstractInstant
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.tz.CachedDateTimeZone extends org.joda.time.DateTimeZone
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.tz.ZoneInfoProvider extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.tz.FixedDateTimeZone extends org.joda.time.DateTimeZone
+[p:1.00 c:0.33 e:0.00 m:0.40 tm:0.00][1.73] org.joda.time.chrono.GregorianChronology extends org.joda.time.chrono.BasicGJChronology
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.DecoratedDateTimeField extends org.joda.time.field.BaseDateTimeField
+[p:1.00 c:0.17 e:0.00 m:0.00 tm:0.00][1.17] org.joda.time.chrono.GJEraDateTimeField extends org.joda.time.field.BaseDateTimeField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.PreciseDurationField extends org.joda.time.field.BaseDurationField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.MillisDurationField extends org.joda.time.DurationField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.base.AbstractDateTime extends org.joda.time.base.AbstractInstant
+[p:1.00 c:0.67 e:0.00 m:0.20 tm:0.00][1.87] org.joda.time.chrono.BasicGJChronology extends org.joda.time.chrono.BasicChronology
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.ZeroIsMaxDateTimeField extends org.joda.time.field.DecoratedDateTimeField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.BasicYearDateTimeField extends org.joda.time.field.ImpreciseDateTimeField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.ScaledDurationField extends org.joda.time.field.DecoratedDurationField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.UnsupportedDurationField extends org.joda.time.DurationField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.DateMidnight extends org.joda.time.base.BaseDateTime
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.YearInfo extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.tz.DateTimeZoneBuilder extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.base.AbstractInstant extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.BasicWeekyearDateTimeField extends org.joda.time.field.ImpreciseDateTimeField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.OffsetDateTimeField extends org.joda.time.field.DecoratedDateTimeField
+[p:1.00 c:0.33 e:0.00 m:0.40 tm:0.00][1.73] org.joda.time.chrono.JulianChronology extends org.joda.time.chrono.BasicGJChronology
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.PreciseDurationDateTimeField extends org.joda.time.field.BaseDateTimeField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.DateTimeField extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.LinkedDurationField extends org.joda.time.field.DecoratedDurationField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.chrono.BasicDayOfYearDateTimeField extends org.joda.time.field.PreciseDurationDateTimeField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.SystemMillisProvider extends java.lang.Object
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.FixedMillisProvider extends java.lang.Object
+[p:1.00 c:0.13 e:0.00 m:0.00 tm:0.00][1.13] org.joda.time.chrono.GJMonthOfYearDateTimeField extends org.joda.time.chrono.BasicMonthOfYearDateTimeField
+[p:1.00 c:0.13 e:0.00 m:0.00 tm:0.00][1.13] org.joda.time.chrono.GJDayOfWeekDateTimeField extends org.joda.time.field.PreciseDurationDateTimeField
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.joda.time.field.DelegatedDateTimeField extends org.joda.time.DateTimeField

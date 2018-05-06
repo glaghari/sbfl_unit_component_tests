@@ -1,0 +1,3 @@
+1
+private org.apache.commons.math3.fraction.BigFraction(double;double;int;int) throws org.apache.commons.math3.fraction.FractionConversionException
+private org.apache.commons.math3.fraction.Fraction(double;double;int;int) throws org.apache.commons.math3.fraction.FractionConversionException

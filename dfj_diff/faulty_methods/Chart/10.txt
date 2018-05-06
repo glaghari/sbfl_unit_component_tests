@@ -1,0 +1,1 @@
+public java.lang.String org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator.generateToolTipFragment(java.lang.String)

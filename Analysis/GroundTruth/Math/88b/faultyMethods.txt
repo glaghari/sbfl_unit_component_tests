@@ -1,0 +1,2 @@
+88
+protected org.apache.commons.math.optimization.RealPointValuePair org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()

@@ -1,0 +1,3 @@
+98
+boolean com.google.javascript.jscomp.ReferenceCollectingCallback$ReferenceCollection.isAssignedOnceInLifetime()
+com.google.javascript.jscomp.ReferenceCollectingCallback$BasicBlock(com.google.javascript.jscomp.ReferenceCollectingCallback$BasicBlock;com.google.javascript.rhino.Node)

@@ -1,0 +1,2 @@
+53
+private void com.google.javascript.jscomp.InlineObjectLiterals$InliningBehavior.replaceAssignmentExpression(com.google.javascript.jscomp.Scope$Var;com.google.javascript.jscomp.ReferenceCollectingCallback$Reference;java.util.Map)

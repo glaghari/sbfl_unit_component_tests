@@ -1,0 +1,3 @@
+public static java.lang.Object org.mockito.Matchers.isA(java.lang.Class)
+public static java.lang.Object org.mockito.Matchers.eq(java.lang.Object)
+public static java.lang.Object org.mockito.Matchers.same(java.lang.Object)

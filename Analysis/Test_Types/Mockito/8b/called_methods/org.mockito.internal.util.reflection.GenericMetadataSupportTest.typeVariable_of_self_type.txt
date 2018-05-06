@@ -1,0 +1,8 @@
+org.mockito.internal.util.reflection.GenericMetadataSupport.registerTypeParametersOn
+org.mockito.internal.util.reflection.GenericMetadataSupport.<init>
+org.mockito.internal.util.reflection.GenericMetadataSupport.inferFrom
+org.mockito.internal.util.reflection.GenericMetadataSupport.getActualTypeArgumentFor
+org.mockito.internal.util.reflection.GenericMetadataSupport.resolveGenericReturnType
+org.mockito.internal.util.reflection.GenericMetadataSupport.registerTypeVariablesOn
+org.mockito.internal.util.reflection.GenericMetadataSupport.registerTypeVariableIfNotPresent
+org.mockito.internal.util.reflection.GenericMetadataSupport.boundsOf

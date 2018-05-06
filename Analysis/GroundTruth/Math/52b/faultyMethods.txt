@@ -1,0 +1,2 @@
+52
+public org.apache.commons.math.geometry.euclidean.threed.Rotation(org.apache.commons.math.geometry.euclidean.threed.Vector3D;org.apache.commons.math.geometry.euclidean.threed.Vector3D;org.apache.commons.math.geometry.euclidean.threed.Vector3D;org.apache.commons.math.geometry.euclidean.threed.Vector3D)

@@ -1,0 +1,2 @@
+78
+private com.google.javascript.rhino.Node com.google.javascript.jscomp.PeepholeFoldConstants.performArithmeticOp(int;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node)

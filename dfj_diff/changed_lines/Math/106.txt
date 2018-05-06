@@ -1,0 +1,1 @@
+src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,165,166,200,201

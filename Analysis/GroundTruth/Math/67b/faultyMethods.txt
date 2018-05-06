@@ -1,0 +1,2 @@
+67
+public double org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer.getResult()

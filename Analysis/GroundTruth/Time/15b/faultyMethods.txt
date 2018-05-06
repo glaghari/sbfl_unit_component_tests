@@ -1,0 +1,2 @@
+15
+public static long org.joda.time.field.FieldUtils.safeMultiply(long;int)

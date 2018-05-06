@@ -1,0 +1,2 @@
+119
+public void com.google.javascript.jscomp.GlobalNamespace$BuildGlobalNamespace.collect(com.google.javascript.jscomp.JSModule;com.google.javascript.jscomp.Scope;com.google.javascript.rhino.Node)

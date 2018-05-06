@@ -1,0 +1,8 @@
+org.apache.commons.math.stat.Frequency.addValue
+org.apache.commons.math.stat.Frequency.<init>
+org.apache.commons.math.stat.Frequency.getSumFreq
+org.apache.commons.math.stat.Frequency.getCumFreq
+org.apache.commons.math.stat.Frequency.getPct
+org.apache.commons.math.stat.Frequency.getCumPct
+org.apache.commons.math.stat.Frequency.getCountorg.apache.commons.math.stat.NaturalComparator.<init>
+org.apache.commons.math.stat.NaturalComparator.compare

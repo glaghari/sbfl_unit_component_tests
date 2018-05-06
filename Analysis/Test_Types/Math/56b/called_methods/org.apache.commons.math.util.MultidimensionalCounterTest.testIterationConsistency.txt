@@ -1,0 +1,9 @@
+org.apache.commons.math.util.MultidimensionalCounter.<init>
+org.apache.commons.math.util.MultidimensionalCounter.access$000
+org.apache.commons.math.util.MultidimensionalCounter.iterator
+org.apache.commons.math.util.MultidimensionalCounter.access$200
+org.apache.commons.math.util.MultidimensionalCounter.access$100
+org.apache.commons.math.util.MultidimensionalCounter.getDimension
+org.apache.commons.math.util.MultidimensionalCounter.getSize
+org.apache.commons.math.util.MultidimensionalCounter.getCounts
+org.apache.commons.math.util.MultidimensionalCounter.getCount

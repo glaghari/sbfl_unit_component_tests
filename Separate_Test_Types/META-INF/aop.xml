@@ -1,0 +1,5 @@
+﻿<aspectj>
+	<aspects>
+		<aspect name="calledclasses.CalledClassesTracer"/>
+	</aspects>
+</aspectj>

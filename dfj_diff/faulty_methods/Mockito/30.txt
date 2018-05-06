@@ -1,0 +1,2 @@
+public java.lang.Object org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowingInterceptor.intercept(java.lang.Object,java.lang.reflect.Method,java.lang.Object[],org.mockito.cglib.proxy.MethodProxy)
+public void org.mockito.exceptions.Reporter.smartNullPointerException(org.mockito.internal.debugging.Location)

@@ -1,0 +1,10 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:0.00 tm:0.00][1.80] org.jfree.data.time.TimeSeries extends org.jfree.data.general.Series
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.25 e:0.00 m:0.00 tm:0.00][0.75] org.jfree.data.general.SeriesChangeEvent extends java.util.EventObject
+[p:0.80 c:0.50 e:0.00 m:0.00 tm:0.00][1.30] org.jfree.data.time.TimeSeriesDataItem extends java.lang.Object
+[p:0.80 c:0.25 e:0.00 m:0.00 tm:0.00][1.05] org.jfree.data.time.RegularTimePeriod extends java.lang.Object
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.data.time.Year extends org.jfree.data.time.RegularTimePeriod

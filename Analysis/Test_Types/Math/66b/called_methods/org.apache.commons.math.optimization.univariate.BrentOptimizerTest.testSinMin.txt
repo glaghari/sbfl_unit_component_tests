@@ -1,0 +1,16 @@
+org.apache.commons.math.optimization.univariate.BrentOptimizer.<init>
+org.apache.commons.math.optimization.univariate.BrentOptimizer.setMaxEvaluations
+org.apache.commons.math.optimization.univariate.BrentOptimizer.getAbsoluteAccuracy
+org.apache.commons.math.optimization.univariate.BrentOptimizer.getResult
+org.apache.commons.math.optimization.univariate.BrentOptimizer.computeObjectiveValue
+org.apache.commons.math.optimization.univariate.BrentOptimizer.setMaximalIterationCount
+org.apache.commons.math.optimization.univariate.BrentOptimizer.clearResult
+org.apache.commons.math.optimization.univariate.BrentOptimizer.getMaxEvaluations
+org.apache.commons.math.optimization.univariate.BrentOptimizer.optimize
+org.apache.commons.math.optimization.univariate.BrentOptimizer.setAbsoluteAccuracy
+org.apache.commons.math.optimization.univariate.BrentOptimizer.setRelativeAccuracy
+org.apache.commons.math.optimization.univariate.BrentOptimizer.setResult
+org.apache.commons.math.optimization.univariate.BrentOptimizer.getRelativeAccuracy
+org.apache.commons.math.optimization.univariate.BrentOptimizer.localMin
+org.apache.commons.math.optimization.univariate.BrentOptimizer.getGoalTypeorg.apache.commons.math.analysis.SinFunction.<init>
+org.apache.commons.math.analysis.SinFunction.value

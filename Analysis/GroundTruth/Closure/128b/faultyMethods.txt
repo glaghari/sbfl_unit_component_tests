@@ -1,0 +1,2 @@
+128
+static boolean com.google.javascript.jscomp.CodeGenerator.isSimpleNumber(java.lang.String)

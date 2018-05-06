@@ -1,0 +1,2 @@
+public void com.google.javascript.jscomp.SourceMap.addMapping(com.google.javascript.rhino.Node,com.google.debugging.sourcemap.FilePosition,com.google.debugging.sourcemap.FilePosition)
+private com.google.debugging.sourcemap.proto.Mapping.OriginalMapping com.google.debugging.sourcemap.SourceMapConsumerV3.getOriginalMappingForEntry(Entry)

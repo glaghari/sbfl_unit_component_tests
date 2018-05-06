@@ -1,0 +1,14 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.40 tm:0.00][2.40] org.joda.time.DateTimeZone extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.75 c:0.25 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.tz.DSTZone extends org.joda.time.DateTimeZone
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.tz.Recurrence extends java.lang.Object
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.tz.OfYear extends java.lang.Object
+[p:0.75 c:0.25 e:0.00 m:0.17 tm:0.00][1.17] org.joda.time.tz.PrecalculatedZone extends org.joda.time.DateTimeZone
+[p:0.75 c:0.75 e:0.00 m:0.17 tm:0.00][1.67] org.joda.time.tz.CachedDateTimeZone extends org.joda.time.DateTimeZone
+[p:0.75 c:0.20 e:0.00 m:0.00 tm:0.00][0.95] org.joda.time.tz.ZoneInfoProvider extends java.lang.Object
+[p:0.75 c:0.75 e:0.00 m:0.17 tm:0.00][1.67] org.joda.time.tz.FixedDateTimeZone extends org.joda.time.DateTimeZone
+[p:0.75 c:0.75 e:0.00 m:0.00 tm:0.00][1.50] org.joda.time.tz.DateTimeZoneBuilder extends java.lang.Object

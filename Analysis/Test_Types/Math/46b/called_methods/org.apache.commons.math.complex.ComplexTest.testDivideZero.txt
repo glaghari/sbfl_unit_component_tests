@@ -1,0 +1,4 @@
+org.apache.commons.math.complex.Complex.<init>
+org.apache.commons.math.complex.Complex.equals
+org.apache.commons.math.complex.Complex.toString
+org.apache.commons.math.complex.Complex.divide

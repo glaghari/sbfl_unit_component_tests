@@ -1,0 +1,2 @@
+6
+public boolean org.jfree.chart.util.ShapeList.equals(java.lang.Object)

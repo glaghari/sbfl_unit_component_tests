@@ -1,0 +1,2 @@
+1
+public org.jfree.chart.LegendItemCollection org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems()

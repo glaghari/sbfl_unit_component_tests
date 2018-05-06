@@ -1,0 +1,7 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.50 tm:0.00][2.50] org.apache.commons.math3.analysis.differentiation.DerivativeStructure extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:1.00 c:0.00 e:0.00 m:0.50 tm:0.00][1.50] org.apache.commons.math3.analysis.differentiation.DSCompiler extends java.lang.Object

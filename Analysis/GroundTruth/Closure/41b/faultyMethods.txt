@@ -1,0 +1,3 @@
+41
+com.google.javascript.jscomp.FunctionTypeBuilder com.google.javascript.jscomp.FunctionTypeBuilder.inferFromOverriddenFunction(com.google.javascript.rhino.jstype.FunctionType;com.google.javascript.rhino.Node)
+com.google.javascript.jscomp.FunctionTypeBuilder com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(com.google.javascript.rhino.Node;com.google.javascript.rhino.JSDocInfo)

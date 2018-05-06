@@ -1,0 +1,1 @@
+src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java,523,529,532,533

@@ -1,0 +1,67 @@
+Classes Under Test:
+[p:0.57 c:1.00 e:1.00 m:0.20 tm:0.00][1.77] com.google.javascript.jscomp.mozilla.rhino.Parser extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.GreatestSupertypeVisitor extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.AstRoot extends com.google.javascript.jscomp.mozilla.rhino.ast.ScriptNode
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.VoidType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.Name extends com.google.javascript.jscomp.mozilla.rhino.ast.AstNode
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.AllType extends com.google.javascript.rhino.jstype.JSType
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.DefaultErrorReporter extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.UnknownType extends com.google.javascript.rhino.jstype.ObjectType
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.parsing.Config extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.parsing.IRFactory extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.ScriptNode extends com.google.javascript.jscomp.mozilla.rhino.ast.Scope
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.Node extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.testing.BaseJSTypeTestCase extends junit.framework.TestCase
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.Node extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.BooleanType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.InstanceObjectType extends com.google.javascript.rhino.jstype.PrototypeObjectType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.FunctionBuilder extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.PropListItem extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NumberType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.Context extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.ExpressionStatement extends com.google.javascript.jscomp.mozilla.rhino.ast.AstNode
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.parsing.TypeSafeDispatcher extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.Jump extends com.google.javascript.jscomp.mozilla.rhino.ast.AstNode
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.FunctionParamBuilder extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.PrototypeObjectType extends com.google.javascript.rhino.jstype.ObjectType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype. extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.LeastSupertypeVisitor extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.FunctionCall extends com.google.javascript.jscomp.mozilla.rhino.ast.AstNode
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NoObjectType extends com.google.javascript.rhino.jstype.FunctionType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.testing.TestErrorReporter extends junit.framework.Assert
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.ValueType extends com.google.javascript.rhino.jstype.JSType
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.Kit extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.Assignment extends com.google.javascript.jscomp.mozilla.rhino.ast.InfixExpression
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NoType extends com.google.javascript.rhino.jstype.NoObjectType
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.FileLevelJsDocBuilder extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.StringNode extends com.google.javascript.rhino.Node
+[p:0.50 c:0.00 e:0.00 m:0.20 tm:0.00][0.70] com.google.javascript.jscomp.mozilla.rhino.ast.ArrayLiteral extends com.google.javascript.jscomp.mozilla.rhino.ast.AstNode
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.ArrowType extends com.google.javascript.rhino.jstype.JSType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.UnionTypeBuilder extends java.lang.Object
+[p:0.44 c:0.00 e:0.00 m:0.00 tm:0.00][0.44] com.google.javascript.jscomp.mozilla.rhino.jdk13.VMBridge_jdk13 extends com.google.javascript.jscomp.mozilla.rhino.VMBridge
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.NodeIterator extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.ObjToIntMap extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.UnionType extends com.google.javascript.rhino.jstype.JSType
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.AstNode extends com.google.javascript.jscomp.mozilla.rhino.Node
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.FunctionPrototypeType extends com.google.javascript.rhino.jstype.PrototypeObjectType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.ObjectType extends com.google.javascript.rhino.jstype.JSType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.Property extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.InfixExpression extends com.google.javascript.jscomp.mozilla.rhino.ast.AstNode
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.ErrorFunctionType extends com.google.javascript.rhino.jstype.FunctionType
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.jscomp.mozilla.rhino.ast.Scope extends com.google.javascript.jscomp.mozilla.rhino.ast.Jump
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.JSType extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] com.google.javascript.jscomp.testing.TestErrorReporter extends junit.framework.Assert
+[p:1.00 c:0.00 e:0.00 m:0.40 tm:0.00][1.40] com.google.javascript.jscomp.parsing.TransformDispatcher extends com.google.javascript.jscomp.parsing.TypeSafeDispatcher
+[p:1.00 c:0.50 e:0.00 m:0.00 tm:0.00][1.50] com.google.javascript.jscomp.parsing.ParserRunner extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.StringType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.CompilerEnvirons extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.JSTypeRegistry extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.FunctionType extends com.google.javascript.rhino.jstype.PrototypeObjectType
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.TokenStream extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NullType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.44 c:0.00 e:0.00 m:0.00 tm:0.00][0.44] com.google.javascript.jscomp.mozilla.rhino.jdk15.VMBridge_jdk15 extends com.google.javascript.jscomp.mozilla.rhino.jdk13.VMBridge_jdk13
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] com.google.javascript.jscomp.mozilla.rhino.ContextFactory extends java.lang.Object

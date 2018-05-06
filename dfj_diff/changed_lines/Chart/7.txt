@@ -1,0 +1,1 @@
+source/org/jfree/data/time/TimePeriodValues.java,300,302

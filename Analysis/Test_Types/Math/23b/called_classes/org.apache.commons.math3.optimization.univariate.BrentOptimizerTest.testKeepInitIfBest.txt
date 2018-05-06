@@ -1,0 +1,10 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.25 tm:0.00][2.25] org.apache.commons.math3.optimization.univariate.BrentOptimizer extends org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.56 c:0.00 e:0.00 m:0.17 tm:0.00][0.72] org.apache.commons.math3.analysis.function.Sin extends java.lang.Object
+[p:0.56 c:0.00 e:0.00 m:0.17 tm:0.00][0.72] org.apache.commons.math3.analysis.function.StepFunction extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.17 tm:0.00][1.17] org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair extends java.lang.Object
+[p:0.63 c:0.00 e:0.00 m:0.17 tm:0.00][0.79] org.apache.commons.math3.analysis. extends java.lang.Object

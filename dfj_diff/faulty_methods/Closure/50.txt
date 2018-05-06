@@ -1,0 +1,1 @@
+private com.google.javascript.rhino.Node com.google.javascript.jscomp.PeepholeReplaceKnownMethods.tryFoldArrayJoin(com.google.javascript.rhino.Node)

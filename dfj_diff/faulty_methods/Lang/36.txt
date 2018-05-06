@@ -1,0 +1,2 @@
+public static java.lang.Number org.apache.commons.lang3.math.NumberUtils.createNumber(java.lang.String)
+public static boolean org.apache.commons.lang3.math.NumberUtils.isNumber(java.lang.String)

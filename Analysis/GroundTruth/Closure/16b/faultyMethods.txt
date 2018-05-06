@@ -1,0 +1,3 @@
+16
+public void com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode.applyAlias()
+private void com.google.javascript.jscomp.ScopedAliases$Traversal.fixTypeNode(com.google.javascript.rhino.Node)

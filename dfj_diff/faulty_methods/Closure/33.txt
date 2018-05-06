@@ -1,0 +1,1 @@
+public void com.google.javascript.rhino.jstype.PrototypeObjectType.matchConstraint(com.google.javascript.rhino.jstype.ObjectType)

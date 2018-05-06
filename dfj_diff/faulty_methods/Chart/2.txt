@@ -1,0 +1,2 @@
+public static org.jfree.data.Range org.jfree.data.general.DatasetUtilities.iterateDomainBounds(org.jfree.data.xy.XYDataset,boolean)
+public static org.jfree.data.Range org.jfree.data.general.DatasetUtilities.iterateRangeBounds(org.jfree.data.xy.XYDataset,boolean)

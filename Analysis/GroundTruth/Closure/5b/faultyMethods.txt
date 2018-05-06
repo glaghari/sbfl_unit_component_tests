@@ -1,0 +1,2 @@
+5
+private boolean com.google.javascript.jscomp.InlineObjectLiterals$InliningBehavior.isInlinableObject(java.util.List)

@@ -1,0 +1,9 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.33 tm:0.00][2.33] org.apache.commons.lang.enums.ValuedEnum extends org.apache.commons.lang.enums.Enum
+
+Mock Classes:
+
+Other Called Classes:
+[p:1.00 c:0.67 e:0.00 m:0.33 tm:0.00][2.00] org.apache.commons.lang.enums.ValuedColorEnum extends org.apache.commons.lang.enums.ValuedEnum
+[p:1.00 c:0.67 e:0.00 m:0.13 tm:0.00][1.79] org.apache.commons.lang.enums.ValuedLanguageEnum extends org.apache.commons.lang.enums.ValuedEnum
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang.enums.Entry extends java.lang.Object

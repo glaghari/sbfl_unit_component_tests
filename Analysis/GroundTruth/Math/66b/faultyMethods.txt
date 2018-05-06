@@ -1,0 +1,6 @@
+66
+public org.apache.commons.math.optimization.univariate.BrentOptimizer()
+protected org.apache.commons.math.optimization.univariate.UnivariateRealPointValuePair org.apache.commons.math.optimization.univariate.BrentOptimizer.doOptimize() throws org.apache.commons.math.FunctionEvaluationException
+public double org.apache.commons.math.optimization.univariate.BrentOptimizer.optimize(org.apache.commons.math.analysis.UnivariateRealFunction;org.apache.commons.math.optimization.GoalType;double;double;double) throws org.apache.commons.math.MaxIterationsExceededException;org.apache.commons.math.FunctionEvaluationException
+public double org.apache.commons.math.optimization.univariate.BrentOptimizer.optimize(org.apache.commons.math.analysis.UnivariateRealFunction;org.apache.commons.math.optimization.GoalType;double;double) throws org.apache.commons.math.MaxIterationsExceededException;org.apache.commons.math.FunctionEvaluationException
+private double org.apache.commons.math.optimization.univariate.BrentOptimizer.localMin(boolean;org.apache.commons.math.analysis.UnivariateRealFunction;org.apache.commons.math.optimization.GoalType;double;double;double;double;double) throws org.apache.commons.math.MaxIterationsExceededException;org.apache.commons.math.FunctionEvaluationException

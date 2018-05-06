@@ -1,0 +1,5 @@
+14
+public boolean org.jfree.chart.plot.CategoryPlot.removeDomainMarker(int;org.jfree.chart.plot.Marker;org.jfree.chart.util.Layer;boolean)
+public boolean org.jfree.chart.plot.CategoryPlot.removeRangeMarker(int;org.jfree.chart.plot.Marker;org.jfree.chart.util.Layer;boolean)
+public boolean org.jfree.chart.plot.XYPlot.removeDomainMarker(int;org.jfree.chart.plot.Marker;org.jfree.chart.util.Layer;boolean)
+public boolean org.jfree.chart.plot.XYPlot.removeRangeMarker(int;org.jfree.chart.plot.Marker;org.jfree.chart.util.Layer;boolean)

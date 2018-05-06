@@ -1,0 +1,2 @@
+35
+private void com.google.javascript.jscomp.TypeInference.inferPropertyTypesToMatchConstraint(com.google.javascript.rhino.jstype.JSType;com.google.javascript.rhino.jstype.JSType)

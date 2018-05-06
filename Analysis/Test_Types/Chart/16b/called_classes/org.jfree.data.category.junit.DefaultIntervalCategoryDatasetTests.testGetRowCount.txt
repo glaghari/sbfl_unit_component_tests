@@ -1,0 +1,8 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:0.50 tm:0.00][2.30] org.jfree.data.category.DefaultIntervalCategoryDataset extends org.jfree.data.general.AbstractSeriesDataset
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.data.resources.DataPackageResources extends java.util.ListResourceBundle
+[p:0.50 c:0.20 e:0.00 m:0.00 tm:0.00][0.70] org.jfree.data.general.DatasetGroup extends java.lang.Object

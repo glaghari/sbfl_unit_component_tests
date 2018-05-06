@@ -1,0 +1,11 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.analysis.SinFunction extends java.lang.Object
+[p:0.83 c:0.17 e:0.00 m:0.33 tm:0.00][1.33] org.apache.commons.math.optimization.univariate.BrentOptimizer extends org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.apache.commons.math.ConvergingAlgorithmImpl extends java.lang.Object
+[p:0.83 c:0.50 e:0.00 m:0.00 tm:0.00][1.33] org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer extends org.apache.commons.math.ConvergingAlgorithmImpl
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.random.JDKRandomGenerator extends java.util.Random

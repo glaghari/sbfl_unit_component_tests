@@ -1,0 +1,18 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.17 tm:0.00][2.17] org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator extends org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.83 c:0.00 e:0.00 m:0.25 tm:0.00][1.08] org.apache.commons.math.ode.EndTimeChecker extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.ConvergingAlgorithmImpl extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl extends org.apache.commons.math.ConvergingAlgorithmImpl
+[p:0.71 c:0.00 e:0.00 m:0.20 tm:0.00][0.91] org.apache.commons.math.ode.events.CombinedEventsManager extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.sampling.AbstractStepInterpolator extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.events. extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.ode.nonstiff. extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator extends org.apache.commons.math.ode.sampling.AbstractStepInterpolator
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math.analysis.solvers.BrentSolver extends org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl
+[p:1.00 c:0.50 e:0.00 m:0.00 tm:0.00][1.50] org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator extends org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.sampling.DummyStepInterpolator extends org.apache.commons.math.ode.sampling.AbstractStepInterpolator
+[p:0.71 c:0.00 e:0.00 m:0.20 tm:0.00][0.91] org.apache.commons.math.ode.events.EventState extends java.lang.Object

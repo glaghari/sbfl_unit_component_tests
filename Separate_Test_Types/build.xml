@@ -1,0 +1,52 @@
+<project name="Separate_Test_Types" basedir="." default="dist">
+	<property name="aspects" value="aspects"/>
+	<property name="build" value="bin"/>
+	<property name="src" value="src"/>
+	<property name="aspectj-path" value="/Users/gulsherlaghari/aspectj1.7/lib"/>
+	<property name="source" value="1.7"/>
+
+	<path id="cp">
+		<pathelement location="${aspectj-path}/aspectjrt.jar"/>
+		<pathelement location="${aspectj-path}/aspectjtools.jar"/>
+		<fileset dir="lib">
+			<include name="**.jar"/>
+		</fileset>
+		<pathelement location="resources"/>
+		<pathelement location="${build}"/>
+	</path>
+
+	<target name="clean">
+		<delete dir="${aspects}"/>
+		<delete dir="${build}"/>
+	</target>
+
+	<taskdef classpathref="cp" resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties" />
+
+	<target name="tracer_compile" depends="clean">
+		<mkdir dir="${build}" />
+		<iajc destdir="${build}" source="${source}">
+			<sourceroots>
+				<pathelement location="${src}" />
+			</sourceroots>
+			<classpath>
+				<path refid="cp" />
+			</classpath>
+		</iajc>
+	</target>
+
+	<target name="compile-tests" depends="clean">
+		<mkdir dir="${build}" />
+		<javac destdir="${build}" source="${source}" srcdir="tests" debug="true" includeantruntime="off">
+			<classpath>
+				<path refid="cp"/>
+			</classpath>
+		</javac>
+	</target>
+	<!-- <target name="dist" depends="tracer_compile,compile-tests"> -->
+	<target name="dist" depends="tracer_compile">
+		<mkdir dir="${aspects}" />
+		<jar jarfile="${aspects}/tracer.jar" basedir="${build}" >
+			<metainf dir="META-INF" includes="**"/>
+		</jar>
+	</target>
+</project>

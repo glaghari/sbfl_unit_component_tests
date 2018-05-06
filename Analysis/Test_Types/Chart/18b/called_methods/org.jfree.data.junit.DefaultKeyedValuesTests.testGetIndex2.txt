@@ -1,0 +1,5 @@
+org.jfree.data.DefaultKeyedValues.addValue
+org.jfree.data.DefaultKeyedValues.<init>
+org.jfree.data.DefaultKeyedValues.removeValue
+org.jfree.data.DefaultKeyedValues.getIndex
+org.jfree.data.DefaultKeyedValues.setValue

@@ -1,0 +1,1 @@
+src/java/org/apache/commons/math/analysis/BrentSolver.java,138,140,145,148,149

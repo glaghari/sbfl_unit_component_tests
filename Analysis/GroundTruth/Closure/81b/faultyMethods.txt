@@ -1,0 +1,2 @@
+81
+com.google.javascript.rhino.Node com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher.processFunctionNode(com.google.javascript.jscomp.mozilla.rhino.ast.FunctionNode)

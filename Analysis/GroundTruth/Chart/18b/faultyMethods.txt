@@ -1,0 +1,4 @@
+18
+public void org.jfree.data.DefaultKeyedValues.removeValue(int)
+public void org.jfree.data.DefaultKeyedValues.removeValue(java.lang.Comparable)
+public void org.jfree.data.DefaultKeyedValues2D.removeColumn(java.lang.Comparable)

@@ -1,0 +1,126 @@
+Per projects tests
+-------------------------------------------------------
+
+Patterned > Raw   [ Closure  ]    AP =  \textbf{5.66288e-08} Significant
+Patterned > Raw   [ Closure  ]    Cliff Delta (AP) =  \magnitudemedium{0.3}
+Patterned > Raw   [ Closure ]     WE =  \textbf{1.413407e-12} Significant
+Patterned > Raw   [ Closure  ]    Cliff Delta (WE) =  \magnitudemedium{-0.3}
+-------------------------------------------------------
+
+Patterned > Raw   [ Math  ]    AP =  \textbf{8.978418e-04} Significant
+Patterned > Raw   [ Math  ]    Cliff Delta (AP) =  \magnitudenegligible{0.1}
+Patterned > Raw   [ Math ]     WE =  \textbf{3.671603e-06} Significant
+Patterned > Raw   [ Math  ]    Cliff Delta (WE) =  \magnitudesmall{-0.2}
+-------------------------------------------------------
+
+Patterned > Raw   [ Lang  ]    AP =  \textbf{6.152051e-06} Significant
+Patterned > Raw   [ Lang  ]    Cliff Delta (AP) =  \magnitudesmall{0.3}
+Patterned > Raw   [ Lang ]     WE =  \textbf{5.063836e-04} Significant
+Patterned > Raw   [ Lang  ]    Cliff Delta (WE) =  \magnitudesmall{-0.2}
+-------------------------------------------------------
+
+Patterned > Raw   [ Time  ]    AP =  \textbf{1.033401e-02} Significant
+Patterned > Raw   [ Time  ]    Cliff Delta (AP) =  \magnitudesmall{0.2}
+Patterned > Raw   [ Time ]     WE =  \textbf{1.195428e-02} Significant
+Patterned > Raw   [ Time  ]    Cliff Delta (WE) =  \magnitudesmall{-0.2}
+-------------------------------------------------------
+
+Raw > Patterned   [ Chart  ]    AP =  1.801039e-01 Non-Significant
+Raw > Patterned   [ Chart  ]    Cliff Delta (AP) =  \magnitudenegligible{0}
+Raw > Patterned   [ Chart ]     WE =  1.820786e-01 Non-Significant
+Raw > Patterned   [ Chart  ]    Cliff Delta (WE) =  \magnitudenegligible{-0.1}
+-------------------------------------------------------
+
+All defects together
+-------------------------------------------------------
+
+Patterned > Raw   [ Overall  ]    AP =  \textbf{1.413686e-12} Significant
+Patterned > Raw   [ Overall  ]    Cliff Delta (AP) =  \magnitudesmall{0.2}
+Patterned > Raw   [ Overall ]     WE =  \textbf{6.00831e-20} Significant
+Patterned > Raw   [ Overall  ]    Cliff Delta (WE) =  \magnitudesmall{-0.2}
+-------------------------------------------------------
+
+
+
+Unit tests
+Per projects tests
+-------------------------------------------------------
+
+Raw > Patterned   [ Math  ]    AP =  5.564735e-01 Non-Significant
+Raw > Patterned   [ Math  ]    Cliff Delta (AP) =  \magnitudenegligible{0}
+Raw > Patterned   [ Math ]     WE =  7.416792e-01 Non-Significant
+Raw > Patterned   [ Math  ]    Cliff Delta (WE) =  \magnitudenegligible{0}
+-------------------------------------------------------
+
+Patterned > Raw   [ Lang  ]    AP =  \textbf{1.963428e-04} Significant
+Patterned > Raw   [ Lang  ]    Cliff Delta (AP) =  \magnitudesmall{0.3}
+Patterned > Raw   [ Lang ]     WE =  \textbf{2.099668e-03} Significant
+Patterned > Raw   [ Lang  ]    Cliff Delta (WE) =  \magnitudesmall{-0.2}
+-------------------------------------------------------
+
+All defects together
+-------------------------------------------------------
+
+Raw > Patterned   [ Overall  ]    AP =  9.953934e-01 Non-Significant
+Raw > Patterned   [ Overall  ]    Cliff Delta (AP) =  \magnitudesmall{-0.2}
+Raw > Patterned   [ Overall ]     WE =  8.068516e-02 Non-Significant
+Raw > Patterned   [ Overall  ]    Cliff Delta (WE) =  \magnitudesmall{0.2}
+-------------------------------------------------------
+
+
+
+Component tests
+Per projects tests
+-------------------------------------------------------
+
+Patterned > Raw   [ Closure  ]    AP =  \textbf{8.720041e-08} Significant
+Patterned > Raw   [ Closure  ]    Cliff Delta (AP) =  \magnitudemedium{0.3}
+Patterned > Raw   [ Closure ]     WE =  \textbf{1.564843e-12} Significant
+Patterned > Raw   [ Closure  ]    Cliff Delta (WE) =  \magnitudemedium{-0.3}
+-------------------------------------------------------
+
+Patterned > Raw   [ Math  ]    AP =  \textbf{2.624127e-04} Significant
+Patterned > Raw   [ Math  ]    Cliff Delta (AP) =  \magnitudesmall{0.3}
+Patterned > Raw   [ Math ]     WE =  \textbf{3.925388e-08} Significant
+Patterned > Raw   [ Math  ]    Cliff Delta (WE) =  \magnitudesmall{-0.3}
+-------------------------------------------------------
+
+Patterned > Raw   [ Lang  ]    AP =  \textbf{5.284793e-03} Significant
+Patterned > Raw   [ Lang  ]    Cliff Delta (AP) =  \magnitudemedium{0.4}
+Patterned > Raw   [ Lang ]     WE =  \textbf{1.794968e-02} Significant
+Patterned > Raw   [ Lang  ]    Cliff Delta (WE) =  \magnitudesmall{-0.3}
+-------------------------------------------------------
+
+Patterned > Raw   [ Time  ]    AP =  \textbf{2.670496e-03} Significant
+Patterned > Raw   [ Time  ]    Cliff Delta (AP) =  \magnitudesmall{0.3}
+Patterned > Raw   [ Time ]     WE =  \textbf{1.036253e-02} Significant
+Patterned > Raw   [ Time  ]    Cliff Delta (WE) =  \magnitudesmall{-0.2}
+-------------------------------------------------------
+
+Patterned > Raw   [ Chart  ]    AP =  5.411911e-01 Non-Significant
+Patterned > Raw   [ Chart  ]    Cliff Delta (AP) =  \magnitudenegligible{0.1}
+Patterned > Raw   [ Chart ]     WE =  6.219588e-02 Non-Significant
+Patterned > Raw   [ Chart  ]    Cliff Delta (WE) =  \magnitudenegligible{0}
+-------------------------------------------------------
+
+All defects together
+-------------------------------------------------------
+
+Patterned > Raw   [ Overall  ]    AP =  \textbf{4.168967e-12} Significant
+Patterned > Raw   [ Overall  ]    Cliff Delta (AP) =  \magnitudesmall{0.2}
+Patterned > Raw   [ Overall ]     WE =  \textbf{4.575609e-21} Significant
+Patterned > Raw   [ Overall  ]    Cliff Delta (WE) =  \magnitudesmall{-0.2}
+-------------------------------------------------------
+
+
+
+
+Called methods info and tests
+-------------------------------------------------------
+
+# unit tests 107
+MEAN =  5.6 SD =  6.28
+# component tests 656
+MEAN =  1009.23 SD =  1192.53
+Difference between means > 0 - significance  3.618647e-115
+Cohen's d =  \magnitudelarge{1.2}

@@ -1,0 +1,3 @@
+49
+public org.apache.commons.math.linear.OpenMapRealVector org.apache.commons.math.linear.OpenMapRealVector.ebeDivide(org.apache.commons.math.linear.RealVector)
+public org.apache.commons.math.linear.OpenMapRealVector org.apache.commons.math.linear.OpenMapRealVector.ebeMultiply(org.apache.commons.math.linear.RealVector)

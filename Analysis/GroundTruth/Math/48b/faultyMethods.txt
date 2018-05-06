@@ -1,0 +1,2 @@
+48
+protected final double org.apache.commons.math.analysis.solvers.BaseSecantSolver.doSolve()

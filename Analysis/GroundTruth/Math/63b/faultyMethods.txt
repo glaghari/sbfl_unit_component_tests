@@ -1,0 +1,2 @@
+63
+public static boolean org.apache.commons.math.util.MathUtils.equals(double;double)

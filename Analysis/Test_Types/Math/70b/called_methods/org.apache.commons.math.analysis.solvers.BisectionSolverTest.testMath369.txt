@@ -1,0 +1,5 @@
+org.apache.commons.math.analysis.solvers.BisectionSolver.<init>
+org.apache.commons.math.analysis.solvers.BisectionSolver.solve
+org.apache.commons.math.analysis.solvers.BisectionSolver.verifyInterval
+org.apache.commons.math.analysis.solvers.BisectionSolver.clearResultorg.apache.commons.math.analysis.UnivariateRealFunction.value
+org.apache.commons.math.analysis.SinFunction.<init>

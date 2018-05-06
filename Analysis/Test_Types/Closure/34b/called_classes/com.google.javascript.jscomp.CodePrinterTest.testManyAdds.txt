@@ -1,0 +1,18 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] com.google.javascript.jscomp.CodePrinter extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:1.00 c:0.33 e:0.00 m:0.00 tm:0.00][1.33] com.google.javascript.jscomp.CodeConsumer extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.NumbericResultPredicate extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.MayBeStringResultPredicate extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.BooleanResultPredicate extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp. extends com.google.javascript.jscomp.SourceMap$DetailLevel
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.MatchNotFunction extends java.lang.Object
+[p:1.00 c:0.67 e:0.00 m:0.00 tm:0.00][1.67] com.google.javascript.jscomp.CompactCodePrinter extends com.google.javascript.jscomp.CodePrinter$MappedCodePrinter
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] com.google.javascript.rhino.NumberNode extends com.google.javascript.rhino.Node
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] com.google.javascript.rhino.Node extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.Builder extends java.lang.Object
+[p:1.00 c:0.33 e:0.00 m:0.00 tm:0.00][1.33] com.google.javascript.jscomp.CodeGenerator extends java.lang.Object
+[p:1.00 c:0.67 e:0.00 m:0.00 tm:0.00][1.67] com.google.javascript.jscomp.MappedCodePrinter extends com.google.javascript.jscomp.CodeConsumer

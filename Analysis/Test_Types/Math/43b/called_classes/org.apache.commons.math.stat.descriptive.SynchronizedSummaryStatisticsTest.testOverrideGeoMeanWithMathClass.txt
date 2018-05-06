@@ -1,0 +1,18 @@
+Classes Under Test:
+[p:1.00 c:0.67 e:0.00 m:0.25 tm:0.00][1.92] org.apache.commons.math.stat.descriptive.SummaryStatistics extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.summary.SumOfSquares extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.summary.SumOfLogs extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.moment.GeometricMean extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic extends org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.moment.Variance extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.moment.SecondMoment extends org.apache.commons.math.stat.descriptive.moment.FirstMoment
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.moment.FirstMoment extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.summary.Sum extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic extends java.lang.Object
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.moment.Mean extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.rank.Max extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:0.86 c:0.00 e:0.00 m:0.00 tm:0.00][0.86] org.apache.commons.math.stat.descriptive.rank.Min extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic

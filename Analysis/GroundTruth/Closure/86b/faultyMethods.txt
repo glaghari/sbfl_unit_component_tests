@@ -1,0 +1,2 @@
+86
+static boolean com.google.javascript.jscomp.NodeUtil.evaluatesToLocalValue(com.google.javascript.rhino.Node;com.google.common.base.Predicate)

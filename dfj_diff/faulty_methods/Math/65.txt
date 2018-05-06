@@ -1,0 +1,2 @@
+public double org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getRMS()
+public double org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getChiSquare()

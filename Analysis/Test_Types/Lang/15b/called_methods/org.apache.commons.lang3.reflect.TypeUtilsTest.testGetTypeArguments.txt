@@ -1,0 +1,4 @@
+org.apache.commons.lang3.reflect.TypeUtils.getRawType
+org.apache.commons.lang3.reflect.TypeUtils.getClosestParentType
+org.apache.commons.lang3.reflect.TypeUtils.getTypeArguments
+org.apache.commons.lang3.reflect.TypeUtils.isAssignable

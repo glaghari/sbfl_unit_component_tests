@@ -1,0 +1,9 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.optimization.direct.MultiDirectional extends org.apache.commons.math.optimization.direct.DirectSearchOptimizer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.SimpleScalarValueChecker extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.direct. extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.RealPointValuePair extends java.lang.Object

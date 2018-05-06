@@ -1,0 +1,3 @@
+76
+public org.apache.commons.math.linear.RealMatrix org.apache.commons.math.linear.SingularValueDecompositionImpl.getU() throws org.apache.commons.math.linear.InvalidMatrixException
+public org.apache.commons.math.linear.RealMatrix org.apache.commons.math.linear.SingularValueDecompositionImpl.getV() throws org.apache.commons.math.linear.InvalidMatrixException

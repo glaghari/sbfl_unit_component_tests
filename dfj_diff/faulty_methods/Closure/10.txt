@@ -1,0 +1,1 @@
+static boolean com.google.javascript.jscomp.NodeUtil.mayBeString(com.google.javascript.rhino.Node,boolean)

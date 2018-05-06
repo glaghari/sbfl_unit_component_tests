@@ -1,0 +1,24 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer extends org.apache.commons.math3.optim.nonlinear.scalar.MultivariateOptimizer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.apache.commons.math3.optim.univariate.UnivariatePointValuePair extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.analysis.SumSincFunction extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.MaxIterCallback extends java.lang.Object
+[p:0.60 c:0.33 e:0.00 m:0.00 tm:0.00][0.93] org.apache.commons.math3.optim.univariate.UnivariateOptimizer extends org.apache.commons.math3.optim.BaseOptimizer
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.AbstractConvergenceChecker extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.InitialGuess extends java.lang.Object
+[p:0.45 c:0.00 e:0.00 m:0.00 tm:0.00][0.45] org.apache.commons.math3.analysis.function.Sinc extends java.lang.Object
+[p:0.60 c:0.33 e:0.00 m:0.00 tm:0.00][0.93] org.apache.commons.math3.optim.univariate.BrentOptimizer extends org.apache.commons.math3.optim.univariate.UnivariateOptimizer
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.apache.commons.math3.optim.univariate.UnivariateObjectiveFunction extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.optim.nonlinear.scalar.noderiv. extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.apache.commons.math3.optim.univariate.BracketFinder extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.MaxEval extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.apache.commons.math3.optim.univariate.SimpleUnivariateValueChecker extends org.apache.commons.math3.optim.AbstractConvergenceChecker
+[p:0.89 c:0.00 e:0.00 m:0.00 tm:0.00][0.89] org.apache.commons.math3.optim.nonlinear.scalar.ObjectiveFunction extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.PointValuePair extends org.apache.commons.math3.util.Pair
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.MaxEvalCallback extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.apache.commons.math3.optim.univariate.SearchInterval extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.optim.nonlinear.scalar.noderiv.LineSearch extends org.apache.commons.math3.optim.univariate.BrentOptimizer

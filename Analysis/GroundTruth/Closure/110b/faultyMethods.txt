@@ -1,0 +1,3 @@
+110
+public com.google.javascript.rhino.Node com.google.javascript.rhino.Node.getChildBefore(com.google.javascript.rhino.Node)
+private void com.google.javascript.jscomp.ScopedAliases$Traversal.findAliases(com.google.javascript.jscomp.NodeTraversal)

@@ -1,0 +1,5 @@
+public org.apache.commons.math.optimization.univariate.BrentOptimizer()
+protected double org.apache.commons.math.optimization.univariate.BrentOptimizer.doOptimize()
+public double org.apache.commons.math.optimization.univariate.BrentOptimizer.optimize(org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double,double)
+public double org.apache.commons.math.optimization.univariate.BrentOptimizer.optimize(org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double)
+private double org.apache.commons.math.optimization.univariate.BrentOptimizer.localMin(boolean,org.apache.commons.math.analysis.UnivariateRealFunction,org.apache.commons.math.optimization.GoalType,double,double,double,double,double)

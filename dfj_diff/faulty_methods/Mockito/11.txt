@@ -1,0 +1,2 @@
+public boolean org.mockito.internal.creation.DelegatingMethod.equals(java.lang.Object)
+public int org.mockito.internal.creation.DelegatingMethod.hashCode()

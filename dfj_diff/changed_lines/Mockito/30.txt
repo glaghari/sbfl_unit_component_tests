@@ -1,0 +1,2 @@
+src/org/mockito/exceptions/Reporter.java,438,442
+src/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,56

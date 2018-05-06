@@ -1,0 +1,2 @@
+protected org.apache.commons.math.dfp.Dfp(org.apache.commons.math.dfp.DfpField,double)
+public double org.apache.commons.math.dfp.Dfp.toDouble()

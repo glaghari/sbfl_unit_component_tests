@@ -1,0 +1,4 @@
+org.apache.commons.math.linear.BigMatrixImpl.<init>
+org.apache.commons.math.linear.BigMatrixImpl.getColumnDimension
+org.apache.commons.math.linear.BigMatrixImpl.operate
+org.apache.commons.math.linear.BigMatrixImpl.getRowDimension

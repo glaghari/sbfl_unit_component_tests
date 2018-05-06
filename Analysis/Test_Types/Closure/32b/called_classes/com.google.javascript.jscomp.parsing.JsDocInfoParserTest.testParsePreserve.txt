@@ -1,0 +1,54 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.50 tm:0.00][2.50] com.google.javascript.jscomp.parsing.JsDocInfoParser extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.75 e:0.00 m:0.00 tm:0.00][1.25] com.google.javascript.rhino.JSDocInfo extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NoResolvedType extends com.google.javascript.rhino.jstype.NoType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.VoidType extends com.google.javascript.rhino.jstype.ValueType
+[p:1.00 c:0.33 e:0.00 m:0.00 tm:0.00][1.33] com.google.javascript.jscomp.parsing.JsDocTokenStream extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.AllType extends com.google.javascript.rhino.jstype.JSType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.UnknownType extends com.google.javascript.rhino.jstype.ObjectType
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.parsing.Config extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NoType extends com.google.javascript.rhino.jstype.NoObjectType
+[p:0.38 c:0.00 e:0.00 m:0.00 tm:0.00][0.38] com.google.javascript.rhino.head.ast.AstNode extends com.google.javascript.rhino.head.Node
+[p:0.50 c:0.29 e:0.00 m:0.00 tm:0.00][0.79] com.google.javascript.rhino.FileLevelJsDocBuilder extends java.lang.Object
+[p:1.00 c:0.17 e:0.00 m:0.00 tm:0.00][1.17] com.google.javascript.jscomp.parsing.ErrorReporterParser extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.Node extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.StringNode extends com.google.javascript.rhino.Node
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.head.Node extends java.lang.Object
+[p:0.43 c:0.13 e:0.00 m:0.00 tm:0.00][0.55] com.google.javascript.rhino.testing.BaseJSTypeTestCase extends junit.framework.TestCase
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.ArrowType extends com.google.javascript.rhino.jstype.JSType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.BooleanType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.UnionTypeBuilder extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.FunctionBuilder extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.InstanceObjectType extends com.google.javascript.rhino.jstype.PrototypeObjectType
+[p:0.38 c:0.00 e:0.00 m:0.00 tm:0.00][0.38] com.google.javascript.rhino.head.ast.Comment extends com.google.javascript.rhino.head.ast.AstNode
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NumberType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.UnionType extends com.google.javascript.rhino.jstype.JSType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.ObjectType extends com.google.javascript.rhino.jstype.JSType
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.IntPropListItem extends com.google.javascript.rhino.Node$AbstractPropListItem
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.FunctionParamBuilder extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.Property extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.PrototypeObjectType extends com.google.javascript.rhino.jstype.ObjectType
+[p:0.50 c:0.60 e:0.00 m:0.25 tm:0.00][1.35] com.google.javascript.rhino.JSDocInfoBuilder extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.ErrorFunctionType extends com.google.javascript.rhino.jstype.FunctionType
+[p:1.00 c:0.20 e:0.00 m:0.00 tm:0.00][1.20] com.google.javascript.jscomp.parsing.ExtractionInfo extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] com.google.javascript.jscomp.testing.TestErrorReporter extends junit.framework.Assert
+[p:0.43 c:0.20 e:0.00 m:0.00 tm:0.00][0.63] com.google.javascript.rhino.jstype.JSType extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype. extends java.lang.Object
+[p:1.00 c:0.20 e:0.00 m:0.00 tm:0.00][1.20] com.google.javascript.jscomp.parsing.ParserRunner extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.InputId extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.StringType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.ObjectPropListItem extends com.google.javascript.rhino.Node$AbstractPropListItem
+[p:0.43 c:0.17 e:0.00 m:0.00 tm:0.00][0.60] com.google.javascript.rhino.jstype.JSTypeRegistry extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NoObjectType extends com.google.javascript.rhino.jstype.FunctionType
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.IR extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.FunctionType extends com.google.javascript.rhino.jstype.PrototypeObjectType
+[p:0.50 c:0.17 e:0.00 m:0.00 tm:0.00][0.67] com.google.javascript.rhino.LazilyInitializedInfo extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.NullType extends com.google.javascript.rhino.jstype.ValueType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.testing.TestErrorReporter extends junit.framework.Assert
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.ValueType extends com.google.javascript.rhino.jstype.JSType
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] com.google.javascript.rhino.jstype.SimpleSourceFile extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] com.google.javascript.rhino.AbstractPropListItem extends java.lang.Object

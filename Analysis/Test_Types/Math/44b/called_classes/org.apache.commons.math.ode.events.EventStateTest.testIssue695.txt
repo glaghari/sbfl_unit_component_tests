@@ -1,0 +1,21 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.ode.events.EventState extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math.analysis.solvers.AbstractUnivariateRealSolver extends org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.EquationsMapper extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.AbstractIntegrator extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.ode.events. extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator extends org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator extends org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.ExpandableStatefulODE extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode. extends java.lang.Object
+[p:1.00 c:0.33 e:0.00 m:0.00 tm:0.00][1.33] org.apache.commons.math.ode.events.ResettingEvent extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator extends org.apache.commons.math.ode.AbstractIntegrator
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.sampling.AbstractStepInterpolator extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator extends org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver extends org.apache.commons.math.analysis.solvers.AbstractUnivariateRealSolver
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator extends org.apache.commons.math.ode.sampling.AbstractStepInterpolator

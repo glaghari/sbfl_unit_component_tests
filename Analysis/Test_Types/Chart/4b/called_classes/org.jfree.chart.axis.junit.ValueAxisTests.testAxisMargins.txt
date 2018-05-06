@@ -1,0 +1,41 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:0.00 tm:0.00][1.80] org.jfree.chart.axis.ValueAxis extends org.jfree.chart.axis.Axis
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.axis.TickUnits extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.general.SeriesChangeEvent extends java.util.EventObject
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.plot.XYPlot extends org.jfree.chart.plot.Plot
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.ChartColor extends java.awt.Color
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.ChartChangeEvent extends java.util.EventObject
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.general.Series extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.plot.Plot extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.xy.XYDataItem extends java.lang.Object
+[p:0.80 c:0.33 e:0.00 m:0.00 tm:0.00][1.13] org.jfree.chart.axis.NumberAxis extends org.jfree.chart.axis.ValueAxis
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.xy.XYSeriesCollection extends org.jfree.data.xy.AbstractIntervalXYDataset
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.xy.AbstractIntervalXYDataset extends org.jfree.data.xy.AbstractXYDataset
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.renderer.category.GradientBarPainter extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.renderer.xy.XYItemRenderer extends 
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.plot.DatasetRenderingOrder extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.plot.PlotOrientation extends java.lang.Object
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.axis.TickUnit extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.renderer.xy.GradientXYBarPainter extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.xy.XYSeries extends org.jfree.data.general.Series
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.general.AbstractSeriesDataset extends org.jfree.data.general.AbstractDataset
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.ChartChangeEventType extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00 tm:0.00][0.33] org.jfree.data.Range extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.plot.PieLabelLinkStyle extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.general.AbstractDataset extends java.lang.Object
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.axis.NumberTickUnit extends org.jfree.chart.axis.TickUnit
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.plot.SeriesRenderingOrder extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.PlotChangeEvent extends org.jfree.chart.event.ChartChangeEvent
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.xy.AbstractXYDataset extends org.jfree.data.general.AbstractSeriesDataset
+[p:0.33 c:0.00 e:0.00 m:0.00 tm:0.00][0.33] org.jfree.data.RangeType extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.StandardChartTheme extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.general.DatasetGroup extends java.lang.Object
+[p:0.50 c:0.25 e:0.00 m:0.00 tm:0.00][0.75] org.jfree.chart.event.AxisChangeEvent extends org.jfree.chart.event.ChartChangeEvent
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.xy.IntervalXYDelegate extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.general.DatasetChangeEvent extends java.util.EventObject
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.plot.DefaultDrawingSupplier extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.ChartFactory extends java.lang.Object

@@ -1,0 +1,2 @@
+106
+public org.apache.commons.math.fraction.Fraction org.apache.commons.math.fraction.ProperFractionFormat.parse(java.lang.String;java.text.ParsePosition)

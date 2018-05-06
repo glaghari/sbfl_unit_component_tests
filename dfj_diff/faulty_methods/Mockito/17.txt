@@ -1,0 +1,3 @@
+public org.mockito.MockSettings org.mockito.internal.creation.MockSettingsImpl.serializable()
+public boolean org.mockito.internal.creation.MockSettingsImpl.isSerializable()
+public java.lang.Object org.mockito.internal.util.MockUtil.createMock(java.lang.Class,org.mockito.internal.creation.MockSettingsImpl)

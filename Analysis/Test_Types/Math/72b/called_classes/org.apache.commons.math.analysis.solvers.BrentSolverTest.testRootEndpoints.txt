@@ -1,0 +1,7 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.analysis.solvers.BrentSolver extends org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.analysis.SinFunction extends java.lang.Object

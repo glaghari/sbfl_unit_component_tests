@@ -1,0 +1,1 @@
+source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,65

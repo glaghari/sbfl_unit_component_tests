@@ -1,0 +1,2 @@
+public boolean com.google.javascript.jscomp.CheckGlobalThis.shouldTraverse(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)
+private boolean com.google.javascript.jscomp.CheckGlobalThis.shouldReportThis(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)

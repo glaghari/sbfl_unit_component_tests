@@ -1,0 +1,2 @@
+78
+public boolean org.apache.commons.math.ode.events.EventState.evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator) throws org.apache.commons.math.ode.DerivativeException;org.apache.commons.math.ode.events.EventException;org.apache.commons.math.ConvergenceException

@@ -1,0 +1,2 @@
+115
+private com.google.javascript.jscomp.FunctionInjector$CanInlineResult com.google.javascript.jscomp.FunctionInjector.canInlineReferenceDirectly(com.google.javascript.rhino.Node;com.google.javascript.rhino.Node)

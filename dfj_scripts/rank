@@ -1,0 +1,141 @@
+#! /bin/bash
+
+buildfile=~/datasets/auto_rankings/build.xml
+# In case recompile is needed enable this
+ant dist -buildfile $buildfile
+
+TRACES_DIR="Analysis/Traces"
+GROUND_TRUTH="Analysis/GroundTruth"
+RANKINGS_DIR="Analysis/Rankings"
+
+line="-----------------------------------------------------------------------------------"
+
+
+isskip() {
+ # Returns true if there are no passing test cases in test classes returned by tests.trigger
+ # OR there are no faulty methods (the fault lies outside any method)
+
+ project_id="$1"
+ ver_id="$2"
+
+ if [[ $project_id == "Time" &&  $ver_id -eq 11 ]]; then
+		return 0 # true
+ fi
+
+ if [[ $project_id == "Chart" &&  $ver_id -eq 23 ]]; then
+		return 0 # true
+ fi
+
+ if [[ $project_id == "Lang"  && ( $ver_id -eq 23 || $ver_id -eq 25 \
+ || $ver_id -eq 56 || $ver_id -eq 57 ) ]]; then
+		return 0 # true
+ fi
+
+ if [[ $project_id == "Math"  && ( $ver_id -eq 12 || $ver_id -eq 104 ) ]]; then
+		return 0 # true
+ fi
+
+ if [[ $project_id == "Closure"  && $ver_id -eq 28 ]]; then
+		return 0 # true
+ fi
+
+ if [[ $project_id == "Mockito" \
+ 		&& ( $ver_id -eq 6 || $ver_id -eq 13 || $ver_id -eq 14 || $ver_id -eq 15 \
+ 		|| $ver_id -eq 20 || $ver_id -eq 28 || $ver_id -eq 29 || $ver_id -eq 33 \
+ 		|| $ver_id -eq 34 || $ver_id -eq 35) ]]; then
+		return 0 # true
+ fi
+
+ return 1 # false
+}
+
+total_duration=0
+
+project_id=Time
+# project_id=Math
+# project_id=Lang
+# project_id=Chart
+# project_id=Closure
+# project_id=Mockito
+
+# type="raw"
+# type="pattern"
+type="both"
+
+# gen_pattern="/pattern_generation"
+
+timing_dir="_timing/ranking/$type$gen_pattern"
+mkdir -p $timing_dir
+command_output_file="$timing_dir/log_${project_id}.txt"
+time_file="$timing_dir/_time_${project_id}.csv"
+
+rm -f $command_output_file
+rm -f $time_file
+
+echo "Using $project_id"
+echo "Using $project_id" > $command_output_file
+
+# Total bugs in current project
+total_bugs=$(grep -c "$" "defects4j/framework/projects/$project_id/commit-db")
+start_bug_id=1
+# total_bugs=1
+
+for i in $(seq $start_bug_id $total_bugs)
+#for i in $(seq 1 1)
+do
+
+	if isskip ${project_id} $i; then
+		continue
+	fi
+
+	version_id="${i}b"
+	projectDir="$project_id/$version_id"
+
+	traces="$TRACES_DIR/$projectDir"
+	ground_truth="$GROUND_TRUTH/$projectDir"
+	rankingsDir="$RANKINGS_DIR/$projectDir"
+
+
+	if [[ -d $rankingsDir ]]; then
+		rm -rf $rankingsDir
+	fi
+
+	SECONDS=0
+	working="$projectDir [START $(date)]"
+	echo -n $working
+
+	echo $line  >> $command_output_file
+	echo $working >> $command_output_file
+	echo $line  >> $command_output_file
+	# Calculate rankings and redirect the output to rankings.txt
+	ant rank -DtracesDir=$traces -DgroundTruthDir=$ground_truth -DrankingsDir=$rankingsDir -buildfile $buildfile >> $command_output_file 2>&1
+	duration=$SECONDS
+	total_duration=$(($total_duration + $duration))
+	minutes=$(($duration / 60))
+	hours=$(($minutes / 60))
+	minutes=$(($minutes % 60))
+	seconds=$(($duration % 60))
+	time_elapsed="$hours:$minutes:$seconds {hh:mm:ss}"
+	end_msg=" [END $(date)] [DURATION $time_elapsed]"
+
+	echo "$project_id,$i,$hours,$minutes,$seconds" >> $time_file
+
+	echo $end_msg
+	echo $end_msg >> $command_output_file
+done
+
+minutes=$(($total_duration / 60))
+hours=$(($minutes / 60))
+minutes=$(($minutes % 60))
+seconds=$(($total_duration % 60))
+
+time_elapsed="$hours:$minutes:$seconds {hh:mm:ss}"
+end_msg="Total time taken =  $time_elapsed"
+
+echo "$project_id,Total,$hours,$minutes,$seconds" >> $time_file
+
+echo
+echo $end_msg
+echo >> $command_output_file
+echo $end_msg >> $command_output_file
+echo 'Finished normally...'

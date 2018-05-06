@@ -1,0 +1,2 @@
+61
+static boolean com.google.javascript.jscomp.NodeUtil.functionCallHasSideEffects(com.google.javascript.rhino.Node;com.google.javascript.jscomp.AbstractCompiler)

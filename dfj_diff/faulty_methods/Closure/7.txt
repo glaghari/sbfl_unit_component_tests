@@ -1,0 +1,1 @@
+public com.google.javascript.rhino.jstype.JSType com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor.caseObjectType(com.google.javascript.rhino.jstype.ObjectType)

@@ -1,0 +1,2 @@
+org.apache.commons.lang.StringEscapeUtils.escapeJavaScript
+org.apache.commons.lang.StringEscapeUtils.escapeJavaStyleString

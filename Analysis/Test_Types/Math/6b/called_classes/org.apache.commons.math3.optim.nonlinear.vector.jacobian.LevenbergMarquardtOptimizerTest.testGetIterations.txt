@@ -1,0 +1,24 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:1.00 tm:0.00][3.00] org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer extends org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.linear.AbstractRealMatrix extends org.apache.commons.math3.linear.RealLinearOperator
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.linear.RealVector extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.33 tm:0.00][0.83] org.apache.commons.math3.linear.RealMatrixFormat extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.33 tm:0.00][0.83] org.apache.commons.math3.linear.DiagonalMatrix extends org.apache.commons.math3.linear.AbstractRealMatrix
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.MaxIterCallback extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.PointVectorValuePair extends org.apache.commons.math3.util.Pair
+[p:0.89 c:0.00 e:0.00 m:0.33 tm:0.00][1.22] org.apache.commons.math3.optim.nonlinear.vector.Weight extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.25 tm:0.00][0.92] org.apache.commons.math3.optim.InitialGuess extends java.lang.Object
+[p:0.89 c:0.00 e:0.00 m:0.33 tm:0.00][1.22] org.apache.commons.math3.optim.nonlinear.vector.Target extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.optim.nonlinear.vector.jacobian. extends java.lang.Object
+[p:0.89 c:0.00 e:0.00 m:0.25 tm:0.00][1.14] org.apache.commons.math3.optim.nonlinear.vector.ModelFunction extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.25 tm:0.00][0.92] org.apache.commons.math3.optim.MaxEval extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.33 tm:0.00][0.83] org.apache.commons.math3.linear.RealVectorFormat extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.33 tm:0.00][0.83] org.apache.commons.math3.linear.Array2DRowRealMatrix extends org.apache.commons.math3.linear.AbstractRealMatrix
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.MaxEvalCallback extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.linear.RealLinearOperator extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.apache.commons.math3.linear.ArrayRealVector extends org.apache.commons.math3.linear.RealVector
+[p:0.89 c:0.00 e:0.00 m:0.20 tm:0.00][1.09] org.apache.commons.math3.optim.nonlinear.vector.ModelFunctionJacobian extends java.lang.Object

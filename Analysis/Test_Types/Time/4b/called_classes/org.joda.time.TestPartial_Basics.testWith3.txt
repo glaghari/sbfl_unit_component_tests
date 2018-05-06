@@ -1,0 +1,22 @@
+Classes Under Test:
+[p:1.00 c:0.33 e:0.00 m:0.50 tm:0.00][1.83] org.joda.time.Partial extends org.joda.time.base.AbstractPartial
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.field.DecoratedDateTimeField extends org.joda.time.field.BaseDateTimeField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.StandardDateTimeFieldType extends org.joda.time.DateTimeFieldType
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.chrono.AssembledChronology extends org.joda.time.chrono.BaseChronology
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.field.PreciseDurationField extends org.joda.time.field.BaseDurationField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.DateTimeZone extends java.lang.Object
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.field.BaseDurationField extends org.joda.time.DurationField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.DateTimeFieldType extends java.lang.Object
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.field.ZeroIsMaxDateTimeField extends org.joda.time.field.DecoratedDateTimeField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.StandardDurationFieldType extends org.joda.time.DurationFieldType
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.field.PreciseDurationDateTimeField extends org.joda.time.field.BaseDateTimeField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.field.BaseDateTimeField extends org.joda.time.DateTimeField
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.field.PreciseDateTimeField extends org.joda.time.field.PreciseDurationDateTimeField
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.joda.time.FixedMillisProvider extends java.lang.Object
+[p:0.75 c:0.00 e:0.00 m:0.33 tm:0.00][1.08] org.joda.time.chrono.ISOChronology extends org.joda.time.chrono.AssembledChronology
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.tz.ZoneInfoProvider extends java.lang.Object
+[p:0.75 c:0.00 e:0.00 m:0.00 tm:0.00][0.75] org.joda.time.chrono.BaseChronology extends org.joda.time.Chronology

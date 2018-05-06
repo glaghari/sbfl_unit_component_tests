@@ -1,0 +1,2 @@
+9
+public org.apache.commons.math3.geometry.euclidean.threed.Line org.apache.commons.math3.geometry.euclidean.threed.Line.revert()

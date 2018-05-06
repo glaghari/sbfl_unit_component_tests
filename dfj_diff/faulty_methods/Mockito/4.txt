@@ -1,0 +1,3 @@
+public void org.mockito.exceptions.Reporter.noMoreInteractionsWanted(org.mockito.invocation.Invocation,java.util.List)
+public void org.mockito.exceptions.Reporter.noMoreInteractionsWantedInOrder(org.mockito.invocation.Invocation)
+private java.lang.String org.mockito.exceptions.Reporter.exceptionCauseMessageIfAvailable(java.lang.Exception)

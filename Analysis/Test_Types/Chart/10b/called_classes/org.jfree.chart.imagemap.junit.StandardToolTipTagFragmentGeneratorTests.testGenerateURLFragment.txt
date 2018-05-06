@@ -1,0 +1,7 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:0.40 tm:0.00][2.20] org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+

@@ -1,0 +1,2 @@
+41
+public double org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(double[];double[];double;int;int)

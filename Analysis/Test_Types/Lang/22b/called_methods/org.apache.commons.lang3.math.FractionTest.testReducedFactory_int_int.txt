@@ -1,0 +1,5 @@
+org.apache.commons.lang3.math.Fraction.<init>
+org.apache.commons.lang3.math.Fraction.getDenominator
+org.apache.commons.lang3.math.Fraction.getNumerator
+org.apache.commons.lang3.math.Fraction.getReducedFraction
+org.apache.commons.lang3.math.Fraction.greatestCommonDivisor

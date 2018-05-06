@@ -1,0 +1,14 @@
+com.google.javascript.rhino.IR.tryCatchFinally
+com.google.javascript.rhino.IR.catchNode
+com.google.javascript.rhino.IR.tryCatch
+com.google.javascript.rhino.IR.name
+com.google.javascript.rhino.IR.block
+com.google.javascript.rhino.IR.mayBeStatementcom.google.javascript.rhino.StringNode.<init>
+com.google.javascript.rhino.StringNode.getType
+com.google.javascript.rhino.StringNode.isName
+com.google.javascript.rhino.Node.<init>
+com.google.javascript.rhino.Node.isCatch
+com.google.javascript.rhino.Node.isBlock
+com.google.javascript.rhino.Node.getType
+com.google.javascript.rhino.Node.newString
+com.google.javascript.rhino.Node.isName

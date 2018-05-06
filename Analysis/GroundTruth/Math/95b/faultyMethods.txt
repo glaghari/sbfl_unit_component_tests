@@ -1,0 +1,2 @@
+95
+protected double org.apache.commons.math.distribution.FDistributionImpl.getInitialDomain(double)

@@ -1,0 +1,15 @@
+org.jfree.data.category.DefaultCategoryDataset.addValue
+org.jfree.data.category.DefaultCategoryDataset.<init>
+org.jfree.data.category.DefaultCategoryDataset.notifyListeners
+org.jfree.data.category.DefaultCategoryDataset.removeColumn
+org.jfree.data.category.DefaultCategoryDataset.fireDatasetChangedorg.jfree.data.DefaultKeyedValues2D.addValue
+org.jfree.data.DefaultKeyedValues2D.<init>
+org.jfree.data.DefaultKeyedValues2D.getRowIndex
+org.jfree.data.DefaultKeyedValues2D.setValue
+org.jfree.data.DefaultKeyedValues2D.removeColumn
+org.jfree.data.DefaultKeyedValues.<init>
+org.jfree.data.DefaultKeyedValues.removeValue
+org.jfree.data.DefaultKeyedValues.getIndex
+org.jfree.data.DefaultKeyedValues.setValue
+org.jfree.data.general.DatasetGroup.<init>
+org.jfree.data.general.DatasetChangeEvent.<init>

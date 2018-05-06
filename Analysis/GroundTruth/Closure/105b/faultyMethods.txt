@@ -1,0 +1,2 @@
+105
+void com.google.javascript.jscomp.FoldConstants.tryFoldStringJoin(com.google.javascript.jscomp.NodeTraversal;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node)

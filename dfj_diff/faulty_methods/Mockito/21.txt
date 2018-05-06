@@ -1,0 +1,2 @@
+public java.lang.Object org.mockito.internal.creation.instance.ConstructorInstantiator.newInstance(java.lang.Class)
+private java.lang.Object org.mockito.internal.creation.instance.ConstructorInstantiator.withOuterClass(java.lang.Class)

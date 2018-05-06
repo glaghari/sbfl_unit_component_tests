@@ -1,0 +1,6 @@
+org.apache.commons.math.geometry.Vector3D.<init>
+org.apache.commons.math.geometry.Vector3D.crossProduct
+org.apache.commons.math.geometry.Vector3D.getY
+org.apache.commons.math.geometry.Vector3D.getX
+org.apache.commons.math.geometry.Vector3D.getZorg.apache.commons.math.geometry.Vector3DFormat.<init>
+org.apache.commons.math.geometry.Vector3DFormat.getInstance

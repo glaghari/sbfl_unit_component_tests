@@ -1,0 +1,2 @@
+18
+com.google.javascript.rhino.Node com.google.javascript.jscomp.Compiler.parseInputs()

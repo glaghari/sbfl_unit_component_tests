@@ -1,0 +1,1 @@
+protected org.apache.commons.math.optimization.VectorialPointValuePair org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize()

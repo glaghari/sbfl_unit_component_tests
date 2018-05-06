@@ -1,0 +1,2 @@
+82
+public final boolean com.google.javascript.rhino.jstype.JSType.isEmptyType()

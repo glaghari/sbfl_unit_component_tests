@@ -1,0 +1,2 @@
+static com.google.javascript.rhino.jstype.TernaryValue com.google.javascript.jscomp.NodeUtil.getImpureBooleanValue(com.google.javascript.rhino.Node)
+static com.google.javascript.rhino.jstype.TernaryValue com.google.javascript.jscomp.NodeUtil.getPureBooleanValue(com.google.javascript.rhino.Node)

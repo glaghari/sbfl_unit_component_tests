@@ -1,0 +1,9 @@
+org.jfree.data.xy.XYSeries.<init>
+org.jfree.data.xy.XYSeries.notifyListeners
+org.jfree.data.xy.XYSeries.fireSeriesChanged
+org.jfree.data.xy.XYSeries.getItemCount
+org.jfree.data.xy.XYSeries.addOrUpdate
+org.jfree.data.xy.XYSeries.indexOforg.jfree.data.general.SeriesChangeEvent.<init>
+org.jfree.data.xy.XYDataItem.<init>
+org.jfree.data.xy.XYDataItem.getX
+org.jfree.data.xy.XYDataItem.compareTo

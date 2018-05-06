@@ -1,0 +1,1 @@
+public boolean org.mockito.internal.invocation.InvocationMatcher.hasSameMethod(org.mockito.internal.invocation.Invocation)

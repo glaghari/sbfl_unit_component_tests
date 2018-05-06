@@ -1,0 +1,4 @@
+108
+public void com.google.javascript.jscomp.ScopedAliases$Traversal.exitScope(com.google.javascript.jscomp.NodeTraversal)
+private void com.google.javascript.jscomp.ScopedAliases$Traversal.findAliases(com.google.javascript.jscomp.NodeTraversal)
+public void com.google.javascript.jscomp.ScopedAliases$Traversal.visit(com.google.javascript.jscomp.NodeTraversal;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node)

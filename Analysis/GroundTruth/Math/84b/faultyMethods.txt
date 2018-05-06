@@ -1,0 +1,2 @@
+84
+protected void org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(java.util.Comparator) throws org.apache.commons.math.FunctionEvaluationException;org.apache.commons.math.optimization.OptimizationException;java.lang.IllegalArgumentException

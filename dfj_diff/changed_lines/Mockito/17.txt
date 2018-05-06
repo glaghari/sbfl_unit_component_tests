@@ -1,0 +1,2 @@
+src/org/mockito/internal/creation/MockSettingsImpl.java,20,22,74
+src/org/mockito/internal/util/MockUtil.java,19,45,46

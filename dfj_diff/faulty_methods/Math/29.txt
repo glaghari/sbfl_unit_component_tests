@@ -1,0 +1,2 @@
+public org.apache.commons.math3.linear.OpenMapRealVector org.apache.commons.math3.linear.OpenMapRealVector.ebeDivide(org.apache.commons.math3.linear.RealVector)
+public org.apache.commons.math3.linear.OpenMapRealVector org.apache.commons.math3.linear.OpenMapRealVector.ebeMultiply(org.apache.commons.math3.linear.RealVector)

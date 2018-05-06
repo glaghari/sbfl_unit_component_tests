@@ -1,0 +1,3 @@
+21
+public void org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset.add(org.jfree.data.statistics.BoxAndWhiskerItem;java.lang.Comparable;java.lang.Comparable)
+private void org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset.updateBounds()

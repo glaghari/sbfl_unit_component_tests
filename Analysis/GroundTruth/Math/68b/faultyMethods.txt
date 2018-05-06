@@ -1,0 +1,3 @@
+68
+public org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer()
+protected org.apache.commons.math.optimization.VectorialPointValuePair org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize() throws org.apache.commons.math.FunctionEvaluationException;org.apache.commons.math.optimization.OptimizationException;java.lang.IllegalArgumentException

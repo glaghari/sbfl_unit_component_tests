@@ -1,0 +1,14 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.50 tm:0.00][2.50] org.apache.commons.math3.geometry.euclidean.twod.SubLine extends org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.geometry.partitioning.BSPTree extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.geometry.partitioning.AbstractRegion extends java.lang.Object
+[p:0.78 c:0.00 e:0.00 m:0.00 tm:0.00][0.78] org.apache.commons.math3.geometry.euclidean.oned.Vector1D extends java.lang.Object
+[p:1.00 c:0.50 e:0.00 m:0.50 tm:0.00][2.00] org.apache.commons.math3.geometry.euclidean.twod.Line extends java.lang.Object
+[p:0.78 c:0.00 e:0.00 m:0.00 tm:0.00][0.78] org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet extends org.apache.commons.math3.geometry.partitioning.AbstractRegion
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.geometry.euclidean.twod.Vector2D extends java.lang.Object
+[p:0.78 c:0.25 e:0.00 m:0.00 tm:0.00][1.03] org.apache.commons.math3.geometry.euclidean.oned.SubOrientedPoint extends org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane
+[p:0.78 c:0.00 e:0.00 m:0.00 tm:0.00][0.78] org.apache.commons.math3.geometry.euclidean.oned.OrientedPoint extends java.lang.Object

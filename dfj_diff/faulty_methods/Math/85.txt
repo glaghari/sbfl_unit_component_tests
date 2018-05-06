@@ -1,0 +1,1 @@
+public static double[] org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction,double,double,double,int)

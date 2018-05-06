@@ -1,0 +1,1 @@
+private void com.google.javascript.jscomp.TypeCheck.visitGetProp(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)

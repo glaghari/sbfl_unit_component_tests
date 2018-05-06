@@ -1,0 +1,12 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.29 tm:0.00][2.29] org.apache.commons.lang.time.FastDateFormat extends java.text.Format
+
+Mock Classes:
+
+Other Called Classes:
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang.time.Pair extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang.time.PaddedNumberField extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang.time.CharacterLiteral extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang.time.UnpaddedNumberField extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang.time.TextField extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang.time.StringLiteral extends java.lang.Object

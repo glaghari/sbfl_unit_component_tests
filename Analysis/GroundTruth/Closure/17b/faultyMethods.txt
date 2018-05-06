@@ -1,0 +1,2 @@
+17
+private com.google.javascript.rhino.jstype.JSType com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder.getDeclaredType(java.lang.String;com.google.javascript.rhino.JSDocInfo;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node)

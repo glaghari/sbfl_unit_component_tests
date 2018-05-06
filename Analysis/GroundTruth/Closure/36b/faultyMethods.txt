@@ -1,0 +1,2 @@
+36
+private boolean com.google.javascript.jscomp.InlineVariables$InliningBehavior.canInline(com.google.javascript.jscomp.ReferenceCollectingCallback$Reference;com.google.javascript.jscomp.ReferenceCollectingCallback$Reference;com.google.javascript.jscomp.ReferenceCollectingCallback$Reference)

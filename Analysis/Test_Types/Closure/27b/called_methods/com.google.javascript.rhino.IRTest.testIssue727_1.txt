@@ -1,0 +1,4 @@
+com.google.javascript.rhino.IR.block
+com.google.javascript.rhino.IR.tryFinallycom.google.javascript.rhino.Node.<init>
+com.google.javascript.rhino.Node.isLabelName
+com.google.javascript.rhino.Node.getType

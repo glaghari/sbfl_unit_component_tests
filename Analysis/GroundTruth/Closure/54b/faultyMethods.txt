@@ -1,0 +1,4 @@
+54
+public void com.google.javascript.rhino.jstype.FunctionType.setPrototypeBasedOn(com.google.javascript.rhino.jstype.ObjectType)
+public boolean com.google.javascript.rhino.jstype.FunctionType.setPrototype(com.google.javascript.rhino.jstype.PrototypeObjectType)
+void com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder.maybeDeclareQualifiedName(com.google.javascript.jscomp.NodeTraversal;com.google.javascript.rhino.JSDocInfo;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node)

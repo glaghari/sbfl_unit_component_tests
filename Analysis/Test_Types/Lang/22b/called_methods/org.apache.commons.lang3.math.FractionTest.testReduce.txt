@@ -1,0 +1,7 @@
+org.apache.commons.lang3.math.Fraction.<init>
+org.apache.commons.lang3.math.Fraction.equals
+org.apache.commons.lang3.math.Fraction.getDenominator
+org.apache.commons.lang3.math.Fraction.getNumerator
+org.apache.commons.lang3.math.Fraction.reduce
+org.apache.commons.lang3.math.Fraction.greatestCommonDivisor
+org.apache.commons.lang3.math.Fraction.getFraction

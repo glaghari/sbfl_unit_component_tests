@@ -1,0 +1,17 @@
+org.apache.commons.math3.distribution.BinomialDistribution.<init>
+org.apache.commons.math3.distribution.BinomialDistribution.inverseCumulativeProbability
+org.apache.commons.math3.distribution.BinomialDistribution.getNumericalMean
+org.apache.commons.math3.distribution.BinomialDistribution.solveInverseCumulativeProbability
+org.apache.commons.math3.distribution.BinomialDistribution.checkedCumulativeProbability
+org.apache.commons.math3.distribution.BinomialDistribution.cumulativeProbability
+org.apache.commons.math3.distribution.BinomialDistribution.getNumericalVariance
+org.apache.commons.math3.distribution.BinomialDistribution.getSupportLowerBound
+org.apache.commons.math3.distribution.BinomialDistribution.getSupportUpperBoundorg.apache.commons.math3.special.Beta.logBeta
+org.apache.commons.math3.special.Beta.regularizedBeta
+org.apache.commons.math3.special..<init>
+org.apache.commons.math3.special..getB
+org.apache.commons.math3.special..evaluate
+org.apache.commons.math3.special..getA
+org.apache.commons.math3.random.RandomDataImpl.<init>
+org.apache.commons.math3.special.Gamma.lanczos
+org.apache.commons.math3.special.Gamma.logGamma

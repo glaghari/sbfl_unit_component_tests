@@ -1,0 +1,1 @@
+public static boolean org.apache.commons.lang.StringUtils.containsIgnoreCase(java.lang.String,java.lang.String)

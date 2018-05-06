@@ -1,0 +1,2 @@
+70
+private void com.google.javascript.jscomp.TypedScopeCreator$LocalScopeBuilder.declareArguments(com.google.javascript.rhino.Node)

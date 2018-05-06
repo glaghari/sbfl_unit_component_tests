@@ -1,0 +1,1 @@
+private boolean com.google.javascript.jscomp.ExploitAssigns.isSafeReplacement(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)

@@ -1,0 +1,2 @@
+56
+public int[] org.apache.commons.math.util.MultidimensionalCounter.getCounts(int)

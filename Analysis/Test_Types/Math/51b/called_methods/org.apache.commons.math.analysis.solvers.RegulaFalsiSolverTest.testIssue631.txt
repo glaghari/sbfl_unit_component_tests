@@ -1,0 +1,13 @@
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.<init>
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.solve
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.getAbsoluteAccuracy
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.getMin
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.getRelativeAccuracy
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.getFunctionValueAccuracy
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.doSolve
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.getMax
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.setup
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.incrementEvaluationCount
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.verifyBracketing
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolver.computeObjectiveValueorg.apache.commons.math.analysis.solvers..<init>
+org.apache.commons.math.analysis.solvers..value

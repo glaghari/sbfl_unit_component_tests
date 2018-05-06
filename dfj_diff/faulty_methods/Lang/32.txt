@@ -1,0 +1,3 @@
+static boolean org.apache.commons.lang3.builder.HashCodeBuilder.isRegistered(java.lang.Object)
+static void org.apache.commons.lang3.builder.HashCodeBuilder.register(java.lang.Object)
+static void org.apache.commons.lang3.builder.HashCodeBuilder.unregister(java.lang.Object)

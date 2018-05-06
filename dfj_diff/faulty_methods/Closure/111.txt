@@ -1,0 +1,1 @@
+protected com.google.javascript.rhino.jstype.JSType com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter$1.caseTopType(com.google.javascript.rhino.jstype.JSType)

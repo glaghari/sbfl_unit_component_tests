@@ -1,0 +1,2 @@
+121
+private void com.google.javascript.jscomp.InlineVariables$InliningBehavior.inlineNonConstants(com.google.javascript.jscomp.Scope$Var;com.google.javascript.jscomp.ReferenceCollectingCallback$ReferenceCollection;boolean)

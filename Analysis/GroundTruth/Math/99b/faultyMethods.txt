@@ -1,0 +1,3 @@
+99
+public static int org.apache.commons.math.util.MathUtils.gcd(int;int)
+public static int org.apache.commons.math.util.MathUtils.lcm(int;int)

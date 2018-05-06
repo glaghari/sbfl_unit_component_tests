@@ -1,0 +1,14 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer extends org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.AbstractRealMatrix extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.general. extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.Array2DRowRealMatrix extends org.apache.commons.math.linear.AbstractRealMatrix
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.VectorialPointValuePair extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.SimpleVectorialValueChecker extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.LUDecompositionImpl extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.general.Circle extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.Solver extends java.lang.Object

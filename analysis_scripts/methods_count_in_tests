@@ -1,0 +1,44 @@
+#!/bin/bash
+
+TEST_TYPES="./Analysis/Test_Types"
+
+file=_tests_info.csv
+p=Chart
+project_Chart=$TEST_TYPES/$p/_$p$file
+
+p=Time
+project_Time=$TEST_TYPES/$p/_$p$file
+
+p=Math
+project_Math=$TEST_TYPES/$p/_$p$file
+
+p=Lang
+project_Lang=$TEST_TYPES/$p/_$p$file
+
+p=Closure
+project_Closure=$TEST_TYPES/$p/_$p$file
+
+outfile=$TEST_TYPES/methods_count_in_tests.csv
+
+echo 'Project,Bug_id,Test,Test_Type,Units_Under_Test,Called_Methods' > $outfile
+
+cat $project_Chart   | sed -e 's/^/Chart,/'   >> $outfile
+cat $project_Time    | sed -e 's/^/Time,/'    >> $outfile
+cat $project_Math    | sed -e 's/^/Math,/'    >> $outfile
+cat $project_Lang    | sed -e 's/^/Lang,/'    >> $outfile
+cat $project_Closure | sed -e 's/^/Closure,/' >> $outfile
+
+total_tests=$(grep -c $ $outfile)
+# Remove header line count
+total_tests=$((total_tests-1))
+
+echo -n 'Total tests: '
+echo $total_tests
+
+echo -n 'Number of Unit tests: '
+grep -c ',UT,' $outfile
+
+echo -n 'Number of Component tests: '
+grep -c ',CT,' $outfile
+
+echo 'done!'

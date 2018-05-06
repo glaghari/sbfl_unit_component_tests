@@ -1,0 +1,1 @@
+protected org.jfree.chart.axis.AxisState org.jfree.chart.axis.Axis.drawLabel(java.lang.String,java.awt.Graphics2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,org.jfree.chart.util.RectangleEdge,org.jfree.chart.axis.AxisState,org.jfree.chart.plot.PlotRenderingInfo)

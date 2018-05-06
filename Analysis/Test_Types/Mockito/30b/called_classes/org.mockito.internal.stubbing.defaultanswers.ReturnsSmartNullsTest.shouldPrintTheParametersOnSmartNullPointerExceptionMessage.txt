@@ -1,0 +1,78 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00][2.00] org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls extends java.lang.Object
+
+Mock Classes:
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest$Foo$$EnhancerByMockitoWithCGLIB$$3d9dcf38 extends java.lang.Object
+org.mockito.configuration.MockitoConfiguration extends org.mockito.configuration.DefaultMockitoConfiguration
+org.mockito.internal.creation.cglib.MockitoNamingPolicy extends org.mockito.cglib.core.DefaultNamingPolicy
+org.mockito.configuration.DefaultMockitoConfiguration extends java.lang.Object
+org.mockito.MockitoAnnotations extends java.lang.Object
+Other Called Classes:
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.Edge extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.Item extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00][0.43] org.mockito.internal.exceptions.base.StackTraceFilter extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.KeyFactory extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.ClassInfo extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.ArrayDelimiters extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.40][0.73] org.mockito.exceptions.Reporter extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.InvocationHandlerGenerator extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.GlobalConfiguration extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.MethodAdapter extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.NoOpGenerator extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.FieldWriter extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.configuration. extends org.mockito.internal.configuration.InjectingAnnotationEngine
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.Label extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.AbstractClassGenerator extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00][0.43] org.mockito.internal.exceptions.base.ConditionalStackTraceFilter extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.MethodWriter extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.RejectModifierPredicate extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.MethodInterceptorGenerator extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.ClassNameReader extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.Generator extends org.mockito.cglib.core.AbstractClassGenerator
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.SpyAnnotationEngine extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.MethodInfoTransformer extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.DuplicatesPredicate extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.FieldInfo extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.CallbackInfo extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.InjectingAnnotationEngine extends java.lang.Object
+[p:1.00 c:0.17 e:0.00 m:0.00][1.17] org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.MethodWrapper$MethodWrapperKey$$KeyFactoryByCGLIB$$2139e083 extends org.mockito.cglib.core.KeyFactory
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.Enhancer$EnhancerKey$$KeyFactoryByCGLIB$$1e94e966 extends org.mockito.cglib.core.KeyFactory
+[p:0.43 c:0.00 e:0.00 m:0.00][0.43] org.mockito.internal.creation.jmock.SerializableNoOp extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.MethodProxy extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00][1.00] org.mockito.internal.stubbing.defaultanswers.ThrowingInterceptor extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.ClassAdapter extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.DefaultGeneratorStrategy extends java.lang.Object
+[p:1.00 c:0.20 e:0.00 m:0.00][1.20] org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.VisibilityPredicate extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.08][0.37] org.mockito.cglib.core. extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.08][0.37] org.mockito.cglib.core.CodeEmitter extends org.mockito.cglib.core.LocalVariablesSorter
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.ByteVector extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.ClassReader extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00][0.43] org.mockito.internal.creation.jmock.ClassImposterizer extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.ClassPathLoader extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.LocalVariablesSorter extends org.mockito.asm.MethodAdapter
+[p:0.43 c:0.00 e:0.00 m:0.00][0.43] org.mockito.internal.creation.jmock.SearchingClassLoader extends java.lang.ClassLoader
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.ClassEmitter extends org.mockito.asm.ClassAdapter
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.invocation.Invocation extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.Type extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.MethodWrapper extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.DispatcherGenerator extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00][0.43] org.mockito.internal.creation.jmock. extends org.mockito.internal.creation.cglib.MockitoNamingPolicy
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.creation.DelegatingMethod extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.FixedValueGenerator extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.Source extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy. extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.Enhancer extends org.mockito.cglib.core.AbstractClassGenerator
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.asm.ClassWriter extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.DefaultNamingPolicy extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.invocation.SerializableMethod extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.Signature extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.Local extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.debugging.Location extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.MethodInfo extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.LazyLoaderGenerator extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.proxy.CreateInfo extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.DefaultAnnotationEngine extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.DebuggingClassWriter extends org.mockito.asm.ClassWriter
+[p:0.29 c:0.00 e:0.00 m:0.00][0.29] org.mockito.cglib.core.State extends java.lang.Object

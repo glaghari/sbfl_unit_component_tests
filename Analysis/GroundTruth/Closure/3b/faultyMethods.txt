@@ -1,0 +1,3 @@
+3
+public void com.google.javascript.jscomp.FlowSensitiveInlineVariables.enterScope(com.google.javascript.jscomp.NodeTraversal)
+private boolean com.google.javascript.jscomp.FlowSensitiveInlineVariables$Candidate.canInline()

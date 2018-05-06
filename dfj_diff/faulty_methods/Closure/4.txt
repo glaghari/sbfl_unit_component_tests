@@ -1,0 +1,1 @@
+com.google.javascript.rhino.jstype.JSType com.google.javascript.rhino.jstype.NamedType.resolveInternal(com.google.javascript.rhino.ErrorReporter,com.google.javascript.rhino.jstype.StaticScope)

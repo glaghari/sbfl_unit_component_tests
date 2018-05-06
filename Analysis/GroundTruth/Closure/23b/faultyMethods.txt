@@ -1,0 +1,2 @@
+23
+private com.google.javascript.rhino.Node com.google.javascript.jscomp.PeepholeFoldConstants.tryFoldArrayAccess(com.google.javascript.rhino.Node;com.google.javascript.rhino.Node;com.google.javascript.rhino.Node)

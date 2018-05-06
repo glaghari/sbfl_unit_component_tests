@@ -1,0 +1,9 @@
+org.apache.commons.math.geometry.euclidean.threed.Rotation.<init>
+org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ0org.apache.commons.math.geometry.euclidean.threed.Vector3D.dotProduct
+org.apache.commons.math.geometry.euclidean.threed.Vector3D.<init>
+org.apache.commons.math.geometry.euclidean.threed.Vector3D.crossProduct
+org.apache.commons.math.geometry.euclidean.threed.Vector3D.subtract
+org.apache.commons.math.geometry.euclidean.threed.Vector3D.getY
+org.apache.commons.math.geometry.euclidean.threed.Vector3D.getX
+org.apache.commons.math.geometry.euclidean.threed.Vector3D.getNormSq
+org.apache.commons.math.geometry.euclidean.threed.Vector3D.getZ

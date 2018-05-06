@@ -1,0 +1,16 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.optimization.linear.SimplexSolver extends org.apache.commons.math.optimization.linear.AbstractLinearOptimizer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.linear.RealVectorFormat extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.linear.Array2DRowRealMatrix extends org.apache.commons.math.linear.AbstractRealMatrix
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.linear.LinearObjectiveFunction extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.linear.LinearConstraint extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.linear.AbstractRealMatrix extends org.apache.commons.math.linear.RealLinearOperator
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.RealPointValuePair extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.linear.RealVector extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.linear.ArrayRealVector extends org.apache.commons.math.linear.RealVector
+[p:1.00 c:0.33 e:0.00 m:0.14 tm:0.00][1.48] org.apache.commons.math.optimization.linear.SimplexTableau extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.linear.RealLinearOperator extends java.lang.Object

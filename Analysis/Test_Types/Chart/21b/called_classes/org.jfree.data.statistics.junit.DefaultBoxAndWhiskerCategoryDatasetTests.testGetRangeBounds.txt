@@ -1,0 +1,13 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:1.00 tm:0.00][2.80] org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset extends org.jfree.data.general.AbstractDataset
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.60 c:0.00 e:0.00 m:0.20 tm:0.00][0.80] org.jfree.data.KeyedObjects2D extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.25 tm:0.00][0.85] org.jfree.data.KeyedObjects extends java.lang.Object
+[p:0.80 c:0.43 e:0.00 m:0.20 tm:0.00][1.43] org.jfree.data.statistics.BoxAndWhiskerItem extends java.lang.Object
+[p:0.50 c:0.14 e:0.00 m:0.00 tm:0.00][0.64] org.jfree.data.general.DatasetGroup extends java.lang.Object
+[p:0.50 c:0.13 e:0.00 m:0.00 tm:0.00][0.63] org.jfree.data.general.DatasetChangeEvent extends java.util.EventObject
+[p:0.60 c:0.00 e:0.00 m:0.25 tm:0.00][0.85] org.jfree.data.KeyedObject extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.data.Range extends java.lang.Object

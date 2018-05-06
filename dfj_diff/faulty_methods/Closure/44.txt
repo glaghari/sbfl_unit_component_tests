@@ -1,0 +1,1 @@
+void com.google.javascript.jscomp.CodeConsumer.add(java.lang.String)

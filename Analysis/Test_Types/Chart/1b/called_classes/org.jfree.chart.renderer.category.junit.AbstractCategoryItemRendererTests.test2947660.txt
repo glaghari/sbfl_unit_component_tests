@@ -1,0 +1,34 @@
+Classes Under Test:
+[p:0.83 c:1.00 e:1.00 m:0.00 tm:0.00][1.83] org.jfree.chart.renderer.category.AbstractCategoryItemRenderer extends org.jfree.chart.renderer.AbstractRenderer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.KeyedObjects2D extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.text.TextAnchor extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.SelectableValue extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.ChartColor extends java.awt.Color
+[p:0.43 c:0.20 e:0.00 m:0.00 tm:0.00][0.63] org.jfree.chart.plot.CategoryPlot extends org.jfree.chart.plot.Plot
+[p:0.43 c:0.13 e:0.00 m:0.00 tm:0.00][0.55] org.jfree.chart.labels.StandardCategorySeriesLabelGenerator extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.event.ChartChangeEvent extends java.util.EventObject
+[p:0.43 c:0.17 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.data.category.DefaultCategoryDataset extends org.jfree.data.category.AbstractCategoryDataset
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.KeyedObject extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.plot.Plot extends java.lang.Object
+[p:0.43 c:0.17 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.labels.ItemLabelPosition extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.axis.AxisLocation extends java.lang.Object
+[p:0.29 c:0.00 e:0.00 m:0.00 tm:0.00][0.29] org.jfree.data.KeyedObjects extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.plot.DatasetRenderingOrder extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.plot.PlotOrientation extends java.lang.Object
+[p:0.83 c:0.14 e:0.00 m:0.00 tm:0.00][0.98] org.jfree.chart.renderer.category.LineAndShapeRenderer extends org.jfree.chart.renderer.category.AbstractCategoryItemRenderer
+[p:0.50 c:0.17 e:0.00 m:0.00 tm:0.00][0.67] org.jfree.chart.LegendItemCollection extends java.lang.Object
+[p:0.25 c:0.00 e:0.00 m:0.00 tm:0.00][0.25] org.jfree.data.event.DatasetChangeEvent extends java.util.EventObject
+[p:0.43 c:0.20 e:0.00 m:0.00 tm:0.00][0.63] org.jfree.chart.axis.CategoryAnchor extends java.lang.Object
+[p:0.43 c:0.40 e:0.00 m:0.00 tm:0.00][0.83] org.jfree.data.category.AbstractCategoryDataset extends org.jfree.data.general.AbstractDataset
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.event.ChartChangeEventType extends java.lang.Object
+[p:0.25 c:0.20 e:0.00 m:0.00 tm:0.00][0.45] org.jfree.data.general.AbstractDataset extends java.lang.Object
+[p:0.43 c:0.17 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.labels.ItemLabelAnchor extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.event.PlotChangeEvent extends org.jfree.chart.event.ChartChangeEvent
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.jfree.chart.renderer.RenderAttributes extends java.lang.Object
+[p:0.25 c:0.00 e:0.00 m:0.00 tm:0.00][0.25] org.jfree.data.general.DatasetGroup extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.plot.DefaultDrawingSupplier extends java.lang.Object
+[p:0.43 c:0.00 e:0.00 m:0.00 tm:0.00][0.43] org.jfree.chart.event.DatasetChangeInfo extends java.lang.Object

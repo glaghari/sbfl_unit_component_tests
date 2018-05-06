@@ -1,0 +1,2 @@
+9
+public org.jfree.data.time.TimeSeries org.jfree.data.time.TimeSeries.createCopy(org.jfree.data.time.RegularTimePeriod;org.jfree.data.time.RegularTimePeriod) throws java.lang.CloneNotSupportedException

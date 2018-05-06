@@ -1,0 +1,2 @@
+3
+public org.jfree.data.time.TimeSeries org.jfree.data.time.TimeSeries.createCopy(int;int) throws java.lang.CloneNotSupportedException

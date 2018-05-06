@@ -1,0 +1,1 @@
+src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,83,89,90,94,96,100,102

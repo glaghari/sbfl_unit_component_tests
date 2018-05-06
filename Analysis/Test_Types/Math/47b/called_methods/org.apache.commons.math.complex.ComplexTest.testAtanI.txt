@@ -1,0 +1,13 @@
+org.apache.commons.math.complex.Complex.<init>
+org.apache.commons.math.complex.Complex.atan
+org.apache.commons.math.complex.Complex.divide
+org.apache.commons.math.complex.Complex.multiply
+org.apache.commons.math.complex.Complex.add
+org.apache.commons.math.complex.Complex.log
+org.apache.commons.math.complex.Complex.getImaginary
+org.apache.commons.math.complex.Complex.subtract
+org.apache.commons.math.complex.Complex.createComplex
+org.apache.commons.math.complex.Complex.isInfinite
+org.apache.commons.math.complex.Complex.abs
+org.apache.commons.math.complex.Complex.getReal
+org.apache.commons.math.complex.Complex.toString

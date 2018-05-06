@@ -1,0 +1,4 @@
+34
+void com.google.javascript.jscomp.CodeGenerator.add(com.google.javascript.rhino.Node;com.google.javascript.jscomp.CodeGenerator$Context)
+private void com.google.javascript.jscomp.CodeGenerator.unrollBinaryOperator(com.google.javascript.rhino.Node;int;java.lang.String;com.google.javascript.jscomp.CodeGenerator$Context;com.google.javascript.jscomp.CodeGenerator$Context;int;int)
+void com.google.javascript.jscomp.CodePrinter$PrettyCodePrinter.appendOp(java.lang.String;boolean)

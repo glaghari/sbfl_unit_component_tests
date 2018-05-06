@@ -1,0 +1,6 @@
+#! /bin/sh
+
+alias antlr4='java -jar ../lib/antlr-4.7-complete.jar'
+
+antlr4 -package antlr Java.g4
+javac -cp .:../lib/antlr-4.7-complete.jar Java*.java

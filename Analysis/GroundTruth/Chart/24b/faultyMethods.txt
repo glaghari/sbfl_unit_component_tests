@@ -1,0 +1,2 @@
+24
+public java.awt.Paint org.jfree.chart.renderer.GrayPaintScale.getPaint(double)

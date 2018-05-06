@@ -1,0 +1,4 @@
+public java.lang.Object org.jfree.data.KeyedObjects2D.getObject(java.lang.Comparable,java.lang.Comparable)
+public void org.jfree.data.KeyedObjects2D.removeObject(java.lang.Comparable,java.lang.Comparable)
+public void org.jfree.data.KeyedObjects2D.removeRow(java.lang.Comparable)
+public void org.jfree.data.KeyedObjects2D.removeColumn(java.lang.Comparable)

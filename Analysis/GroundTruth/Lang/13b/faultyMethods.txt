@@ -1,0 +1,3 @@
+13
+public org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream(java.io.InputStream;java.lang.ClassLoader) throws java.io.IOException
+protected java.lang.Class org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream.resolveClass(java.io.ObjectStreamClass) throws java.io.IOException;java.lang.ClassNotFoundException

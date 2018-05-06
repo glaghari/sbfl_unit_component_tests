@@ -1,0 +1,5 @@
+org.apache.commons.math.distribution.PoissonDistributionImpl.<init>org.apache.commons.math.distribution.AbstractContinuousDistribution.<init>
+org.apache.commons.math.distribution.NormalDistributionImpl.setStandardDeviationInternal
+org.apache.commons.math.distribution.NormalDistributionImpl.<init>
+org.apache.commons.math.distribution.NormalDistributionImpl.setMeanInternal
+org.apache.commons.math.random.RandomDataImpl.<init>

@@ -1,0 +1,2 @@
+private org.apache.commons.math3.fraction.BigFraction(double,double,int,int)
+private org.apache.commons.math3.fraction.Fraction(double,double,int,int)

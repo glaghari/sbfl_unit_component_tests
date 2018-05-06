@@ -1,0 +1,8 @@
+org.jfree.data.DefaultKeyedValues2D.addValue
+org.jfree.data.DefaultKeyedValues2D.<init>
+org.jfree.data.DefaultKeyedValues2D.getRowIndex
+org.jfree.data.DefaultKeyedValues2D.setValue
+org.jfree.data.DefaultKeyedValues2D.removeColumnorg.jfree.data.DefaultKeyedValues.<init>
+org.jfree.data.DefaultKeyedValues.removeValue
+org.jfree.data.DefaultKeyedValues.getIndex
+org.jfree.data.DefaultKeyedValues.setValue

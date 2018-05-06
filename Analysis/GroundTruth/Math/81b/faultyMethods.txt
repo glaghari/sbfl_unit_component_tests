@@ -1,0 +1,4 @@
+81
+private void org.apache.commons.math.linear.EigenDecompositionImpl.computeGershgorinCircles()
+private void org.apache.commons.math.linear.EigenDecompositionImpl.processGeneralBlock(int) throws org.apache.commons.math.linear.InvalidMatrixException
+private void org.apache.commons.math.linear.EigenDecompositionImpl.computeShiftIncrement(int;int;int)

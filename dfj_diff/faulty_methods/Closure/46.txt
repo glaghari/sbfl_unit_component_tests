@@ -1,0 +1,1 @@
+public com.google.javascript.rhino.jstype.JSType com.google.javascript.rhino.jstype.RecordType.getLeastSupertype(com.google.javascript.rhino.jstype.JSType)

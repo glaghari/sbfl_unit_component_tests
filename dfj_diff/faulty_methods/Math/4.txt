@@ -1,0 +1,2 @@
+public org.apache.commons.math3.geometry.euclidean.twod.Vector2D org.apache.commons.math3.geometry.euclidean.twod.SubLine.intersection(org.apache.commons.math3.geometry.euclidean.twod.SubLine,boolean)
+public org.apache.commons.math3.geometry.euclidean.threed.Vector3D org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(org.apache.commons.math3.geometry.euclidean.threed.SubLine,boolean)

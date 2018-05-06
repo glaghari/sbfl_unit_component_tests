@@ -1,0 +1,2 @@
+125
+private void com.google.javascript.jscomp.TypeCheck.visitNew(com.google.javascript.jscomp.NodeTraversal;com.google.javascript.rhino.Node)

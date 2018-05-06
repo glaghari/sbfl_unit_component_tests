@@ -1,0 +1,7 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:0.00 tm:0.00][1.80] org.jfree.chart.plot.ValueMarker extends org.jfree.chart.plot.Marker
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.text.TextAnchor extends java.lang.Object

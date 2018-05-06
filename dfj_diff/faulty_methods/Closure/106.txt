@@ -1,0 +1,2 @@
+boolean com.google.javascript.jscomp.GlobalNamespace$Name.canCollapseUnannotatedChildNames()
+public boolean com.google.javascript.rhino.JSDocInfoBuilder.recordBlockDescription(java.lang.String)

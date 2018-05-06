@@ -1,0 +1,2 @@
+77
+static java.lang.String com.google.javascript.jscomp.CodeGenerator.strEscape(java.lang.String;char;java.lang.String;java.lang.String;java.lang.String;java.nio.charset.CharsetEncoder)

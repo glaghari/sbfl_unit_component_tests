@@ -1,0 +1,1 @@
+public static float org.apache.commons.math.util.FastMath.max(float,float)

@@ -1,0 +1,7 @@
+org.apache.commons.math.analysis.BrentSolver.<init>
+org.apache.commons.math.analysis.BrentSolver.solve
+org.apache.commons.math.analysis.BrentSolver.getAbsoluteAccuracy
+org.apache.commons.math.analysis.BrentSolver.setResult
+org.apache.commons.math.analysis.BrentSolver.verifyInterval
+org.apache.commons.math.analysis.BrentSolver.clearResultorg.apache.commons.math.analysis.SinFunction.<init>
+org.apache.commons.math.analysis.SinFunction.value

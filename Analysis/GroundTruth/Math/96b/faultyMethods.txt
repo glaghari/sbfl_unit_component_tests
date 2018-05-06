@@ -1,0 +1,2 @@
+96
+public boolean org.apache.commons.math.complex.Complex.equals(java.lang.Object)

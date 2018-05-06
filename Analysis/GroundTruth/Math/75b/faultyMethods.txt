@@ -1,0 +1,2 @@
+75
+public double org.apache.commons.math.stat.Frequency.getPct(java.lang.Object)

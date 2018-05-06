@@ -1,0 +1,13 @@
+org.apache.commons.math.stat.descriptive.moment.Variance.clear
+org.apache.commons.math.stat.descriptive.moment.Variance.<init>
+org.apache.commons.math.stat.descriptive.moment.Variance.evaluate
+org.apache.commons.math.stat.descriptive.moment.Variance.testorg.apache.commons.math.stat.descriptive.summary.Sum.<init>
+org.apache.commons.math.stat.descriptive.summary.Sum.evaluate
+org.apache.commons.math.stat.descriptive.summary.Sum.test
+org.apache.commons.math.stat.descriptive.moment.Mean.<init>
+org.apache.commons.math.stat.descriptive.moment.Mean.evaluate
+org.apache.commons.math.stat.descriptive.moment.Mean.test
+org.apache.commons.math.stat.descriptive.moment.SecondMoment.clear
+org.apache.commons.math.stat.descriptive.moment.SecondMoment.<init>
+org.apache.commons.math.stat.descriptive.moment.FirstMoment.clear
+org.apache.commons.math.stat.descriptive.moment.FirstMoment.<init>

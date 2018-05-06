@@ -1,0 +1,89 @@
+#!/bin/bash
+################################################################################
+#		Checkout buggy versions and also the relevant tests to be run
+################################################################################
+
+isrelevant() {
+ # Returns true if there are no passing test cases in test classes returned by tests.trigger
+
+ project_id=$1
+ ver_id=$2
+
+ if [[ "$project_id" == "Closure"  &&  $ver_id -eq 27 ]]; then
+		return 0 # true
+ fi
+
+ if [[ "$project_id" == "Lang"  &&  $ver_id -eq 28 ]]; then
+		return 0 # true
+ fi
+
+ if [[ "$project_id" == "Math"  && ( $ver_id -eq 45 || $ver_id -eq 78 ) ]]; then
+		return 0 # true
+ fi
+
+ if [[ "$project_id" == "Mockito"  && ( $ver_id -eq 5 || $ver_id -eq 7 || $ver_id -eq 10 \
+ || $ver_id -eq 22 || $ver_id -eq 23 || $ver_id -eq 27 || $ver_id -eq 32 || $ver_id -eq 37 ) ]]; then
+		return 0 # true
+ fi
+
+ return 1 # false
+}
+
+
+#project_id=Time
+#project_id=Math
+#project_id=Lang
+# project_id=Chart
+#project_id=Closure
+project_id=Mockito
+
+# Total bugs in current project
+total_bugs=$(grep -c "$" "defects4j/framework/projects/$project_id/commit-db")
+start_bug_id=1
+
+for i in $(seq $start_bug_id $total_bugs)
+# for i in $(seq 4 4)
+do
+
+	version_id="${i}b"
+	work_dir="_Projects/$project_id/$version_id"
+	tests_trigger=tests.trigger
+	tests_relevant=tests.relevant
+	dir="testincludes/$project_id/$i"
+	includes_file="$dir/testincludes.properties"
+	tmp_file="$dir/tmp_testincludes.properties"
+	ground_truth="Analysis/GroundTruth/$project_id/$version_id"
+
+	#create working directory
+# 	mkdir -p $work_dir
+
+	#create relevant tests directory
+	mkdir -p $dir
+
+	#create ground truth directory
+	mkdir -p $ground_truth
+
+	ground_truth=$ground_truth/failing_tests.txt
+	
+	echo "Working with $work_dir"
+	
+	#write relevant tests to execute
+	if isrelevant $project_id $i; then
+# 		defects4j export -p $tests_relevant -w $work_dir | tr '.' '/' | sed 's/$/.*/g' > $includes_file
+		cat "defects4j/framework/projects/$project_id/relevant_tests/$i" | tr '.' '/' | sed 's/$/.*/' > $includes_file
+		
+	else
+		# Replace all . with /
+		# Replace every thing after :: with .*
+		# Remove all duplicate lines in file
+		# Finally write the contents to $includes_file
+# 		defects4j export -p $tests_trigger -w $work_dir | sed 's/\./\//g' | sed 's/::.*$/.*/g' | sort | uniq > $includes_file
+		grep '^--- ' "defects4j/framework/projects/$project_id/trigger_tests/$i" \
+		| sed 's/.*\ //' | tr '.' '/' | sed 's/::.*/.*/' | sort | uniq > $includes_file 
+	fi
+
+	#write failing tests to execute
+# 	defects4j export -p $tests_trigger -w $work_dir > $ground_truth
+#     grep '^--- ' "defects4j/framework/projects/$project_id/trigger_tests/$i" | sed 's/.*\ //' > $includes_file 
+	
+done

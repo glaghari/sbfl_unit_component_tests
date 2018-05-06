@@ -1,0 +1,2 @@
+97
+public double org.apache.commons.math.analysis.BrentSolver.solve(double;double) throws org.apache.commons.math.MaxIterationsExceededException;org.apache.commons.math.FunctionEvaluationException

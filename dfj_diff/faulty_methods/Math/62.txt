@@ -1,0 +1,2 @@
+public org.apache.commons.math.optimization.univariate.UnivariateRealPointValuePair org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer.optimize(FUNC,org.apache.commons.math.optimization.GoalType,double,double)
+public org.apache.commons.math.optimization.univariate.UnivariateRealPointValuePair org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer.optimize(FUNC,org.apache.commons.math.optimization.GoalType,double,double,double)

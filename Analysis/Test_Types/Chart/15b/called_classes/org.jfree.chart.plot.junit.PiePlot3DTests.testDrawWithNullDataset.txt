@@ -1,0 +1,52 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:0.25 tm:0.00][2.05] org.jfree.chart.plot.PiePlot3D extends org.jfree.chart.plot.PiePlot
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.renderer.RendererState extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.block.FlowArrangement extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.25 tm:0.00][0.85] org.jfree.chart.JFreeChart extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.ui.Library extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.ChartChangeEvent extends java.util.EventObject
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.block.BlockBorder extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.PaintMap extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.ChartProgressEvent extends java.util.EventObject
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.text.TextFragment extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.block.BlockParams extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.JFreeChartInfo extends org.jfree.chart.ui.ProjectInfo
+[p:0.80 c:0.14 e:0.00 m:0.00 tm:0.00][0.94] org.jfree.chart.plot.AbstractPieLabelDistributor extends java.lang.Object
+[p:0.80 c:0.40 e:0.00 m:0.00 tm:0.00][1.20] org.jfree.chart.plot.PiePlotState extends org.jfree.chart.renderer.RendererState
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.block.LengthConstraintType extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.text.TextBlock extends java.lang.Object
+[p:0.50 c:0.13 e:0.00 m:0.00 tm:0.00][0.63] org.jfree.chart.labels.StandardPieSectionLabelGenerator extends org.jfree.chart.labels.AbstractPieItemLabelGenerator
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.title.TextTitle extends org.jfree.chart.title.Title
+[p:0.50 c:0.13 e:0.00 m:0.00 tm:0.00][0.63] org.jfree.chart.labels.AbstractPieItemLabelGenerator extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.ui.Contributor extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.text.TextBlockAnchor extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.block.RectangleConstraint extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.resources.JFreeChartResources extends java.util.ListResourceBundle
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.text.TextLine extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.TitleChangeEvent extends org.jfree.chart.event.ChartChangeEvent
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.plot.DefaultDrawingSupplier extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.text.TextAnchor extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.ui.ProjectInfo extends org.jfree.chart.ui.BasicProjectInfo
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.ChartColor extends java.awt.Color
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.ui.Licences extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.ui.BasicProjectInfo extends org.jfree.chart.ui.Library
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.block.ColumnArrangement extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.text.G2TextMeasurer extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.title.Title extends org.jfree.chart.block.AbstractBlock
+[p:0.80 c:0.20 e:0.00 m:0.00 tm:0.00][1.00] org.jfree.chart.plot.PlotOrientation extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.block.BlockContainer extends org.jfree.chart.block.AbstractBlock
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.LegendItemCollection extends java.lang.Object
+[p:0.80 c:0.17 e:0.00 m:0.00 tm:0.00][0.97] org.jfree.chart.plot.PieLabelDistributor extends org.jfree.chart.plot.AbstractPieLabelDistributor
+[p:0.50 c:0.00 e:0.00 m:0.20 tm:0.00][0.70] org.jfree.chart.block.AbstractBlock extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.block.BlockResult extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.jfree.chart.event.ChartChangeEventType extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.StrokeMap extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00 tm:0.00][0.33] org.jfree.data.Range extends java.lang.Object
+[p:0.50 c:0.17 e:0.00 m:0.00 tm:0.00][0.67] org.jfree.chart.event.PlotChangeEvent extends org.jfree.chart.event.ChartChangeEvent
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.title.LegendTitle extends org.jfree.chart.title.Title
+[p:0.50 c:0.00 e:0.00 m:0.25 tm:0.00][0.75] org.jfree.chart.block.LineBorder extends java.lang.Object
+[p:0.60 c:0.00 e:0.00 m:0.00 tm:0.00][0.60] org.jfree.chart.ChartFactory extends java.lang.Object

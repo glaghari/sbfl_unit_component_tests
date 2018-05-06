@@ -1,0 +1,3 @@
+75
+static java.lang.Double com.google.javascript.jscomp.NodeUtil.getStringNumberValue(java.lang.String)
+static com.google.javascript.rhino.jstype.TernaryValue com.google.javascript.jscomp.NodeUtil.isStrWhiteSpaceChar(int)

@@ -1,0 +1,2 @@
+40
+protected double org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.doSolve()

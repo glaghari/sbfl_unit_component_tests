@@ -1,0 +1,12 @@
+org.apache.commons.math.complex.ComplexFormat.<init>
+org.apache.commons.math.complex.ComplexFormat.getImaginaryCharacter
+org.apache.commons.math.complex.ComplexFormat.parseNumber
+org.apache.commons.math.complex.ComplexFormat.parseNextCharacter
+org.apache.commons.math.complex.ComplexFormat.getDefaultNumberFormat
+org.apache.commons.math.complex.ComplexFormat.setImaginaryCharacter
+org.apache.commons.math.complex.ComplexFormat.parseAndIgnoreWhitespace
+org.apache.commons.math.complex.ComplexFormat.parse
+org.apache.commons.math.complex.ComplexFormat.getInstance
+org.apache.commons.math.complex.ComplexFormat.getRealFormat
+org.apache.commons.math.complex.ComplexFormat.setRealFormat
+org.apache.commons.math.complex.ComplexFormat.setImaginaryFormat

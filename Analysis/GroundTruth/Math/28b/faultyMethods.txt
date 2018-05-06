@@ -1,0 +1,2 @@
+28
+private java.lang.Integer org.apache.commons.math3.optimization.linear.SimplexSolver.getPivotRow(org.apache.commons.math3.optimization.linear.SimplexTableau;int)

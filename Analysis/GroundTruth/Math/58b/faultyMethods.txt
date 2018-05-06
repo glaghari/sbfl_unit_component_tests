@@ -1,0 +1,2 @@
+58
+public double[] org.apache.commons.math.optimization.fitting.GaussianFitter.fit()

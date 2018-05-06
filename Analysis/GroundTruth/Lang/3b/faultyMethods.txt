@@ -1,0 +1,2 @@
+3
+public static java.lang.Number org.apache.commons.lang3.math.NumberUtils.createNumber(java.lang.String) throws java.lang.NumberFormatException

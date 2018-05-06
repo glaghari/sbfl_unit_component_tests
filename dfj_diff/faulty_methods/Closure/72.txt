@@ -1,0 +1,2 @@
+private void com.google.javascript.jscomp.FunctionToBlockMutator.makeLocalNamesUnique(com.google.javascript.rhino.Node,boolean)
+private void com.google.javascript.jscomp.RenameLabels$ProcessLabels.visitLabel(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)

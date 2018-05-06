@@ -1,0 +1,2 @@
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.tan()
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.tanh()

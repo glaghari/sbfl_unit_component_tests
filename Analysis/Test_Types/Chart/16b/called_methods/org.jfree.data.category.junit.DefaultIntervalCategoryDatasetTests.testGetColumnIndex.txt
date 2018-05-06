@@ -1,0 +1,4 @@
+org.jfree.data.category.DefaultIntervalCategoryDataset.<init>
+org.jfree.data.category.DefaultIntervalCategoryDataset.getColumnIndex
+org.jfree.data.category.DefaultIntervalCategoryDataset.getCategoryIndexorg.jfree.data.resources.DataPackageResources.<init>
+org.jfree.data.general.DatasetGroup.<init>

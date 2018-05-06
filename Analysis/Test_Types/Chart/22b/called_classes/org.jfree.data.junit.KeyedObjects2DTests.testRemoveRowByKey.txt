@@ -1,0 +1,8 @@
+Classes Under Test:
+[p:0.75 c:1.00 e:1.00 m:0.50 tm:0.00][2.25] org.jfree.data.KeyedObjects2D extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.75 c:0.50 e:0.00 m:0.00 tm:0.00][1.25] org.jfree.data.KeyedObjects extends java.lang.Object
+[p:0.75 c:0.20 e:0.00 m:0.20 tm:0.00][1.15] org.jfree.data.KeyedObject extends java.lang.Object

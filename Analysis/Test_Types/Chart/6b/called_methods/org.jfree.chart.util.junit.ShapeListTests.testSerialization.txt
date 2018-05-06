@@ -1,0 +1,10 @@
+org.jfree.chart.util.ShapeList.<init>
+org.jfree.chart.util.ShapeList.writeObject
+org.jfree.chart.util.ShapeList.get
+org.jfree.chart.util.ShapeList.equals
+org.jfree.chart.util.ShapeList.set
+org.jfree.chart.util.ShapeList.hashCode
+org.jfree.chart.util.ShapeList.readObject
+org.jfree.chart.util.ShapeList.getShape
+org.jfree.chart.util.ShapeList.setShape
+org.jfree.chart.util.ShapeList.size

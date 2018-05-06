@@ -1,0 +1,9 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.29 tm:0.00][2.29] com.google.javascript.jscomp.LightweightMessageFormatter extends com.google.javascript.jscomp.AbstractMessageFormatter
+
+Mock Classes:
+
+Other Called Classes:
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] com.google.javascript.jscomp.JSError extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.11 tm:0.00][1.11] com.google.javascript.jscomp. extends java.lang.Object
+[p:1.00 c:0.20 e:0.00 m:0.29 tm:0.00][1.49] com.google.javascript.jscomp.LineNumberingFormatter extends java.lang.Object

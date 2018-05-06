@@ -1,0 +1,16 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.optimization.direct.BOBYQAOptimizer extends org.apache.commons.math.optimization.direct.BaseAbstractMultivariateSimpleBoundsOptimizer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.RealVectorFormat extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.Array2DRowRealMatrix extends org.apache.commons.math.linear.AbstractRealMatrix
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.direct.Rosen extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.AbstractConvergenceChecker extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.AbstractRealMatrix extends org.apache.commons.math.linear.RealLinearOperator
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.SimpleScalarValueChecker extends org.apache.commons.math.optimization.AbstractConvergenceChecker
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.RealVector extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.RealPointValuePair extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.ArrayRealVector extends org.apache.commons.math.linear.RealVector
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.RealLinearOperator extends java.lang.Object

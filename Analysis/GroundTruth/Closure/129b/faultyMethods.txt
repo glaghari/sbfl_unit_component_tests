@@ -1,0 +1,2 @@
+129
+private void com.google.javascript.jscomp.PrepareAst$PrepareAnnotations.annotateCalls(com.google.javascript.rhino.Node)

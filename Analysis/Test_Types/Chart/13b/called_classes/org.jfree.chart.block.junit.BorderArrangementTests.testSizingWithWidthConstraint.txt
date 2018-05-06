@@ -1,0 +1,13 @@
+Classes Under Test:
+[p:0.80 c:1.00 e:1.00 m:0.00 tm:0.00][1.80] org.jfree.chart.block.BorderArrangement extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.80 c:0.00 e:0.00 m:0.17 tm:0.00][0.97] org.jfree.chart.block.BlockContainer extends org.jfree.chart.block.AbstractBlock
+[p:0.80 c:0.00 e:0.00 m:0.33 tm:0.00][1.13] org.jfree.chart.block.RectangleConstraint extends java.lang.Object
+[p:0.80 c:0.00 e:0.00 m:0.20 tm:0.00][1.00] org.jfree.chart.block.EmptyBlock extends org.jfree.chart.block.AbstractBlock
+[p:0.80 c:0.00 e:0.00 m:0.20 tm:0.00][1.00] org.jfree.chart.block.AbstractBlock extends java.lang.Object
+[p:0.80 c:0.00 e:0.00 m:0.00 tm:0.00][0.80] org.jfree.chart.block.LengthConstraintType extends java.lang.Object
+[p:0.80 c:0.33 e:0.00 m:0.00 tm:0.00][1.13] org.jfree.chart.block.BlockBorder extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00 tm:0.00][0.33] org.jfree.data.Range extends java.lang.Object

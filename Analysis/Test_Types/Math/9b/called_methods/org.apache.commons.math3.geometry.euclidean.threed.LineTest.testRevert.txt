@@ -1,0 +1,9 @@
+org.apache.commons.math3.geometry.euclidean.threed.Line.<init>
+org.apache.commons.math3.geometry.euclidean.threed.Line.getDirection
+org.apache.commons.math3.geometry.euclidean.threed.Line.revert
+org.apache.commons.math3.geometry.euclidean.threed.Line.resetorg.apache.commons.math3.geometry.euclidean.threed.Vector3D.dotProduct
+org.apache.commons.math3.geometry.euclidean.threed.Vector3D.<init>
+org.apache.commons.math3.geometry.euclidean.threed.Vector3D.subtract
+org.apache.commons.math3.geometry.euclidean.threed.Vector3D.toArray
+org.apache.commons.math3.geometry.euclidean.threed.Vector3D.negate
+org.apache.commons.math3.geometry.euclidean.threed.Vector3D.getNormSq

@@ -1,0 +1,2 @@
+64
+public int org.apache.commons.lang.enums.ValuedEnum.compareTo(java.lang.Object)

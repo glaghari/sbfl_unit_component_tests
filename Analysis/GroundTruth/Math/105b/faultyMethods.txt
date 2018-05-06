@@ -1,0 +1,2 @@
+105
+public double org.apache.commons.math.stat.regression.SimpleRegression.getSumSquaredErrors()

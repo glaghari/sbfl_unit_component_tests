@@ -1,0 +1,4 @@
+public static org.joda.time.LocalDate org.joda.time.LocalDate.fromCalendarFields(java.util.Calendar)
+public static org.joda.time.LocalDate org.joda.time.LocalDate.fromDateFields(java.util.Date)
+public static org.joda.time.LocalDateTime org.joda.time.LocalDateTime.fromCalendarFields(java.util.Calendar)
+public static org.joda.time.LocalDateTime org.joda.time.LocalDateTime.fromDateFields(java.util.Date)

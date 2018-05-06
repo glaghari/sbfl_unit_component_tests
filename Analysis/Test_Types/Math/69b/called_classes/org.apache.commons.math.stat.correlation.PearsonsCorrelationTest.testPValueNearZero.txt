@@ -1,0 +1,15 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.14 tm:0.00][2.14] org.apache.commons.math.stat.correlation.PearsonsCorrelation extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.special.Gamma extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.special.Beta extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.AbstractRealMatrix extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.distribution.TDistributionImpl extends org.apache.commons.math.distribution.AbstractContinuousDistribution
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.distribution.AbstractContinuousDistribution extends org.apache.commons.math.distribution.AbstractDistribution
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.distribution.AbstractDistribution extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.BlockRealMatrix extends org.apache.commons.math.linear.AbstractRealMatrix
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.stat.regression.SimpleRegression extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.special. extends org.apache.commons.math.util.ContinuedFraction

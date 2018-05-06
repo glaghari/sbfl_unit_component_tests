@@ -1,0 +1,2 @@
+51
+void com.google.javascript.jscomp.CodeConsumer.addNumber(double)

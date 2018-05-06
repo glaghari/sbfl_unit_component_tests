@@ -1,0 +1,2 @@
+8
+public java.lang.Object[] org.apache.commons.math3.distribution.DiscreteDistribution.sample(int) throws org.apache.commons.math3.exception.NotStrictlyPositiveException

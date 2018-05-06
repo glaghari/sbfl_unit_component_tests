@@ -1,0 +1,85 @@
+#!/bin/bash
+################################################################################
+#		Run project failing tests and collect the called classes
+#		Identify the type of the test (unit/integration)
+################################################################################
+
+# In case recompile is needed enable this
+ant dist -buildfile ../Separate_Test_Types/build.xml
+
+TESTS_INFO_DIR="Analysis/Test_Types"
+GROUND_TRUTH="Analysis/GroundTruth"
+
+# Defects4j runtime
+defects4j=defects4j/framework/bin/defects4j
+
+line="-----------------------------------------------------------------------------"
+
+# project_id=Time
+# project_id=Math
+project_id=Lang
+# project_id=Chart
+# project_id=Closure
+# project_id=Mockito
+
+
+# Total bugs in current project
+total_bugs=$(grep -c "$" "defects4j/framework/projects/$project_id/commit-db")
+start_bug_id=6
+total_bugs=6
+
+for i in $(seq $start_bug_id $total_bugs)
+do
+	version_id="${i}b"
+	projectDir="$project_id/$version_id"
+	work_dir="_Projects/$projectDir"
+	
+	tests_info_dir="$TESTS_INFO_DIR/$projectDir"
+	ground_truth="$GROUND_TRUTH/$projectDir"
+	
+	if [[ -d $tests_info_dir ]]; then
+		rm -rf $tests_info_dir
+	fi
+	
+	# Create project dir
+	mkdir -p "$work_dir/"
+	start_msg="Checking out project $projectDir"
+	echo $start_msg
+	
+	# Checkout project
+	$defects4j checkout -p$project_id -v${version_id} -w$work_dir
+	
+	if [[ "$project_id" == "Mockito" ]]; then
+		cp -r compileLib $work_dir
+	fi
+	
+	start_msg="Running project $work_dir - [$(date)]"
+
+	# print on screen
+	echo $start_msg
+	
+	#set environment variable for current path
+	#This  environment variable is used by tracer to store the traces
+ 	export tests_info_dir=$(pwd)/$tests_info_dir
+	
+	#This  environment variable is used by tracer to store the traces
+ 	export ground_truth_dir=$(pwd)/$ground_truth
+
+ 	
+#  	failing_test=$(head -1 $failing_tests)
+#  	failing_test="com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1"
+#  	$defects4j test -w $work_dir -t "$failing_test"
+ 	
+ 	failing_tests="$ground_truth_dir/failing_tests.txt"
+ 	cat $failing_tests | while read -r failing_test; do
+ 		echo
+ 		echo "$projectDir -> $failing_test"
+
+ 		$defects4j test -w $work_dir -t "$failing_test"
+ 	done
+
+	# Clean project dir
+	rm -rf $work_dir
+	
+	echo $line
+done

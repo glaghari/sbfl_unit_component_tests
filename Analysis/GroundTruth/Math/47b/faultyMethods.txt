@@ -1,0 +1,4 @@
+47
+public org.apache.commons.math.complex.Complex(double;double)
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.divide(org.apache.commons.math.complex.Complex) throws org.apache.commons.math.exception.NullArgumentException
+public org.apache.commons.math.complex.Complex org.apache.commons.math.complex.Complex.divide(double)

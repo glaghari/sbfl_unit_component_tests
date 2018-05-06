@@ -1,0 +1,2 @@
+28
+public int org.apache.commons.lang3.text.translate.NumericEntityUnescaper.translate(java.lang.CharSequence;int;java.io.Writer) throws java.io.IOException

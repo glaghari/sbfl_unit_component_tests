@@ -1,0 +1,20 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00][2.00] org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool extends java.lang.Object
+
+Mock Classes:
+org.mockito.configuration.MockitoConfiguration extends org.mockito.configuration.DefaultMockitoConfiguration
+org.mockito.configuration.DefaultMockitoConfiguration extends java.lang.Object
+org.mockito.internal.progress.ThreadSafeMockingProgress extends java.lang.Object
+org.mockito.internal.progress.MockingProgressImpl extends java.lang.Object
+org.mockito.MockitoAnnotations extends java.lang.Object
+Other Called Classes:
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.configuration. extends org.mockito.internal.configuration.DefaultAnnotationEngine
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.matchers.Equals extends org.mockito.ArgumentMatcher
+[p:0.40 c:0.00 e:0.00 m:0.00][0.40] org.mockito.StateMaster extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.ClassPathLoader extends java.lang.Object
+[p:0.33 c:0.00 e:0.00 m:0.00][0.33] org.mockito.exceptions.Reporter extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.GlobalConfiguration extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.configuration.DefaultAnnotationEngine extends java.lang.Object
+[p:0.50 c:0.17 e:0.00 m:0.00][0.67] org.mockito.internal.progress.ArgumentMatcherStorageImpl extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00][0.50] org.mockito.internal.debugging.DebuggingInfo extends java.lang.Object
+[p:0.40 c:0.25 e:0.00 m:0.00][0.65] org.mockito.ArgumentMatcher extends org.hamcrest.BaseMatcher

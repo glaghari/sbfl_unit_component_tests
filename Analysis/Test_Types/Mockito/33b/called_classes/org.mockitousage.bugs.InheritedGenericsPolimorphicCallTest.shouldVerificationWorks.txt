@@ -1,0 +1,61 @@
+Classes Under Test:
+[p:0.20 c:0.00 e:0.00 m:0.00][0.20] org.mockito.exceptions.Reporter extends java.lang.Object
+[p:0.20 c:0.00 e:0.00 m:0.00][0.20] org.mockito.configuration. extends org.mockito.internal.configuration.InjectingAnnotationEngine
+
+Mock Classes:
+org.mockito.internal.MockitoCore extends java.lang.Object
+org.mockito.internal.creation.DelegatingMockitoMethodProxy extends org.mockito.internal.creation.AbstractMockitoMethodProxy
+org.mockito.configuration.MockitoConfiguration extends org.mockito.configuration.DefaultMockitoConfiguration
+org.mockito.Mockito extends org.mockito.Matchers
+org.mockito.configuration.DefaultMockitoConfiguration extends java.lang.Object
+org.mockito.internal.util.MockUtil extends java.lang.Object
+org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest$MyIterable$$EnhancerByMockitoWithCGLIB$$e6df98ec extends java.lang.Object
+org.mockito.internal.util.MockName extends java.lang.Object
+org.mockito.MockitoAnnotations extends java.lang.Object
+org.mockito.internal.creation.MockSettingsImpl extends java.lang.Object
+org.mockito.internal.creation.AbstractMockitoMethodProxy extends java.lang.Object
+org.mockito.internal.MockHandler extends java.lang.Object
+org.mockito.internal.progress.ThreadSafeMockingProgress extends java.lang.Object
+org.mockito.internal.progress.MockingProgressImpl extends java.lang.Object
+org.mockito.exceptions.base.MockitoAssertionError extends java.lang.AssertionError
+org.mockito.internal.util.MockCreationValidator extends java.lang.Object
+org.mockito.internal.verification.MockAwareVerificationMode extends java.lang.Object
+Other Called Classes:
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.verification.checkers.MissingInvocationChecker extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.cglib.proxy.MethodProxy extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.exceptions.base.StackTraceFilter extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.MatchersBinder extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.VerificationDataImpl extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.RemoveToString extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.stubbing.BaseStubbing extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.RemoveNotMatching extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.configuration.GlobalConfiguration extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.RegisteredInvocations extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.InvocationMarker extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.InvocationsFinder extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.invocation.realmethod.CGLIBProxyRealMethod extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.exceptions.verification.WantedButNotInvoked extends org.mockito.exceptions.base.MockitoAssertionError
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.exceptions.base.ConditionalStackTraceFilter extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.progress.SequenceNumber extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.matchers.MatchersPrinter extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.debugging.Localized extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.Invocation extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.creation.DelegatingMethod extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.creation.cglib.CGLIBHacker extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.Times extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.reporting.PrintSettings extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.creation.MethodInterceptorFilter extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.configuration.SpyAnnotationEngine extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.debugging.Location extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.ArgumentsComparator extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.InvocationMatcher extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.verification.checkers.NumberOfInvocationsChecker extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.VerificationModeFactory extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.cglib.proxy.CreateInfo extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.configuration.DefaultAnnotationEngine extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.progress.ArgumentMatcherStorageImpl extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.stubbing.OngoingStubbingImpl extends org.mockito.internal.stubbing.BaseStubbing
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.stubbing.InvocationContainerImpl extends java.lang.Object

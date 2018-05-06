@@ -1,0 +1,26 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer extends org.apache.commons.math3.optim.nonlinear.scalar.GradientMultivariateOptimizer
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.linear.AbstractRealMatrix extends org.apache.commons.math3.linear.RealLinearOperator
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.linear.RealMatrixFormat extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.MaxIterCallback extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.AbstractConvergenceChecker extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.InitialGuess extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.SimpleValueChecker extends org.apache.commons.math3.optim.AbstractConvergenceChecker
+[p:0.45 c:0.00 e:0.00 m:0.00 tm:0.00][0.45] org.apache.commons.math3.analysis.solvers.BrentSolver extends org.apache.commons.math3.analysis.solvers.AbstractUnivariateSolver
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math3.linear.BlockRealMatrix extends org.apache.commons.math3.linear.AbstractRealMatrix
+[p:0.45 c:0.00 e:0.00 m:0.00 tm:0.00][0.45] org.apache.commons.math3.analysis.solvers.BaseAbstractUnivariateSolver extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.optim.nonlinear.scalar.gradient.IdentityPreconditioner extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.MaxEval extends java.lang.Object
+[p:1.00 c:0.17 e:0.00 m:0.00 tm:0.00][1.17] org.apache.commons.math3.optim.nonlinear.scalar.gradient.LinearProblem extends java.lang.Object
+[p:0.89 c:0.14 e:0.00 m:0.00 tm:0.00][1.03] org.apache.commons.math3.optim.nonlinear.scalar.ObjectiveFunctionGradient extends java.lang.Object
+[p:0.89 c:0.00 e:0.00 m:0.00 tm:0.00][0.89] org.apache.commons.math3.optim.nonlinear.scalar.ObjectiveFunction extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.PointValuePair extends org.apache.commons.math3.util.Pair
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math3.optim.MaxEvalCallback extends java.lang.Object
+[p:0.45 c:0.00 e:0.00 m:0.00 tm:0.00][0.45] org.apache.commons.math3.analysis.solvers.AbstractUnivariateSolver extends org.apache.commons.math3.analysis.solvers.BaseAbstractUnivariateSolver
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.optim.nonlinear.scalar.gradient.LineSearchFunction extends java.lang.Object
+[p:0.50 c:0.14 e:0.00 m:0.00 tm:0.00][0.64] org.apache.commons.math3.linear.RealLinearOperator extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math3.optim.nonlinear.scalar.gradient. extends java.lang.Object

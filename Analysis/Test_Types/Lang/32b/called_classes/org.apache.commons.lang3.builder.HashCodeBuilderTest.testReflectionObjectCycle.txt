@@ -1,0 +1,10 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.25 tm:0.00][2.25] org.apache.commons.lang3.builder.HashCodeBuilder extends java.lang.Object
+
+Mock Classes:
+
+Other Called Classes:
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang3.builder.IDKey extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang3.builder. extends java.lang.ThreadLocal
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang3.builder.ReflectionTestCycleB extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.lang3.builder.ReflectionTestCycleA extends java.lang.Object

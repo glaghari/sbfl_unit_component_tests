@@ -1,0 +1,2 @@
+118
+private void com.google.javascript.jscomp.DisambiguateProperties$FindRenameableProperties.handleObjectLit(com.google.javascript.jscomp.NodeTraversal;com.google.javascript.rhino.Node)

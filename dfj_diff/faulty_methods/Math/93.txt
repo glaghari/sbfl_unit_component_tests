@@ -1,0 +1,3 @@
+public static long org.apache.commons.math.util.MathUtils.factorial(int)
+public static double org.apache.commons.math.util.MathUtils.factorialDouble(int)
+public static double org.apache.commons.math.util.MathUtils.factorialLog(int)

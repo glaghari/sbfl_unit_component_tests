@@ -1,0 +1,18 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.optimization.fitting.GaussianFitter extends org.apache.commons.math.optimization.fitting.CurveFitter
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math.analysis.function.Parametric extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.VectorialPointValuePair extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.AbstractConvergenceChecker extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer extends org.apache.commons.math.optimization.direct.BaseAbstractVectorialOptimizer
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.fitting. extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer extends org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.fitting.WeightedObservedPoint extends java.lang.Object
+[p:0.50 c:0.50 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.analysis.function.Gaussian extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.optimization.SimpleVectorialValueChecker extends org.apache.commons.math.optimization.AbstractConvergenceChecker
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.fitting.TheoreticalValuesFunction extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.optimization.fitting.ParameterGuesser extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.optimization.direct.BaseAbstractVectorialOptimizer extends java.lang.Object

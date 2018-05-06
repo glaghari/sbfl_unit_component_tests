@@ -1,0 +1,17 @@
+org.apache.commons.math3.stat.inference.MannWhitneyUTest.concatenateSamples
+org.apache.commons.math3.stat.inference.MannWhitneyUTest.calculateAsymptoticPValue
+org.apache.commons.math3.stat.inference.MannWhitneyUTest.ensureDataConformance
+org.apache.commons.math3.stat.inference.MannWhitneyUTest.mannWhitneyU
+org.apache.commons.math3.stat.inference.MannWhitneyUTest.mannWhitneyUTestorg.apache.commons.math3.stat.ranking.IntDoublePair.getValue
+org.apache.commons.math3.stat.ranking.IntDoublePair.<init>
+org.apache.commons.math3.stat.ranking.IntDoublePair.compareTo
+org.apache.commons.math3.stat.ranking.IntDoublePair.getPosition
+org.apache.commons.math3.distribution.AbstractRealDistribution.<init>
+org.apache.commons.math3.distribution.NormalDistribution.<init>
+org.apache.commons.math3.distribution.NormalDistribution.cumulativeProbability
+org.apache.commons.math3.random.RandomDataImpl.<init>
+org.apache.commons.math3.stat.ranking.NaturalRanking.rank
+org.apache.commons.math3.stat.ranking.NaturalRanking.restoreNaNs
+org.apache.commons.math3.stat.ranking.NaturalRanking.getNanPositions
+org.apache.commons.math3.special.Gamma.regularizedGammaP
+org.apache.commons.math3.special.Erf.erf

@@ -1,0 +1,10 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.25 tm:0.00][2.25] org.apache.commons.math.stat.descriptive.moment.Variance extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.75 c:0.00 e:0.00 m:0.25 tm:0.00][1.00] org.apache.commons.math.stat.descriptive.summary.Sum extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:1.00 c:0.00 e:0.00 m:0.25 tm:0.00][1.25] org.apache.commons.math.stat.descriptive.moment.Mean extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.stat.descriptive.moment.SecondMoment extends org.apache.commons.math.stat.descriptive.moment.FirstMoment
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.stat.descriptive.moment.FirstMoment extends org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic

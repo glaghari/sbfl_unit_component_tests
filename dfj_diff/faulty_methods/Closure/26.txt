@@ -1,0 +1,2 @@
+private void com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback.emitOptionalModuleExportsOverride(com.google.javascript.rhino.Node,java.lang.String)
+private void com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback.visitModuleExports(com.google.javascript.rhino.Node)

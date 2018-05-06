@@ -1,0 +1,3 @@
+public void com.google.javascript.jscomp.MakeDeclaredNamesUnique.enterScope(com.google.javascript.jscomp.NodeTraversal)
+public boolean com.google.javascript.jscomp.MakeDeclaredNamesUnique.shouldTraverse(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)
+public void com.google.javascript.jscomp.MakeDeclaredNamesUnique.visit(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)

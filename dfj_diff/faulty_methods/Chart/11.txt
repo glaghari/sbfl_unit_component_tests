@@ -1,0 +1,1 @@
+public static boolean org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath,java.awt.geom.GeneralPath)

@@ -1,0 +1,2 @@
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,721
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,498,506

@@ -1,0 +1,2 @@
+17
+public final void org.apache.commons.lang3.text.translate.CharSequenceTranslator.translate(java.lang.CharSequence;java.io.Writer) throws java.io.IOException

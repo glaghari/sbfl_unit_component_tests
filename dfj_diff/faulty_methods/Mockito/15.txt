@@ -1,0 +1,2 @@
+public org.mockito.internal.configuration.injection.OngoingInjecter org.mockito.internal.configuration.injection.FinalMockCandidateFilter.filterCandidate(java.util.Collection,java.lang.reflect.Field,java.lang.Object)
+public boolean org.mockito.internal.configuration.injection.FinalMockCandidateFilter$1.thenInject()

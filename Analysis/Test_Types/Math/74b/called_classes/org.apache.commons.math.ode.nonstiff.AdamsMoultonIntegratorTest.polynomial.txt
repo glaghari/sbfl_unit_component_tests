@@ -1,0 +1,39 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.00 tm:0.00][2.00] org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator extends org.apache.commons.math.ode.nonstiff.AdamsIntegrator
+
+Mock Classes:
+
+Other Called Classes:
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.BigFractionMatrixConverter extends org.apache.commons.math.linear.DefaultFieldMatrixPreservingVisitor
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.Array2DRowRealMatrix extends org.apache.commons.math.linear.AbstractRealMatrix
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.ode.nonstiff.Corrector extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.fraction.BigFractionField extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.sampling.NordsieckStepInterpolator extends org.apache.commons.math.ode.sampling.AbstractStepInterpolator
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.events. extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.DefaultFieldMatrixChangingVisitor extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.fraction.BigFraction extends java.lang.Number
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.FieldLUDecompositionImpl extends java.lang.Object
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator extends org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.NordsieckInitializer extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.TestProblem6 extends org.apache.commons.math.ode.TestProblemAbstract
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.fraction.LazyHolder extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.CountingDifferentialEquations extends java.lang.Object
+[p:1.00 c:0.17 e:0.00 m:0.00 tm:0.00][1.17] org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator extends org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.TestProblemHandler extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.EndTimeChecker extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.DefaultFieldMatrixPreservingVisitor extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.AbstractFieldMatrix extends java.lang.Object
+[p:0.67 c:0.00 e:0.00 m:0.00 tm:0.00][0.67] org.apache.commons.math.ConvergingAlgorithmImpl extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl extends org.apache.commons.math.ConvergingAlgorithmImpl
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.events.CombinedEventsManager extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.AbstractRealMatrix extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.sampling.AbstractStepInterpolator extends java.lang.Object
+[p:0.83 c:0.00 e:0.00 m:0.00 tm:0.00][0.83] org.apache.commons.math.ode.TestProblemAbstract extends java.lang.Object
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.Array2DRowFieldMatrix extends org.apache.commons.math.linear.AbstractFieldMatrix
+[p:1.00 c:0.17 e:0.00 m:0.00 tm:0.00][1.17] org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator extends org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.ode.nonstiff. extends org.apache.commons.math.linear.DefaultFieldMatrixChangingVisitor
+[p:1.00 c:0.00 e:0.00 m:0.00 tm:0.00][1.00] org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator extends org.apache.commons.math.ode.sampling.AbstractStepInterpolator
+[p:1.00 c:0.20 e:0.00 m:0.00 tm:0.00][1.20] org.apache.commons.math.ode.nonstiff.AdamsNordsieckTransformer extends java.lang.Object
+[p:0.50 c:0.00 e:0.00 m:0.00 tm:0.00][0.50] org.apache.commons.math.analysis.solvers.BrentSolver extends org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl
+[p:0.57 c:0.00 e:0.00 m:0.00 tm:0.00][0.57] org.apache.commons.math.linear.Solver extends java.lang.Object
+[p:0.71 c:0.00 e:0.00 m:0.00 tm:0.00][0.71] org.apache.commons.math.ode.events.EventState extends java.lang.Object

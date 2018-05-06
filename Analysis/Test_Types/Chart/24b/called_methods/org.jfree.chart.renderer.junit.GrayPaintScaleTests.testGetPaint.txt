@@ -1,0 +1,2 @@
+org.jfree.chart.renderer.GrayPaintScale.<init>
+org.jfree.chart.renderer.GrayPaintScale.getPaint

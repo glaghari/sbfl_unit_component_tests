@@ -1,0 +1,1 @@
+private com.google.javascript.rhino.Node com.google.javascript.jscomp.PeepholeFoldConstants.tryFoldShift(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)

@@ -1,0 +1,3 @@
+98
+public java.math.BigDecimal[] org.apache.commons.math.linear.BigMatrixImpl.operate(java.math.BigDecimal[]) throws java.lang.IllegalArgumentException
+public double[] org.apache.commons.math.linear.RealMatrixImpl.operate(double[]) throws java.lang.IllegalArgumentException

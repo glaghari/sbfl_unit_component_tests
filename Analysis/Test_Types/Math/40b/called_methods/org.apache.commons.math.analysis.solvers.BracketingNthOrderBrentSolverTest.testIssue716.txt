@@ -1,0 +1,15 @@
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.<init>
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.getAbsoluteAccuracy
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.getMin
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.getMax
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.computeObjectiveValue
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.solve
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.getRelativeAccuracy
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.getFunctionValueAccuracy
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.doSolve
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.setup
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.incrementEvaluationCount
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.getStartValue
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.guessX
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.verifySequenceorg.apache.commons.math.analysis.solvers..<init>
+org.apache.commons.math.analysis.solvers..value

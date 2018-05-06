@@ -1,0 +1,4 @@
+68
+boolean com.google.javascript.jscomp.parsing.JsDocInfoParser.parse()
+private com.google.javascript.rhino.Node com.google.javascript.jscomp.parsing.JsDocInfoParser.parseBasicTypeExpression(com.google.javascript.jscomp.parsing.JsDocToken)
+private com.google.javascript.rhino.Node com.google.javascript.jscomp.parsing.JsDocInfoParser.parseFunctionType(com.google.javascript.jscomp.parsing.JsDocToken)

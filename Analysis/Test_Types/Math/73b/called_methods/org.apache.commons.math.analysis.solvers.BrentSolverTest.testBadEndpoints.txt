@@ -1,0 +1,8 @@
+org.apache.commons.math.analysis.solvers.BrentSolver.<init>
+org.apache.commons.math.analysis.solvers.BrentSolver.solve
+org.apache.commons.math.analysis.solvers.BrentSolver.setResult
+org.apache.commons.math.analysis.solvers.BrentSolver.verifyInterval
+org.apache.commons.math.analysis.solvers.BrentSolver.isSequence
+org.apache.commons.math.analysis.solvers.BrentSolver.verifySequence
+org.apache.commons.math.analysis.solvers.BrentSolver.clearResultorg.apache.commons.math.analysis.SinFunction.<init>
+org.apache.commons.math.analysis.SinFunction.value

@@ -1,0 +1,1 @@
+src/org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java,4,25,26

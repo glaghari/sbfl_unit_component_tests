@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.Frequency.addValue
+org.apache.commons.math.stat.Frequency.<init>

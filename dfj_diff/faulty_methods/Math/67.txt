@@ -1,0 +1,2 @@
+public double org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer.getFunctionValue()
+public double org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer.getResult()

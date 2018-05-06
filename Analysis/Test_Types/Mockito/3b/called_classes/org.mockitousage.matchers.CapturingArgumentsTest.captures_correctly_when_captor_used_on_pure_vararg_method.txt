@@ -1,0 +1,86 @@
+Classes Under Test:
+[p:0.40 c:0.33 e:0.00 m:0.00][0.73] org.mockito.internal.matchers.CapturingMatcher extends org.mockito.ArgumentMatcher
+
+Mock Classes:
+org.mockito.internal.MockitoCore extends java.lang.Object
+org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter extends java.lang.Object
+org.mockito.internal.util.MockNameImpl extends java.lang.Object
+org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper extends java.lang.Object
+org.mockito.internal.creation.bytebuddy.MockMethodInterceptor extends java.lang.Object
+org.mockito.configuration.MockitoConfiguration extends org.mockito.configuration.DefaultMockitoConfiguration
+org.mockito.internal.configuration.MockAnnotationProcessor extends java.lang.Object
+org.mockito.Mockito extends org.mockito.Matchers
+org.mockito.internal.configuration.injection.OngoingMockInjection extends java.lang.Object
+org.mockito.configuration.DefaultMockitoConfiguration extends java.lang.Object
+org.mockito.internal.util.MockUtil extends java.lang.Object
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner extends java.lang.Object
+org.mockito.internal.configuration.injection.MockInjectionStrategy extends java.lang.Object
+org.mockito.MockitoAnnotations extends java.lang.Object
+org.mockito.internal.configuration.MockitoAnnotationsMockAnnotationProcessor extends java.lang.Object
+org.mockitousage.IMethods$MockitoMock$951707254 extends java.lang.Object
+org.mockito.internal.configuration.injection.scanner.MockScanner extends java.lang.Object
+org.mockito.internal.configuration.injection.MockInjection extends java.lang.Object
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker extends java.lang.Object
+org.mockitousage.matchers.CapturingArgumentsTest$EmailService$MockitoMock$2046718589 extends java.lang.Object
+org.mockito.internal.progress.ThreadSafeMockingProgress extends java.lang.Object
+org.mockito.internal.handler.MockHandlerImpl extends java.lang.Object
+org.mockito.internal.progress.MockingProgressImpl extends java.lang.Object
+org.mockito.internal.verification.MockAwareVerificationMode extends java.lang.Object
+Other Called Classes:
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider extends java.lang.Object
+[p:0.13 c:0.00 e:0.00 m:0.00][0.13] org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter extends java.lang.Object
+[p:0.20 c:0.00 e:0.00 m:0.00][0.20] org.mockito.exceptions.Reporter extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.configuration.GlobalConfiguration extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.stubbing.answers.MethodInfo extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.handler.NullResultGuardian extends java.lang.Object
+[p:0.20 c:0.00 e:0.00 m:0.00][0.20] org.mockito.configuration. extends org.mockito.internal.configuration.InjectingAnnotationEngine
+[p:0.13 c:0.00 e:0.00 m:0.00][0.13] org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.exceptions.stacktrace.StackTraceFilter extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.configuration.plugins.PluginRegistry extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.configuration.injection.ConstructorInjection extends org.mockito.internal.configuration.injection.MockInjectionStrategy
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.progress.HandyReturnValues extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.Times extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.DefaultRegisteredInvocations extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.configuration.injection.PropertyAndSetterInjection extends org.mockito.internal.configuration.injection.MockInjectionStrategy
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.configuration.SpyAnnotationEngine extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.configuration.CaptorAnnotationProcessor extends java.lang.Object
+[p:0.40 c:0.00 e:0.00 m:0.00][0.40] org.mockito.internal.matchers.ArrayEquals extends org.mockito.internal.matchers.Equals
+[p:0.17 c:0.00 e:0.00 m:0.09][0.26] org.mockito.internal.invocation.InvocationMatcher extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.verification.checkers.NumberOfInvocationsChecker extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.09][0.23] org.mockito.internal.creation.bytebuddy.InterceptedInvocation extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.creation.settings.CreationSettings extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.configuration.InjectingAnnotationEngine extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.progress.ArgumentMatcherStorageImpl extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.stubbing.OngoingStubbingImpl extends org.mockito.internal.stubbing.BaseStubbing
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.configuration.injection. extends org.mockito.internal.configuration.injection.MockInjectionStrategy
+[p:0.17 c:0.00 e:0.00 m:0.08][0.25] org.mockito.internal.handler.InvocationNotifierHandler extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.verification.checkers.MissingInvocationChecker extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.MatchersBinder extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.VerificationDataImpl extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.RemoveToString extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.stubbing.BaseStubbing extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.RemoveNotMatching extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.InvocationMarker extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.invocation.InvocationsFinder extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues extends java.lang.Object
+[p:0.17 c:0.33 e:0.00 m:0.00][0.50] org.mockito.internal.invocation.ArgumentsProcessor extends java.lang.Object
+[p:0.40 c:0.00 e:0.00 m:0.00][0.40] org.mockito.internal.matchers.Equals extends org.mockito.ArgumentMatcher
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.progress.SequenceNumber extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.creation.bytebuddy.ForEquals extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.debugging.Localized extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.08][0.24] org.mockito.internal.configuration.DefaultInjectionEngine extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.08][0.25] org.mockito.internal.creation.DelegatingMethod extends java.lang.Object
+[p:0.40 c:0.00 e:0.00 m:0.00][0.40] org.mockito.internal.matchers.Equality extends java.lang.Object
+[p:0.25 c:0.00 e:0.00 m:0.00][0.25] org.mockito.ArgumentCaptor extends java.lang.Object
+[p:0.40 c:0.00 e:0.00 m:0.00][0.40] org.mockito.internal.matchers.LocalizedMatcher extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.configuration.plugins.Plugins extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler extends org.mockito.internal.configuration.injection.MockInjectionStrategy
+[p:0.17 c:0.33 e:0.00 m:0.00][0.50] org.mockito.internal.invocation.ArgumentsComparator extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.stubbing.answers.AnswersValidator extends java.lang.Object
+[p:0.25 c:0.00 e:0.00 m:0.00][0.25] org.mockito.Matchers extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.debugging.LocationImpl extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.verification.VerificationModeFactory extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleaner extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.configuration.DefaultAnnotationEngine extends java.lang.Object
+[p:0.17 c:0.00 e:0.00 m:0.00][0.17] org.mockito.internal.stubbing.InvocationContainerImpl extends java.lang.Object
+[p:0.14 c:0.00 e:0.00 m:0.00][0.14] org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer extends java.lang.Object

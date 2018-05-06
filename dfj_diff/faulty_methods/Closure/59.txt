@@ -1,0 +1,1 @@
+public void com.google.javascript.jscomp.Compiler.initOptions(com.google.javascript.jscomp.CompilerOptions)

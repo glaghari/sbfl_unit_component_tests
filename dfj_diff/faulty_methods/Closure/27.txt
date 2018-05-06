@@ -1,0 +1,2 @@
+public static com.google.javascript.rhino.Node com.google.javascript.rhino.IR.tryFinally(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)
+public static com.google.javascript.rhino.Node com.google.javascript.rhino.IR.tryCatch(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)

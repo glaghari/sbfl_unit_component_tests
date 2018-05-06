@@ -1,0 +1,3 @@
+25
+protected void org.jfree.chart.renderer.category.StatisticalBarRenderer.drawHorizontalItem(java.awt.Graphics2D;org.jfree.chart.renderer.category.CategoryItemRendererState;java.awt.geom.Rectangle2D;org.jfree.chart.plot.CategoryPlot;org.jfree.chart.axis.CategoryAxis;org.jfree.chart.axis.ValueAxis;org.jfree.data.statistics.StatisticalCategoryDataset;int;int)
+protected void org.jfree.chart.renderer.category.StatisticalBarRenderer.drawVerticalItem(java.awt.Graphics2D;org.jfree.chart.renderer.category.CategoryItemRendererState;java.awt.geom.Rectangle2D;org.jfree.chart.plot.CategoryPlot;org.jfree.chart.axis.CategoryAxis;org.jfree.chart.axis.ValueAxis;org.jfree.data.statistics.StatisticalCategoryDataset;int;int)

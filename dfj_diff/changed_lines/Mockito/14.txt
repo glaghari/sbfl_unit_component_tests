@@ -1,0 +1,2 @@
+src/org/mockito/internal/MockHandler.java,20,76,79
+src/org/mockito/internal/MockitoCore.java,23,73

@@ -1,0 +1,7 @@
+Classes Under Test:
+[p:1.00 c:1.00 e:1.00 m:0.17 tm:0.00][2.17] org.apache.commons.lang3.math.Fraction extends java.lang.Number
+
+Mock Classes:
+
+Other Called Classes:
+
